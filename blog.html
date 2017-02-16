@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <script src="js/jquery.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/company_management02.css" type="text/css">
+  <title>blog</title>
+</head>
+<body class="fn-clear">
+<!--文章管理界面-->
+<!--nav-->
+<div id="header"></div>
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">企业用户管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="companyUser.html" class="wh f14 bgl ">企业用户</a></li>
+        <li><a href="role.html" class="wh f14 bgl ">角色</a></li>
+        <li><a href="departmentManagement.html" class="wh f14 bgl">部门管理</a></li>
+        <li><a href="blog.html" class="wh f14 bgl">操作日志</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">企业用户管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">操作日志</span>
+        </span>
+    </div>
+    <!--当前位置-->
+    <!--当前位置 end-->
+    <!--组织架构详情-->
+    <div class="mainCtn">
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          日志列表
+        </h3>
+        <div class="f12 g5a rel parameterList ">
+          <div class="dib  f12  pl40 pct18">
+            账户名
+          </div>
+          <p class=" dib f12 pct40 tl">日志内容</p>
+          <p class="dib f12 pct12 tl">状态</p>
+          <p class="dib f12 pct12 tc">ip</p>
+          <p class="dib f12 pct18 tc">时间</p>
+        </div>
+        <div class="wrapper">
+          <ul class="baseList fn-clear g6">
+            <li class="dib f12 pct18 pl40">张小凡</li>
+            <li class="dib f12 pct40">添加商品</li>
+            <li class="dib f12 pct12">成功</li>
+            <li class="dib f12 pct12 tc">192.168.0.1</li>
+            <li class="dib f12 pct18 tc">2016-11-11 11:11</li>
+          </ul>
+          <ul class="baseList fn-clear g6">
+            <li class="dib f12 pct18 pl40">张小凡</li>
+            <li class="dib f12 pct40">添加商品</li>
+            <li class="dib f12 pct12">成功</li>
+            <li class="dib f12 pct12 tc">192.168.0.1</li>
+            <li class="dib f12 pct18 tc">2016-11-11 11:11</li>
+          </ul>
+          <ul class="baseList fn-clear g6">
+            <li class="dib f12 pct18 pl40">张小凡</li>
+            <li class="dib f12 pct40">添加商品</li>
+            <li class="dib f12 pct12">成功</li>
+            <li class="dib f12 pct12 tc">192.168.0.1</li>
+            <li class="dib f12 pct18 tc">2016-11-11 11:11</li>
+          </ul>
+          <ul class="baseList fn-clear g6">
+            <li class="dib f12 pct18 pl40">张小凡</li>
+            <li class="dib f12 pct40">添加商品</li>
+            <li class="dib f12 pct12">成功</li>
+            <li class="dib f12 pct12 tc">192.168.0.1</li>
+            <li class="dib f12 pct18 tc">2016-11-11 11:11</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--尾部-->
+<footer></footer>
+</body>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(3).find("a").addClass("color-bg");
+    $('.header-l>li').eq(0).addClass('currentMenu');
+  });
+</script>
+</html>

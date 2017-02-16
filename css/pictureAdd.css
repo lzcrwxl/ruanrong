@@ -1,0 +1,93 @@
+/*新增图片*/
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+
+}
+#imgdiv{
+    width: 616px;height: 466px;
+    overflow:hidden;
+    display:block;
+    text-align: center;
+    margin:0 auto 20px;
+    border: 1px solid #e6e6e6;
+}
+.pictureCon{
+    margin: 30px 0 0 40px;}
+input[type="file"]{
+    width: 616px;
+    line-height: 24px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
+    z-index: 99;
+    overflow:hidden;
+}
+.show{
+    width: 540px;
+    line-height: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: #888;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    background: none;
+    margin: 0;
+    border:1px solid #e6e6e6;
+    box-shadow:inset 0 1px 1px #f7f7f7;
+    -moz-box-shadow:inset 0 1px 1px #f7f7f7;
+    -webkit-box-shadow:inset 0 1px 1px #f7f7f7;
+    -o-box-shadow:inset 0 1px 1px #f7f7f7;
+    -ms-box-shadow:inset 0 1px 1px #f7f7f7;
+}
+.show:after{
+    content: "上传";
+    position: absolute;
+    width: 68px;
+    line-height: 24px;
+    height: 24px;
+    border: 1px solid #e6e6e6;
+    background: #f2f2f2;
+    right: -78px;
+    top: -1px;
+    text-align: center;
+}
+.pictureConR{
+    margin:-30px 0 0 38px;
+}
+.pictureConR label{margin: 30px 0 10px;}
+.pictureConR input[type="text"],.pictureConR select{
+    width: 276px;height: 30px;
+    line-height: 24px;
+    border:1px solid #e6e6e6;
+    box-shadow:inset 0 1px 1px #f7f7f7;
+    -moz-box-shadow:inset 0 1px 1px #f7f7f7;
+    -webkit-box-shadow:inset 0 1px 1px #f7f7f7;
+    -o-box-shadow:inset 0 1px 1px #f7f7f7;
+    -ms-box-shadow:inset 0 1px 1px #f7f7f7;
+}
+input[type="submit"]{
+    width: 140px;
+    line-height: 24px;
+    border: 1px solid #e6e6e6;
+    background: #f2f2f2;
+    margin-top: 30px;
+}
+.title{border:none}
+.title hr{margin-left:155px; width: 774px;margin-bottom: 0;}
+.title p{
+    width: 78px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    cursor:pointer;
+}
+
+
+
+

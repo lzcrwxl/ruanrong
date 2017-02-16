@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>
+  <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link href="css/login.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <title>login</title>
+</head>
+<body>
+<div class="header_box">
+  <div class="header">
+    <div class="logo">
+      <a><img src="images/logo.png"></a>
+      <h1 class="f20 gray_6">软融，助力企业成长</h1>
+    </div>
+    <div class="header_r">
+      <a class="f14 rfa">免费注册</a>
+      <span></span>
+      <a class="f14 gray_6">代理加盟</a>
+      <span></span>
+      <a class="f14 gray_6">投诉建设</a>
+      <span></span>
+      <a class="f14 gray_6">关于我们</a>
+    </div>
+  </div>
+</div>
+<!--banner 注册登录-->
+<div class="loginBar rel ">
+  <div class="loginCon bgwh abs">
+    <div>
+      <a class="f18 red dib" href="#">登录</a>
+      <a class="f16 g9 dib" href="register.html">/ 注册</a>
+    </div>
+    <input class="16 g9 userBox" type="text" placeholder="guanzhu0609">
+    <input class="16 g9 codeBox" type="password" placeholder="密码">
+    <div class="fn-clear staff">
+      <div class="f14 g6 l">
+        <input id="staff" class="checkbox dib" type="checkbox">
+        <label for="staff">使用员工帐号登录</label>
+      </div>
+      <p class="f12 red r">忘记密码?</p>
+    </div>
+    <div class="f14 g6 l">
+      <input id="self" class="checkbox dib" type="checkbox">
+      <label for="self">两周内自动登录</label>
+    </div>
+    <a href="index.html" class="loginBtn db"><input class="f18 wh" type="button" value="登      录"></a>
+  </div>
+</div>
+<!--商务平台-->
+<div class="login_botm mb100">
+  <h2 class="f24 db">软融科技倾力打造的CBIE新型移动集成平台</h2>
+  <ul>
+    <li class="dib">
+      <img src="images/index/loginPic01.jpg" alt="pic01">
+      <div>
+        <h3 class="f24 b">自助建站</h3>
+        <p class="f18 g9">朋友圈疯传的自助建站</p>
+      </div>
+    </li>
+    <li class="dib">
+      <img src="images/index/loginPic02.jpg" alt="pic02">
+      <div>
+        <h3 class="f24 b">营销引擎</h3>
+        <p class="f18 g9">朋友圈疯传的H5传单</p>
+      </div>
+    </li>
+    <li class="dib">
+      <img src="images/index/loginPic03.jpg" alt="pic03">
+      <div>
+        <h3 class="f24 b">移动办公</h3>
+        <p class="f18 g9">APP轻松一键移动办公</p>
+      </div>
+    </li>
+    <li class="dib">
+      <img src="images/index/loginPic04.jpg" alt="pic04">
+      <div>
+        <h3 class="f24 b">异业联盟</h3>
+        <p class="f18 g9">不同领域的企业联合与孵化</p>
+      </div>
+    </li>
+  </ul>
+</div>
+<!--footer-->
+<footer></footer>
+<script src="js/menu.js"></script>
+<script>
+  //   登录
+  $(document).ready(function () {
+    $('.userBox').mouseover(function () {
+      $('.codeBox').removeClass('codeBox_click');
+      $(this).addClass('userBox_click');
+    });
+    $('.userBox').mouseout(function () {
+      $(this).removeClass('userBox_click');
+    });
+    $('.codeBox').mouseover(function () {
+      $('.userBox').removeClass('userBox_click');
+      $(this).addClass('codeBox_click');
+    });
+    $('.codeBox').mouseout(function () {
+      $(this).removeClass('codeBox_click');
+    })
+  })
+</script>
+</body>
+</html>

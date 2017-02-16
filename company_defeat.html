@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/company_register.css" type="text/css">
+    <link rel="stylesheet" href="css/company_audit.css" type="text/css">
+    <title>company_defeat</title>
+</head>
+<body class="company_defeat">
+<!--信息审核失败-->
+<!--nav-->
+<div class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">企业账号<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="#" class="wh f14 b1e ">企业认证</a></li>
+            <li><a href="company_succeed.html" class="wh f14 b1e">企业信息</a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 re6">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 g9">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><a href="#"><p class="f14 rfc">欢迎来到软融科技</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业概括</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业咨询</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">退出</p></a></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <div class="path">
+        <h2 class="f14 dib">您的当前位置&nbsp:&nbsp</h2>
+        <span class="f14 g6">
+                <a class="g6" href="#">企业账号</a>
+                >
+                <span>企业认证</span>
+            </span>
+    </div>
+    <!--信息登记-->
+    <div class="authentication">
+        <ul>
+            <li class="f14 red dib rel register">信息登记 </li>
+            <li class="f14 red dib rel">信息审核   </li>
+            <li class="f14 red dib rel">审核结果 </li>
+        </ul>
+    </div>
+    <div class="auditing">
+        <div class="f36 wh dib pic"><p>认证失败</p></div>
+        <div class="dib txt">
+            <p class="f18 g6">很遗憾，认证失败</p>
+            <p class="f12 g6">如有问题请拔打：400-123-123</p>
+            <a href="company_register.html"><button class="f12 g6">重新认证</button></a>
+        </div>
+    </div>
+    <!--content-->
+</div>
+<!--下拉菜单-->
+<script src="js/jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".sub-menu").css('display','none');
+        $(".sub-menu").eq(0).css('display','block');
+        $(".sub-menu>li").eq(0).find("a").addClass("color-bg");
+        $('.menu-click').click(function() {
+            $(this).siblings().find("span").removeClass("menu-down");
+            $(this).parent().find('.sub-menu').slideToggle().end().siblings().find('.sub-menu').hide();
+            $(this).parent().find(".sub-menu").find("li").eq(0).find("a").addClass("color-bg").end().siblings().find("a").removeClass("color-bg");
+            $(this).parent().find("span").toggleClass("menu-down");
+        });
+        $('.sub-menu a').click(function(){
+            $(this).parents("ul").find("li").eq(0).find("a").removeClass("color-bg");
+            $(this).addClass("color-bg").parent().siblings().find("a").removeClass("color-bg");
+        });
+    });
+</script>
+<!--下拉菜单 end-->
+</body>
+</html>

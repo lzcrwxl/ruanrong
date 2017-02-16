@@ -1,0 +1,25 @@
+/**
+ * Created by lx on 2016/11/5.
+ */
+$(function(){
+    //安慰奖
+    $("#comfort").click(function(){
+        $(this).toggleClass("radio");
+    });
+    //兑奖方式
+    $(".way").click(function(){
+        $(this).addClass("radio").siblings().removeClass("radio");
+    });
+    //兑奖期限
+    $(".time").click(function(){
+        $(this).addClass("radio").siblings().removeClass("radio");
+    });
+    //微信卡劵
+    $(".wechat").click(function(){
+        $(this).addClass("radio").siblings().removeClass("radio");
+    });
+    //生成劵号
+    $(".securities").click(function(){
+        $(this).addClass("radio").siblings().removeClass("radio");
+    });
+});

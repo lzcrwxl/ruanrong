@@ -1,0 +1,177 @@
+.certTitle{
+  ul{
+    li{
+      text-align: center;
+      width: 60px;
+      &:hover{
+        color: #f03c42;
+      }
+
+    }
+  }
+}
+.previewLeftBox{
+  width: 380px;
+}
+.releaseLeftBox,.previewLeftBox{
+  padding: 30px 0 0 20px;
+  p{
+    margin-top:23px;
+  }
+  .releaseLeftBottom{
+    margin-top: 59px;
+  }
+  .ctrBox{
+    width: 46px;
+    height: 46px;
+    background-color: #f0f0f0;
+    position: absolute;
+    right: -57px;
+  }
+  .arrowUp{
+    background: #f0f0f0 url("../images/activities/lantern/arrowUp.png") no-repeat center center;
+    top:200px;
+  }
+  .arrowDown{
+    background: #f0f0f0 url("../images/activities/lantern/arrowDown.png") no-repeat center center;
+    top:254px;
+  }
+  .editBtn{
+    top:333px;
+    line-height: 46px;
+  }
+}
+.releaseRightBox,.previewRightBox{
+  height:800px;
+  .releaseTitle{
+    margin: 28px 0 148px 20px;
+  }
+  .releaseContainer{
+    margin: 0 auto;
+    dd{
+      .download{
+        width: 180px;
+        height: 30px;
+        border-radius: 3px;
+        margin-top:30px;
+      }
+      .copyBox{
+        width: 450px;
+        height: 30px;
+        margin-top: 15px;
+        text-indent: 13px;
+        color: #b4b4b4;
+        line-height: 30px;
+        border-radius: 3px;
+        .copyBtn{
+          height: 28px;
+          width: 80px;
+          border: 0;
+          border-left: 1px solid #e5e5e5;
+        }
+      }
+    }
+    .shareIcon{
+      margin-top:26px;
+      a{
+        &:not(:last-child){
+          margin-right:20px;
+        }
+      }
+    }
+  }
+}
+.shareRightBox{
+  height:840px;
+  .shareSetDetail{
+    margin:30px 14px 20px 25px;
+    border-bottom:1px solid #e5e5e5;
+    padding-bottom: 35px;
+    .detailLeft{
+      margin-right:25px;
+    }
+    .detailRight{
+      .wordLimit{
+        bottom:8px;
+        right: 20px;
+      }
+    }
+  }
+  #baseSetBox{
+    .baseTitle{
+      background: #f2f2f2;
+      line-height: 40px;
+      li{
+        width:12%;
+        text-align: center;
+      }
+    }
+    .baseContent{
+      margin:40px 25px 20px;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom:20px;
+      h3{
+        margin-left:10px;
+        width:90px;
+      }
+      .notice{
+        div{
+          height: 50px;
+          background: url("../images/activities/lantern/notice.png") no-repeat center center;
+        }
+      }
+      .updateFile{
+        width: 80px;
+        height: 28px;
+      }
+      .showUrl{
+        color: #b4b4b4;
+      }
+    }
+  }
+}
+.panel {
+  width: 40px;
+  height: 486px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  //border-right: 1px solid #ccd5db;
+  z-index: 2;
+  .preview {
+    position: relative;
+    height: 70px;
+    margin-top: 173px;
+  }
+  .next {
+    height: 73px;
+    margin-bottom: 173px;
+  }
+  .scroll_btn {
+    width: 40px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    color: #7b8893;
+    &:hover {
+      background-color: #f0f3f4;
+      color: #7b8893;
+    }
+  }
+  [class^=rr-] {
+    font-family: iconfonts !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+  }
+  .rr-clickMore2::before {
+    content: "\e933";
+  }
+  .rr-clickMore::before {
+    content: "\e932";
+  }
+}

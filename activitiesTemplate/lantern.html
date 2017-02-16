@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/selectivizr.js"></script>
+  <script src="../js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../css/base.css" type="text/css">
+  <link rel="stylesheet" href="../css/common02.css">
+  <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="../css/activitiesTemplate.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="../css/lantern.css" type="text/css"/>
+  <link rel="stylesheet" href="../iconfonts/1.0.5/iconfonts.min.css">
+  <!--<link rel="stylesheet" href="documents/css/reset.css"/>-->
+  <!--<link rel="stylesheet" href="css/BeatPicker.css">-->
+  <!--<link rel="stylesheet" href="documents/css/prism.css"/>-->
+  <!--<script src="js/BeatPicker.min.js"></script>-->
+  <!--<script src="documents/js/prism.js"></script>-->
+</head>
+<body>
+<div class="fn-clear mainCtn">
+  <div class="info-box fn-clear g6 mt20 bde9">
+    <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+      内容详情
+      <ul class="r f14">
+        <li class="dib poi themeRed" id="settingMenu" data-id='{"left":"#shareLeftBox","right":"#shareRightBox"}'>设置
+        </li>
+        <li class="dib poi" id="previewMenu" data-id='{"left":"#previewLeftBox","right":"#previewRightBox"}'>预览</li>
+        <li class="dib poi" id="saveMenu">保存</li>
+        <li class="dib poi" id="releaseMenu" data-id='{"left":"#releaseLeftBox","right":"#releaseRightBox"}'>发布</li>
+      </ul>
+    </h3>
+    <div class="infoContainer">
+      <div class="phone l">
+        <div id="releaseLeftBox" class="releaseLeftBox dn">
+          <div>
+            <img src="../images/activities/lantern/thumbnailSm.jpg" alt="" class="mr20">
+            <div class="dib mt20 f18 g43">
+              <h3 class="f18 b">元宵节猜灯谜</h3>
+              <p class="">软融商栈祝您元宵快乐!</p>
+            </div>
+          </div>
+          <div class="releaseLeftBottom rel">
+            <img src="../images/activities/lantern/lanternBg01.jpg" alt="">
+            <a href="#" class="ctrBox arrowUp"></a>
+            <a href="#" class="ctrBox arrowDown"></a>
+            <a href="#" class="ctrBox editBtn f14 themeRed tc">编辑</a>
+          </div>
+        </div>
+        <div id="shareLeftBox" class="shareLeftBox rel">
+          <img src="../images/activities/iPhoneBox.png" alt="" class="iphoneBox">
+          <img src="../images/activities/lantern/lanternBg01.jpg" alt="" id="showInnerPic">
+        </div>
+        <div id="previewLeftBox" class="previewLeftBox dn">
+          <div class="previewLeftBottom rel">
+            <iframe src="../items/lantern/lantern.html" frameborder="0" scrolling="no" width="320px"
+                    height="486px" id="frame01" name="frame01"></iframe>
+            <div class="panel">
+              <div class="preview">
+                <a id="pre_page" class="scroll_btn" href="javascript:void (0)" onclick="$(this).switchPage(this)">
+                  <span class="rr-clickMore2"></span>
+                </a>
+              </div>
+              <div class="next">
+                <a id="next_page" class="scroll_btn" href="javascript:void (0)" onclick="$(this).switchPage(this)">
+                  <span class="rr-clickMore"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="setting r">
+        <div id="releaseRightBox" class="releaseRightBox f14 g6 dn">
+          <h4 class="releaseTitle">
+            创建时间：2017年2月6日
+          <span class="ml150">
+            最后更新时间：2017年2月6日
+          </span>
+          </h4>
+          <div class="releaseContainer tc">
+            <dl>
+              <dt>
+                <img src="../images/activities/lantern/qrcode.jpg" alt="二维码">
+              </dt>
+              <dd>
+                <button class="download bde5 g6">下载二维码</button>
+              </dd>
+              <dd class="mt15">
+                扫一扫分享到微信
+              </dd>
+              <dd class="shareIcon f0">
+                <a href="#">
+                  <img src="../images/activities/lantern/wechat.png" alt="wechat">
+                </a>
+                <a href="#">
+                  <img src="../images/activities/lantern/QQ.png" alt="qq">
+                </a>
+                <a href="#">
+                  <img src="../images/activities/lantern/weibo.png" alt="weibo">
+                </a>
+                <a href="#">
+                  <img src="../images/activities/lantern/douban.png" alt="douban">
+                </a>
+              </dd>
+              <dd>
+                <div class="copyBox bde5 tl mauto">
+                  http://store.eqxiu.com/279003.html
+                  <button class="btnradius r copyBtn g6">复制</button>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div id="shareRightBox" class="shareRightBox f14 g6">
+          <ul class="setingTitle fn-clear f0">
+            <li class="dib pct50 f14 tc rel undRed" data-id="#baseSetBox">基础设置</li>
+            <li class="dib pct50 f14 tc rel" data-id="#shareBox">分享设置</li>
+          </ul>
+          <div class="mainBox ovyh dn" id="shareBox">
+            <div class="shareSetDetail f14">
+              <div class="detailLeft dib">
+                <dl>
+                  <dt>
+                    <img src="../images/activities/lantern/thumbnailMd.jpg" alt="">
+                  </dt>
+                  <dd class="mt15 tc rel">
+                    <button class="bde5 tc w160 h26 g6 brd3">更换封面</button>
+                    <input type="file" class="updateFile w160 h26" style="right: 4px">
+                  </dd>
+                </dl>
+              </div>
+              <div class="detailRight dib">
+                <h4 class="mb15">活动标题:</h4>
+                <div class="mb15">
+                  <input type="text" value="元宵节猜灯谜" class="w360 brd3 bde5 g6">
+                </div>
+                <h4 class="mb15">活动描述:</h4>
+                <div class="rel">
+                  <textarea type="text" class="w360 brd3 bde5 g6 h120 p10" maxlength="60">软融商栈祝您元宵快乐！</textarea>
+                <span class="abs wordLimit">
+                  22/60
+                </span>
+                </div>
+              </div>
+            </div>
+            <div class="tc f12 submitBtn mt30 mb80">
+              <button class="mr40 f12 g6 save">保存</button>
+              <button class="f12 g6 cancel">刷新预览</button>
+            </div>
+          </div>
+          <div class="mainBox ovyh" id="baseSetBox">
+            <ul class="h40 baseTitle pl10">
+              <li class="dib f14 g6 poi themeRed">第1页</li>
+              <li class="dib f14 g6 poi">第2页</li>
+              <li class="dib f14 g6 poi">第3页</li>
+              <li class="dib f14 g6 poi">第4页</li>
+              <li class="dib f14 g6 poi">第5页</li>
+              <li class="dib f14 g6 poi">第6页</li>
+              <li class="dib f14 g6 poi">第7页</li>
+            </ul>
+            <div class="baseContent f0">
+              <ul id="page01" class="">
+                <li>
+                  <h3 class="dib f14 asterisk rel">公司名称：</h3>
+                  <input type="text" value="软融信息科技有限公司" class="bde5 w340 f14 g6">
+                </li>
+              </ul>
+              <ul id="page02" class="dn">
+                <li>
+                  <h3 class="dib f14 asterisk rel">活动主题：</h3>
+                  <input type="text" value="贺新春灯谜游院活动" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel vt mt10">活动说明：</h3>
+                <textarea type="text" class="w400 brd3 bde5 g6 h200 p10 f14 lh20">1. 猜中灯谜谜底，即可获得元宵精美礼品一份，每人限 领  一份，数量有限，猜完为止&#13;&#10;2. 灯谜共有3题，答案填于最后表格全答对即可参与领奖。&#13;&#10;3. 请确保信息正确，如有错误不进行2次发放。
+                </textarea>
+                </li>
+              </ul>
+              <ul id="page03" class="dn">
+                <li>
+                  <h3 class="dib f14 asterisk rel">活动主题：</h3>
+                  <input type="text" value="贺新春灯谜游院活动" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel">活动时间：</h3>
+                  <input type="text" value="2017年2月11-12日" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel vt mt10">第一道题：</h3>
+                  <textarea type="text" class="w400 brd3 bde5 g6 h120 p10 f14 lh20"></textarea>
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 rel mt10">谜底字数：</h3>
+                  <select name="" class="bde5 w400 f14 g6">
+                    <option value="">二</option>
+                  </select>
+                </li>
+              </ul>
+              <ul id="page04" class="dn">
+                <li>
+                  <h3 class="dib f14 asterisk rel">活动主题：</h3>
+                  <input type="text" value="贺新春灯谜游院活动" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel">活动时间：</h3>
+                  <input type="text" value="2017年2月11-12日" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel vt mt10">第二道题：</h3>
+                  <textarea type="text" class="w400 brd3 bde5 g6 h120 p10 f14 lh20"></textarea>
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 rel mt10">谜底字数：</h3>
+                  <select name="" class="bde5 w400 f14 g6">
+                    <option value="">二</option>
+                  </select>
+                </li>
+              </ul>
+              <ul id="page05" class="dn">
+                <li>
+                  <h3 class="dib f14 asterisk rel">活动主题：</h3>
+                  <input type="text" value="贺新春灯谜游院活动" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel">活动时间：</h3>
+                  <input type="text" value="2017年2月11-12日" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel vt mt10">第三道题：</h3>
+                  <textarea type="text" class="w400 brd3 bde5 g6 h120 p10 f14 lh20"></textarea>
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 rel mt10">谜底字数：</h3>
+                  <select name="" class="bde5 w400 f14 g6">
+                    <option value="">二</option>
+                  </select>
+                </li>
+              </ul>
+              <ul id="page06" class="dn">
+                <li class="tc notice">
+                  <div></div>
+                  <p class="f14 g6 mt30">温馨提示：此页面不需要编辑</p>
+                </li>
+              </ul>
+              <ul id="page07" class="dn">
+                <li>
+                  <h3 class="dib f14 asterisk rel">活动标题：</h3>
+                  <input type="text" value="贺新春灯谜游院活动" class="bde5 w400 f14 g6">
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel">二维码：</h3>
+                  <div class="dib rel bde5 qrCode  f14 g6 tl w400 pl10 brd3 h30 lh30">
+                    <div class="showUrl dib">
+                      大小不超过3M,支持jpg\png\gif
+                    </div>
+                    <button class="f14 g6 abs btnUpload">立即上传</button>
+                    <input type="file" class="updateFile">
+                  </div>
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 asterisk rel vt mt10">详细信息：</h3>
+                  <textarea type="text" class="w400 brd3 bde5 g6 h120 p10 f14 lh20"></textarea>
+                </li>
+                <li class="mt20">
+                  <h3 class="dib f14 rel">官网链接：</h3>
+                  <input type="text" value="http://www.pigcms.com/cashier/" class="bde5 w400 f14 g6">
+                </li>
+              </ul>
+            </div>
+            <div class="tc f12 submitBtn mb80">
+              <button class="mr40 f12 g6 save">保存</button>
+              <button class="f12 g6 cancel">刷新预览</button>
+            </div>
+          </div>
+        </div>
+        <div id="previewRightBox" class="previewRightBox f14 g6 dn">
+          <div class="releaseContainer tc ">
+            <dl class="mt88">
+              <dt>
+                <img src="../images/activities/lantern/qrcode.jpg" alt="二维码">
+              </dt>
+              <dd class="mt70">
+                <div class="copyBox bde5 tl mauto">
+                  http://store.eqxiu.com/279003.html
+                  <button class="btnradius r copyBtn g6">复制</button>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/myplugs.js"></script>
+<script>
+  $(function () {
+    //奖项设置
+    $(".setingTitle>li").on('click', function () {
+      $(this).addClass('undRed').siblings('.undRed').removeClass('undRed');
+      var award = $(this).index();
+      $("#award-set .settingDetail").eq(award).show().siblings('.settingDetail').hide();
+    });
+  })
+  $('.certTitle ul').on('click', 'li', function () {
+    $(this).addClass('themeRed').siblings('li').removeClass('themeRed');
+    var jsn = $(this).data('id');
+    $(jsn.left).show().siblings().hide();
+    $(jsn.right).show().siblings().hide();
+  })
+  $('#shareRightBox .setingTitle').on('click', 'li', function () {
+    $(this).addClass('undRed').siblings('li').removeClass('themeRed');
+    var jsn = $(this).data('id');
+    $(jsn).show().siblings('.mainBox').hide();
+  })
+  $('.baseTitle li').each(function (k, v) {
+    $(v).data('id', '#page0' + (k + 1));
+  }).click(function () {
+    var index = $(this).index();
+    $(this).addClass('themeRed').siblings('li').removeClass('themeRed');
+    var src = $('#showInnerPic').attr('src');
+    var i = src.lastIndexOf('/');
+    src = src.slice(0, i + 11) + (index + 1) + src.slice(-4, -1) + 'g';
+    $('#showInnerPic').attr('src', src);
+    var jsn = $(this).data('id');
+    $(jsn).show().siblings().hide();
+    var i = $(this).index();
+    if (i == 5) {
+      $('.submitBtn').hide();
+      $('.baseContent').css('border-bottom', 'none');
+    } else {
+      $('.submitBtn').show();
+      $('.baseContent').css('border-bottom', '1px solid #e5e5e5');
+    }
+  })
+</script>
+</html>

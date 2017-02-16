@@ -1,0 +1,70 @@
+.headline p,
+.article p {
+  display: inline-block;
+  text-align: center;
+}
+.article .list {
+  line-height: 30px;
+  margin-top: 20px;
+  border-bottom: 1px solid #c8c8c8;
+}
+.headline {
+  padding: 14px 0;
+  background: #f2f2f2;
+}
+.list input {
+  width: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+.sort {
+  width: 124px;
+}
+.sort input {
+  margin-top: 0;
+}
+.caption {
+  width: 334px;
+}
+.classify {
+  width: 162px;
+}
+.reveal {
+  width: 80px;
+}
+.time {
+  width: 164px;
+}
+.title {
+  border: none;
+}
+.title hr {
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+}
+table thead tr {
+  background: #f2f2f2;
+  color: #434343;
+  height: 40px;
+}
+table thead tr th {
+  text-align: center;
+}
+table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #DCDCDC;
+}
+table tbody tr td {
+  height: 50px;
+}
+table tbody tr td:not(:last-child) {
+  border-right: 1px solid #DCDCDC;
+}
+table tbody tr td:first-child {
+  text-align: left;
+  padding-left: 17px;
+}
+table tbody tr td span:hover {
+  color: #f03c42;
+}

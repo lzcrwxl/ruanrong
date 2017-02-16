@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/article01.css">
+  <title>picasaTool</title>
+</head>
+<body>
+<!--分类设置-->
+<div id="header"></div>
+<!--相册管理页面-->
+<!--nav end-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">素材管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <div>
+        <ul class="articleMenu f14">
+          <li><a href="#" class="wh f14 bgl ">基础配置</a></li>
+          <li>
+            <a href="#" class="wh f14 bgl menu-click">销售商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg dn">
+              <li><a href="#">商品管理</a></li>
+              <li><a href="classify.html" class="themeRed">分类管理</a></li>
+              <li><a href="parameter.html">参数管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">展示商品<i class="menu-right"></i></a></li>
+          <li><a href="#" class="wh f14 bgl menu-click">图片<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="picture.html" class="">图片管理</a></li>
+              <li><a href="picasaTool.html" class="">相册管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">文章<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="article.html" class="themeRed">文章管理</a></li>
+              <li><a href="articleClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="r main">
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">素材管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="#">文章</a>&nbsp;
+          <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">文章管理</span>
+        </span>
+    </div>
+    <div class="searchBar">
+      <span class="f14 g6 mr15">文章标题 :</span>
+      <input type="text" class="mr15">
+      <span class="f14 g6 mr15">文章分类 :</span>
+      <select name="" id="" class="bde5">
+        <option value="">默认</option>
+      </select>
+      <button class="g6 rel">
+        搜索
+        <i class="abs"></i>
+      </button>
+    </div>
+    <div class="info-box fn-clear g6 mt20 bde9">
+      <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15 g1e">
+        商品管理
+           <a class="r addUser pr15 poi g6" data-id="newUser"  href="articleAdd.html">
+             新增文章
+           </a>
+      </h3>
+      <div class="article">
+        <table>
+          <thead>
+          <tr>
+            <th class="sort">文章序号</th>
+            <th class="caption">文章标题</th>
+            <th class="classify">分类</th>
+            <th class="reveal">显示</th>
+            <th class="time">添加时间</th>
+            <th class="operation">操作</th>
+          </tr>
+          </thead>
+          <tbody class="g6 tc">
+          <tr>
+            <td class="sort">
+              <input type="checkbox" name='user'>
+              <label for="" class="ml15">20160011</label>
+            </td>
+            <td class="caption">
+              如何让注册成为会员
+            </td>
+            <td class="classify">
+              帮助中心
+            </td>
+            <td class="reveal">
+              是
+            </td>
+            <td class="time">
+              2016-12-26
+            </td>
+            <td class="operation">
+              <span class="poi">编辑 </span>&nbsp;|&nbsp;
+              <span class="poi" data-id="delete">删除</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="sort">
+              <input type="checkbox" name='user'>
+              <label for="" class="ml15">20160011</label>
+            </td>
+            <td class="caption">
+              如何让注册成为会员
+            </td>
+            <td class="classify">
+              帮助中心
+            </td>
+            <td class="reveal">
+              是
+            </td>
+            <td class="time">
+              2016-12-26
+            </td>
+            <td class="operation">
+              <span class="poi">编辑 </span>&nbsp;|&nbsp;
+              <span class="poi">删除</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="sort">
+              <input type="checkbox" name='user'>
+              <label for="" class="ml15">20160011</label>
+            </td>
+            <td class="caption">
+              如何让注册成为会员
+            </td>
+            <td class="classify">
+              帮助中心
+            </td>
+            <td class="reveal">
+              是
+            </td>
+            <td class="time">
+              2016-12-26
+            </td>
+            <td class="operation">
+              <span class="poi">编辑 </span>&nbsp;|&nbsp;
+              <span class="poi">删除</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="sort">
+              <input type="checkbox" name='user'>
+              <label for="" class="ml15">20160011</label>
+            </td>
+            <td class="caption">
+              如何让注册成为会员
+            </td>
+            <td class="classify">
+              帮助中心
+            </td>
+            <td class="reveal">
+              是
+            </td>
+            <td class="time">
+              2016-12-26
+            </td>
+            <td class="operation">
+              <span class="poi">编辑 </span>&nbsp;|&nbsp;
+              <span class="poi">删除</span>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="fn-clear foot">
+      <div class="l f12 g6 delete">
+        <input id="selectAll" class="selectAll" type="checkbox" data-id="checkAll" name='user'>
+        <label for="selectAll" data-id="checkAll">全部</label>
+        <button data-id='delete' name="user" class="btnradius" onclick="$(this).myPopup(this)">删除</button>
+      </div>
+      <ul class="paging r">
+        <li id="first">首页</li>
+        <li id="top" onclick="topclick()">上一页</li>
+        <li class="xifenye" id="xifenye">
+          <a id="xiye">1</a>/<a id="mo">66</a>
+          <div class="xab" id="xab" style="display:none">
+            <ul id="uljia">
+            </ul>
+          </div>
+        </li>
+        <li id="down" onclick="downclick()">下一页</a></li>
+        <li id="last">末页</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--页尾-->
+<footer></footer>
+<div class="module dn"></div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/myPopup.js"></script>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.header-l>li').eq(0).addClass('currentMenu');
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(0).find("a").addClass("color-bg");
+    $(".pictureMenu>li").eq(1).find("a").addClass("color-bg");
+  });
+  //    全选反选
+  $("#selectAll").click(function () {
+    if (this.checked) {
+      $("#list :checkbox").prop("checked", true);
+    } else {
+      $("#list :checkbox").prop("checked", false);
+    }
+  });
+  //    删除
+  $("#delete").click(function () {
+    $("input[name='test']:checked").each(function () { // 遍历选中的checkbox
+      n = $(this).parents("li").index();  // 获取checkbox所在行的顺序
+      $("#list").find("li:eq(" + n + ")").remove();
+    });
+  })
+
+</script>
+<!--分页效果-->
+
+<script src="js/public.js"></script>
+</html>

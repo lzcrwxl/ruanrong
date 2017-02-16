@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/office.css" type="text/css">
+    <title>signIn</title>
+</head>
+<body>
+<!--移动办公-签到-->
+<!--nav-->
+<div class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <ul id="nav">
+        <li class="nav-click">
+            <a  href="#" id="text" class="f14 wh color-wh ">推荐&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="menu-right"></span></a>
+        </li>
+        <li class="nav-click">
+            <a href="#" class="color-bg f14 menu-click">采购&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="menu-right"></span></a>
+            <ul class="sub-menu" >
+                <li><a href="#" class="wh f14 b1e ">软融商城</a></li>
+                <li><a href="#" class="wh f14 b1e">企业团购<i class="f14 rfc abs">new</i></a></li>
+                <li><a href="#" class="wh f14 b1e">我的购物车</a></li>
+                <li><a href="#" class="wh f14 b1e">我的订单</a></li>
+                <li><a href="#" class="wh f14 b1e">我的现金卷</a></li>
+            </ul>
+        </li>
+        <li class="nav-click">
+            <a  href="#" class="f14 color-wh menu-click">库存&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="menu-right"></span></a>
+        </li>
+        <li class="nav-click">
+            <a href="#" class="color-wh f14  menu-click">销售&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="menu-right"></span></a>
+        </li>
+        <li class="nav-click">
+            <a href="#" class="color-wh f14 menu-click">财务&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="menu-right"></span></a>
+        </li>
+        <li class="nav-click">
+            <a  href="#" class="f14 color-wh menu-click">行政办公<span class="menu-right"></span></a>
+        </li>
+        <li class="nav-click">
+            <a href="#" class="color-wh f14  menu-click">人力资源<span class="menu-right"></span></a>
+        </li>
+        <li class="nav-click">
+            <a href="#" class="color-wh f14 menu-click">决策中心<span class="menu-right"></span></a>
+        </li>
+    </ul>
+</div>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 re6">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 g9">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><a href="#"><p class="f14 rfc">欢迎来到软融科技</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业概括</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业咨询</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">退出</p></a></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <!--content-->
+    <div class="signIn">
+        <h2 class="f14 g6">签到</h2>
+        <p class="f14 g6">泛微集成平台可以让ERP等业务管理软件与OA无缝集成，让用户在OA中完成所有事项处理和信息数量查询</p>
+    </div>
+</div>
+<!--content end-->
+<!--下拉菜单-->
+<script>
+    $(document).ready(function() {
+        $(this).find("span").eq(1).addClass("menu-gray")
+        $('.nav-click a').click(function() {
+            $(this).find("span").addClass("menu-gray").parents(".nav-click").siblings().find("span").removeClass("menu-gray");
+            $(this).addClass("color-bg").parent().siblings().find("a").removeClass("color-bg");
+//            $(this).parent().siblings().find("ul").hide();
+        });
+        $(".sub-menu>li").eq(0).find("a").addClass("color-bg");
+        $('.nav-click').click(function() {
+            $(this).siblings().find("span").removeClass("menu-down");
+            $(this).parent().find('.sub-menu').slideToggle().end().siblings().find('.sub-menu').hide();
+            $(this).parent().find(".sub-menu").find("li").eq(0).find("a").addClass("color-bg").end().siblings().find("a").removeClass("color-bg");
+
+        });
+        $('.sub-menu a').click(function(){
+            $(this).parents("ul").find("li").eq(0).find("a").removeClass("color-bg");
+            $(this).addClass("color-bg").parent().siblings().find("a").removeClass("color-bg");
+        });
+    });
+    $("#nav>li").click(function(){
+        var index = $(this).index();
+        $("#office>li").eq(index).css("display","block").siblings().css("display","none");
+    });
+</script>
+<!--下拉菜单 end-->
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/submit.css" type="text/css">
+    <script src="js/menu.js"></script>
+    <title>submitFailure</title>
+</head>
+<body>
+<!--提交失败-->
+<!--nav-->
+<div class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <div>
+        <a  href="#" id="text" class="f14 wh menu-click ">商务平台<span class="menu-right"></span></a>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">素材管理<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="" class="wh f14 b1e ">商品管理</a></li>
+            <li><a href="#" class="wh f14 b1e">分类管理<i class="f14 rfc abs">new</i></a></li>
+            <li><a href="#" class="wh f14 b1e">参数管理</a></li>
+        </ul>
+    </div>
+    <div>
+        <a  href="#" class="f14 color-wh menu-click">企业账号<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="#" class="wh f14 b1e ">商品管理</a></li>
+            <li><a href="#" class="wh f14 b1e">分类管理<i class="f14 rfc abs">new</i></a></li>
+        </ul>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14  menu-click">权限管理<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="" class="wh f14 b1e ">权限管理</a></li>
+            <li><a href="#" class="wh f14 b1e">分类管理<i class="f14 rfc abs">new</i></a></li>
+        </ul>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">个人信息<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="" class="wh f14 b1e ">文章管理</a></li>
+            <li><a href="#" class="wh f14 b1e">分类管理<i class="f14 rfc abs">new</i></a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 re6">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><a href="#"><p class="f14 rfc">欢迎来到软融科技</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业概括</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业咨询</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">退出</p></a></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <!--当前位置-->
+    <div class="path">
+        <h2 class="f14 dib">您的当前位置&nbsp:&nbsp</h2>
+        <span class="f14 g6">
+                <span>提交失败</span>
+            </span>
+    </div>
+    <!--当前位置 end-->
+    <div class="succeed">
+        <img class="dib" src="images/commodity/failure.png" alt="succeed">
+        <div class="dib">
+            <p class="f18 g6">上传失败</p>
+            <p class="f14 g6"><strong id="endtime">3</strong>秒返回上级页面</p>
+        </div>
+    </div>
+</div>
+<!--页面自动跳转定时器-->
+<script type="text/javascript">
+    var i = 3;
+    function remainTime(){
+        if(i==0){
+            location.href='<%=path%>';
+        }
+        document.getElementById('endtime').innerHTML=i--;
+        setTimeout("remainTime()",300);
+    }
+    remainTime();
+</script>
+</body>
+</html>

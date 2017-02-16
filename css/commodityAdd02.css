@@ -1,0 +1,74 @@
+/*销售商品-新增商品*/
+.title {
+  border: none;
+}
+.title p {
+  width: 78px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+.title hr {
+  margin-left: 155px;
+  width: 780px;
+  margin-bottom: 2px;
+}
+.basic {
+  margin: 33px 0 0 153px;
+}
+.basic select {
+  width: 160px;
+}
+.basic .addImg {
+  padding: 15px;
+}
+.basic .addImg ul li {
+  width: 128px;
+  height: 128px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.basic .addImg ul li:not(:last-child) {
+  margin-right: 15px;
+}
+.basic .addImg ul li:hover {
+  cursor: pointer;
+  border-color: #f03c42;
+}
+.basic .addImg button {
+  width: 90px;
+  height: 30px;
+}
+.basic .arguments h3 {
+  margin-top: 5px;
+}
+.basic .arguments input {
+  width: 120px;
+  font-size: 12px;
+}
+.subTitle {
+  height: 40px;
+  background: #f2f2f2;
+  line-height: 40px;
+}
+.describe input[type="radio"] {
+  top: 2px;
+}
+.upload input[type="file"] {
+  height: 30px;
+  width: 90px;
+  right: 0;
+}
+.succ:after {
+  content: '';
+  display: block;
+  background: url("../images/material/succ_sm.png") no-repeat;
+  background-size: 33px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  bottom: -14px;
+  right: -14px;
+}

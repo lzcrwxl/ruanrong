@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/classify.css" type="text/css">
+    <script src="js/menu.js"></script>
+    <title>showClassify</title>
+</head>
+<body>
+<!--展示分类管理-->
+<!--nav-->
+<div class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <a class="wh fodder rel db" href="#"><p class="f18 wh">素材管理</p></a>
+    <div>
+        <a  href="material.html" id="text" class="f14 wh menu-click">基础配置</a>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">销售商品<span class="menu-right"></span></a>
+        <ul class="sub-menu parameter" >
+            <li><a href="commodityManagement.html" class="wh f14 b1e">商品管理</a></li>
+            <li><a href="classify.html" class="wh f14 b1e">分类管理</a></li>
+            <li><a href="parameter.html" class="wh f14 b1e">参数管理</a></li>
+        </ul>
+    </div>
+    <div>
+        <a  href="#" class="f14 color-wh menu-click">展示商品<span class="menu-right"></span></a>
+        <ul class="sub-menu showCommodity" >
+            <li><a href="showCommodity.html" class="wh f14 b1e ">商品管理</a></li>
+            <li><a href="showClassify.html" class="wh f14 b1e">分类管理</a></li>
+        </ul>
+    </div>
+    <div >
+        <a href="#"  class="color-wh f14  menu-click">图&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp片<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="picture.html"  class="wh f14 b1e ">图片管理</a></li>
+            <li><a href="picasaTool.html" class="wh f14 b1e">相册管理</a></li>
+        </ul>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">文&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp章<span class="menu-right"></span></a>
+        <ul class="sub-menu  articleMenu" >
+            <li><a href="article.html" class="wh f14 b1e ">文章管理</a></li>
+            <li><a href="#" class="wh f14 b1e">分类管理new</a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 g9">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><a href="#"><p class="f14 rfc">欢迎来到软融科技</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业概括</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业咨询</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">退出</p></a></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <!--当前位置-->
+    <div class="path">
+        <h2 class="f14 dib">您的当前位置&nbsp:&nbsp</h2>
+        <span class="f14 g6">
+            <a class="g6" href="#">素材管理</a>
+                >
+            <a class="g6" href="#">展示商品</a>
+                >
+                <span>分类管理</span>
+            </span>
+    </div>
+    <!--当前位置 end-->
+    <!--参数管理详情-->
+    <div class="title fn-clear">
+        <h3 class="f14 rfa l">列表</h3>
+        <a class="f12 g6 r" href="classifyAdd.html"><button class="f12 g6 r">新增分类</button></a>
+        <hr>
+    </div>
+    <div class="f12 wh rel parameterList">
+        <div class="dib sort">
+            <input type="checkbox">
+            <label class="f12">排序</label>
+        </div>
+        <p class="classifyName dib f12">分类名称</p>
+        <p class="operation dib f12">操作</p>
+    </div>
+    <ul id="list">
+        <li class="f12 g6 parameterCon">
+            <div class="mainMenu">
+                <div class="f12 g6 sort dib">
+                    <input class="dib" type="checkbox">
+                    <button>254</button>
+                </div>
+                <div class="classifyName dib">
+                    <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                    <span class="dib addSubmenu">添加下级</span>
+                </div>
+                <div class="operation dib">
+                    <p class="dib">编辑 </p>
+                    <div class="hintLine dib"></div>
+                    <p class="dib">删除 </p>
+                </div>
+            </div>
+            <ul class="submenu">
+                <li class="f12 g6">
+                    <div class="sort dib">
+                        <input class="dib" type="checkbox">
+                        <button>254</button>
+                    </div>
+                    <div class="classifyName dib">
+                        <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                        <span class="dib addSubmenu">添加下级</span>
+                    </div>
+                    <div class="operation dib">
+                        <p class="dib">编辑 </p>
+                        <div class="hintLine dib"></div>
+                        <p class="dib">删除 </p>
+                    </div>
+                </li>
+                <li class="f12 g6">
+                    <div class="sort dib">
+                        <input class="dib" type="checkbox">
+                        <button>254</button>
+                    </div>
+                    <div class="classifyName dib">
+                        <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                        <span class="dib addSubmenu">添加下级</span>
+                    </div>
+                    <div class="operation dib">
+                        <p class="dib">编辑 </p>
+                        <div class="hintLine dib"></div>
+                        <p class="dib">删除 </p>
+                    </div>
+                </li>
+                <li class="f12 g6">
+                    <div class="sort dib">
+                        <input class="dib" type="checkbox">
+                        <button>254</button>
+                    </div>
+                    <div class="classifyName dib">
+                        <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                        <span class="dib addSubmenu">添加下级</span>
+                    </div>
+                    <div class="operation dib">
+                        <p class="dib">编辑 </p>
+                        <div class="hintLine dib"></div>
+                        <p class="dib">删除 </p>
+                    </div>
+                </li>
+                <li class="f12 g6">
+                    <div class="sort dib">
+                        <input class="dib" type="checkbox">
+                        <button>254</button>
+                    </div>
+                    <div class="classifyName dib">
+                        <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                        <span class="dib addSubmenu">添加下级</span>
+                    </div>
+                    <div class="operation dib">
+                        <p class="dib">编辑 </p>
+                        <div class="hintLine dib"></div>
+                        <p class="dib">删除 </p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="childMenu">
+                <li class="f12 g6">
+                    <div class="sort dib">
+                        <input class="dib" type="checkbox">
+                        <button>254</button>
+                    </div>
+                    <div class="classifyName dib">
+                        <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                        <span class="dib addSubmenu">添加下级</span>
+                    </div>
+                    <div class="operation dib">
+                        <p class="dib">编辑 </p>
+                        <div class="hintLine dib"></div>
+                        <p class="dib">删除 </p>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="f12 g6 parameterCon">
+            <div class="mainMenu">
+                <div class="f12 g6 sort dib">
+                    <input class="dib" type="checkbox">
+                    <button>254</button>
+                </div>
+                <div class="classifyName dib">
+                    <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                    <span class="dib addSubmenu">添加下级</span>
+                </div>
+                <div class="operation dib">
+                    <p class="dib">编辑 </p>
+                    <div class="hintLine dib"></div>
+                    <p class="dib">删除 </p>
+                </div>
+            </div>
+        </li>
+        <li class="f12 g6 parameterCon">
+            <div class="mainMenu">
+                <div class="f12 g6 sort dib">
+                    <input class="dib" type="checkbox">
+                    <button>254</button>
+                </div>
+                <div class="classifyName dib">
+                    <input class="menuCon" type="text" value="数码办公" readonly="readonly">
+                    <span class="dib addSubmenu">添加下级</span>
+                </div>
+                <div class="operation dib">
+                    <p class="dib">编辑 </p>
+                    <div class="hintLine dib"></div>
+                    <p class="dib">删除 </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="fn-clear foot">
+        <div class="l f12 g6 delete">
+            <input id="selectAll" class="selectAll" type="checkbox">
+            <label for="selectAll">全部</label>
+            <button id="delete">删除</button>
+        </div>
+        <ul class="paging r">
+            <li id="first">首页</li>
+            <li id="top" onclick="topclick()">上一页</li>
+            <li class="xifenye" id="xifenye">
+                <a id="xiye" >1</a>/<a id="mo">66</a>
+                <div class="xab" id="xab" style="display:none">
+                    <ul id="uljia">
+                    </ul>
+                </div>
+            </li>
+            <li id="down" onclick="downclick()">下一页</a></li>
+            <li id="last">末页</li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $(".showCommodity").css('display','block');
+        $(".showCommodity>li").eq(1).find("a").addClass("color-bg");
+//        全选反选
+        $("#selectAll").click(function(){
+            if(this.checked){
+                $("#list :checkbox").prop("checked", true);
+            }else{
+                $("#list :checkbox").prop("checked", false);
+            }
+        });
+    });
+</script>
+</body>
+</html>

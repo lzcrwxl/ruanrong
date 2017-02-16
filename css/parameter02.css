@@ -1,0 +1,91 @@
+/*参数设置*/
+.parameterList {
+  line-height: 28px;
+  font-size: 0;
+  color: #434343;
+}
+.sort {
+  width: 118px;
+}
+.classifyName {
+  width: 676px;
+  margin: 0 1px;
+}
+.operation {
+  width: 130px;
+  text-align: center;
+}
+.sort input {
+  margin: 8px 32px 10px 10px;
+  cursor: pointer;
+}
+.sort label {
+  line-height: 28px;
+  vertical-align: top;
+}
+.parameterCon {
+  margin-left: 40px;
+  line-height: 84px;
+  border-bottom: 1px solid #e6e6e6;
+  width: 934px;
+}
+.parameterCon button {
+  width: 38px;
+  line-height: 24px;
+  background: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  margin-top: 30px;
+}
+.operation .hintLine {
+  width: 1px;
+  height: 12px;
+  background: #808080;
+  margin: 36px 6px 0;
+}
+table {
+  width: 100%;
+}
+table thead tr {
+  background: #f2f2f2;
+  color: #434343;
+  height: 40px;
+}
+table thead tr th {
+  text-align: center;
+}
+table thead tr th:not(:last-child) {
+  border-right: 1px solid #dcdcdc;
+}
+table thead tr th:first-child {
+  width: 138px;
+}
+table thead tr th:nth-child(2) {
+  width: 672px;
+}
+table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #DCDCDC;
+}
+table tbody tr td {
+  height: 50px;
+}
+table tbody tr td:not(:last-child) {
+  border-right: 1px solid #DCDCDC;
+}
+table tbody tr td:first-child {
+  text-align: left;
+  padding-left: 17px;
+  width: 138px;
+}
+table tbody tr td:first-child label {
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  padding-left: 12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+table tbody tr td:nth-child(2) {
+  width: 672px;
+}
+table tbody tr td span:hover {
+  color: #f03c42;
+}

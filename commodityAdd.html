@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/commodityAdd02.css">
+  <link rel="stylesheet" href="js/picUpload/upload.css">
+  <title>commodityAdd</title>
+</head>
+<body>
+<!--分类设置-->
+<div id="header"></div>
+<!--nav-->
+<!--nav end-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">素材管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <div>
+        <ul class="articleMenu f14">
+          <li><a href="#" class="wh f14 bgl ">基础配置</a></li>
+          <li>
+            <a href="#" class="wh f14 bgl menu-click">销售商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="commodityManagement.html" class="themeRed">商品管理</a></li>
+              <li><a href="classify.html" class="">分类管理</a></li>
+              <li><a href="parameter.html">参数管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">展示商品<i class="menu-right"></i></a></li>
+          <li><a href="#" class="wh f14 bgl menu-click">图片<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="picture.html" class="">图片管理</a></li>
+              <li><a href="picasaTool.html" class="">相册管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">文章<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="article.html" class="">文章管理</a></li>
+              <li><a href="articleClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="r main">
+    <!--header-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">素材管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="#">销售商品</a>&nbsp;
+          <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">新增商品</span>
+        </span>
+    </div>
+    <!--当前位置 end-->
+    <!--商品管理详情-->
+    <!--基本信息填写-->
+    <div class="fn-clear mainCtn">
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15 g1e">
+          基础信息
+          </a>
+        </h3>
+        <div class="basic">
+          <ul class="fn-clear f14 g6">
+            <li class="mb22">
+              <h3 class="dib pct12 vm">
+                商品分类 :
+              </h3>
+              <div class="dib pct70 f12 vm">
+                <select name="" class="bde5">
+                  <option value="">服装</option>
+                </select>
+                <select name="" class="bde5 ml50">
+                  <option value="">服装</option>
+                </select>
+                <select name="" class="bde5 r">
+                  <option value="">服装</option>
+                </select>
+              </div>
+            </li>
+            <li class="mb22">
+            <h3 class="dib pct12 g6 asterisk rel">文章标题：</h3>
+            <input type="text" class="pct70 bde5 f12 " placeholder="商品标题名称长度至少3个字符,最长50个汉字" maxlength="50">
+            </li>
+            <li class="mb22">
+              <h3 class="dib pct12 rel">商品卖点：</h3>
+              <input type="text" class="pct70 bde5 f12 " placeholder="商品卖点最长不能超过140个汉字" maxlength="140">
+            </li>
+            <li class="mb22 price">
+              <h3 class="dib pct12 rel asterisk">商品价格：</h3>
+              <input type="number" class="w160 bde5 f12 ">&nbsp;&nbsp;元
+              <p class="gc8 f12 ml118 mt5">
+                价格必须是0.01~9999999之间的数字，且不能高于市场价。此价格为商品实际销售价格，如果商品存在规格，该价格显示最低价格。
+              </p>
+            </li>
+            <li class="mb22 price">
+              <h3 class="dib pct12 rel asterisk">市场价格：</h3>
+              <input type="number" class="w160 bde5 f12 ">&nbsp;&nbsp;元
+              <p class="gc8 f12 ml118 mt5">
+                价格必须是0.01~9999999之间的数字，此价格仅为市场参考售价，请根据该实际情况认真填写。
+              </p>
+            </li>
+            <li class="mb22 price">
+              <h3 class="dib pct12 rel asterisk">商品库存：</h3>
+              <input type="number" class="w160 bde5 f12 ">&nbsp;&nbsp;件
+              <p class="gc8 f12 dib vbs ml20">
+                商铺库存数量必须为0~999999999之间的整数
+              </p>
+            </li>
+            <li class="mb22 upload">
+              <h3 class="dib pct12 rel asterisk mt15">商品图片：</h3>
+              <div class="addImg bde5 pct70 dib brd3">
+                <ul class="f0 fn-clear mb30">
+                  <li class="dib rel succ themebdRed">
+                    <img src="images/material/commodity01.jpg" alt="01">
+                    <div class="h30 f12 g6 tc lh30">删除</div>
+                  </li>
+                  <li class="dib rel">
+                    <img src="images/material/commodity01.jpg" alt="01">
+                    <div class="h30 f12 g6 tc lh30">删除</div>
+                  </li>
+                  <li class="dib rel">
+                    <img src="images/material/commodity01.jpg" alt="01">
+                    <div class="h30 f12 g6 tc lh30">删除</div>
+                  </li>
+                  <li class="dib rel">
+                    <img src="images/material/commodity01.jpg" alt="01">
+                    <div class="h30 f12 g6 tc lh30">删除</div>
+                  </li>
+                </ul>
+                <hr class="mt20">
+                <p class="gc8 f12 mt8 lh14">
+                  上传商品焦点图，最多上传4张图片。第一张图默认为焦点、橱窗页首图。支持jpg、gif、png格式上传或从图片空间中选择，建议使用尺寸800x800像素以上、大小不超过2M的正方形图片，上传后的图片将会自动保存在图片空间的默认分类中。
+                </p>
+                <div class="rel">
+                <button class="r btnradius">图片上传</button>
+                <input type="file" class="abs updateFile">
+                </div>
+              </div>
+            </li>
+            <li class="mb22">
+              <h3 class="dib pct12 rel mt15 vt">商品描述：</h3>
+              <textarea name="" id="" cols="30" rows="10" class="pct70 bde5 brd3 dib p10">
+
+              </textarea>
+            </li>
+            <li class="mb22 arguments">
+              <h3 class="dib pct12 vbs">商品参数：</h3>
+              <div class="dib pct70">
+                <ul class="">
+                  <li class="dib f12 g6 pct33  mb24">
+                    编号：
+                    <input type="text" class="bde5" value="商品ID:000001">
+                  </li>
+                  <li class="dib f12 g6 pct33  mb24 tc">
+                    规格：
+                    <input type="text" class="bde5">
+                  </li>
+                  <li class="dib f12 g6 pct33 mb24 tr">
+                    材质：
+                    <input type="text" class="bde5">
+                  </li>
+                  <li class="dib f12 g6 pct33">
+                    型号：
+                    <input type="text" class="bde5">
+                  </li>
+                  <li class="dib f12 g6 pct33 tc">
+                    颜色：
+                    <input type="text" class="bde5">
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <h3 class="subTitle g9 pl15">
+          用于商品在第三方平台销售，非必填（免费、无需额外操作）
+        </h3>
+        <div class="basic">
+          <ul class="fn-clear f14 g6">
+            <li class="mb22">
+              <h3 class="dib pct12 vm">
+                商品分类 :
+              </h3>
+              <div class="dib pct70 f12 vm">
+                <select name="" class="bde5">
+                  <option value="">服装</option>
+                </select>
+                <select name="" class="bde5 ml50">
+                  <option value="">服装</option>
+                </select>
+                <select name="" class="bde5 r">
+                  <option value="">服装</option>
+                </select>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="submitBtn tc mt50 mb30">
+          <button class="themebgRed f14 wh">提交文章</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer></footer>
+<!--商品管理页面 end-->
+
+<!--上传图片-->
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/picUpload/upload.js"></script>
+<script>
+  $(function () {
+    $('.header-l>li').eq(0).addClass('currentMenu');
+    $('.addImg').on('click','li',function(){
+      $(this).toggleClass('succ themebdRed');
+    })
+  });
+</script>
+</html>

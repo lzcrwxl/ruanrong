@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <script src="js/jquery.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/company_register.css" type="text/css">
+  <link href="css/material02.css" rel="stylesheet" type="text/css"/>
+  <title>material</title>
+</head>
+<body>
+<!--素材管理-->
+<div id="header"></div>
+<!--nav-->
+<section class="fn-clear rel mt20">
+  <!--nav end-->
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">素材管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <div>
+        <ul class="articleMenu f14">
+          <li><a href="material.html" class="wh f14 bgl ">基础配置</a></li>
+          <li>
+            <a href="#" class="wh f14 bgl menu-click">销售商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="commodityManagement.html" class="">商品管理</a></li>
+              <li><a href="classify.html" class="">分类管理</a></li>
+              <li><a href="parameter.html" class="">参数管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">展示商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="showAdd.html" class="">商品管理</a></li>
+              <li><a href="showClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">图片<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="picture.html" class="">图片管理</a></li>
+              <li><a href="picasaTool.html" class="">相册管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">文章<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="article.html" class="">文章管理</a></li>
+              <li><a href="articleClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="r main">
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">素材管理</a>&nbsp;
+          <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">基础配置</span>
+        </span>
+    </div>
+    <!--当前位置 end-->
+    <!--基础配置内容-->
+    <div class="fn-clear mainCtn">
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          基础配置信息
+        </h3>
+        <form class="form fn-clear">
+          <ul class="authentication">
+            <li>
+              <label class="f14 g6 dib mr8" for="name"><i class="rfa vm">*</i>&nbsp;网站名称：</label>
+              <input id="name" class="f12 g9 dib" value="" type="text" placeholder="软融商城">
+              <p class="f12 g9 r mr40">网站名称，将在首页logo处显示</p>
+            </li>
+            <li>
+              <label class="mr8 dib"></label><span class="f12 rfa dib ml15">请输入网络名称</span>
+            </li>
+            <li class="mt15 rel">
+              <label class="f14 g6 dib vt mr8" for="describe">网站描述：</label>
+          <textarea class="f12 g9" id="describe"
+                    placeholder="浦江创新论坛总结会暨2015年工作讨论会近日京召开。浦江创新论坛理事会理事长、浦江创新论坛主席徐冠华，科技部党"></textarea>
+              <p class="f12 g9 r abs">网站名称，将在首页logo处显示</p>
+            </li>
+            <li class="rel fn-clear mt40">
+              <label class="f14 g6 dib" for="webLogo">网站LOGO：</label>
+              <button class="show f12 g6 abs" value=""></button>
+              <input onchange="show(1,this)" class="f12 g6 abs file" id="webLogo" type="file" value="">
+              <p class="f12 g9 r mr40">默认网站LOGO,头部导航显示</p>
+              <img src="images/template.png" alt="template" class="r mr15">
+            </li>
+            <li class="rel fn-clear mt40">
+              <label class="f14 g6 dib" for="appLogo"><i class="rfa vm">*</i>&nbsp;APP LOGO：</label>
+              <button class="show f12 g6 abs" value=""></button>
+              <input onchange="show(2,this)" class="f12 g6 abs file" id="appLogo" type="file" value="">
+              <p class="f12 g9 r mr40">默认APPlogo，头部导航显示</p>
+              <img src="images/template.png" alt="template" class="r mr15">
+            </li>
+            <li class="rel fn-clear mt40">
+              <label class="f14 g6 dib" for="heaPic">个人头像：</label>
+              <button class="show f12 g6 abs" value=""></button>
+              <input onchange="show(3,this)" class="f12 g6 abs file" id="heaPic" type="file" value="">
+              <p class="f12 g9 abs person">个人中心，没有可不填</p>
+              <img src="images/template.png" alt="template" class="abs">
+            </li>
+            <li class="rel fn-clear mt40">
+              <label class="f14 g6 dib mr8" for="tel">
+                客服电话 :&nbsp;
+              </label>
+              <input id="tel" class="f12 g9 dib" value="" type="text" placeholder="4000-118-118">
+              <p class="f12 g9 abs person">个人中心，没有可不填</p>
+            </li>
+            <li class="mt40">
+              <label class="f12 g6 dib mr8" for="certificate">ICP证书号：</label>
+              <input id="certificate" class="f12 g9 dib" value="" type="text" placeholder="京ICP证030173号">
+            </li>
+            <li class="mt30">
+              <label class="dib"></label>
+              <p class="f12 g9 dib ml20">前台页面底部可以显示 ICP 备案信息，如果网站已备案，在此输入你的授权码，它将显示在前台页面底部，如果没有请留空</p>
+            </li>
+          </ul>
+          <div class="mt70 mb50 submit">
+            <input id="submit" class="f12 g6" type="submit" value="提交资料">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--基础配置内容 end-->
+  <!--显示文件名-->
+</section>
+<!--显示文件名 end-->
+<!--页尾部-->
+<footer></footer>
+</body>
+<script src="js/menu.js"></script>
+<script src="js/myplugs.js"></script>
+<script type="text/javascript">
+  $(function () {
+    $('.header-l>li').eq(0).addClass('currentMenu');
+  })
+  function show(i, obj) {
+    var name = document.getElementsByClassName('show');
+    var str = obj.value;
+    console.log(name);
+    if (i == 1) {
+      name[0].innerHTML = str;
+    } else if (i == 2) {
+      name[1].innerHTML = str;
+    } else {
+      name[2].innerHTML = str;
+    }
+  }
+</script>
+</html>

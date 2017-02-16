@@ -1,0 +1,13 @@
+.message{margin: 0 20px;}
+h2{text-align: center;margin: 20px auto 26px;}
+h3{margin: 12px 0 14px;}
+.message p{line-height: 20px;}
+.message .license{
+    width:747px;height: 532px;
+    margin: 0 0 8px 102px;
+}
+.message  .card{
+    width: 335px;height: 211px;
+    margin:0 0 230px 102px;
+}
+.nav{height: 1400px;}

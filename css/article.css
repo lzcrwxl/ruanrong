@@ -1,0 +1,32 @@
+.headline p,.article p{display: inline-block;text-align: center}
+.article{margin:20px 0 0 40px;}
+.article .list{
+    line-height: 30px;
+    margin-top: 20px;
+    border-bottom:1px solid #c8c8c8;
+    width: 934px;
+}
+.headline{margin-left: 32px;}
+.list input{width: 30px;margin: 0;cursor:pointer}
+.sort{width: 26px;margin-right: 44px;}
+.caption{width: 100px;margin-right: 200px;}
+.classify{width: 52px;margin-right: 122px;}
+.reveal{width: 28px;margin-right: 100px;}
+.time{width: 70px;margin-right: 70px;}
+.operation{width: 64px;}
+.title{border: none}
+.title hr{margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

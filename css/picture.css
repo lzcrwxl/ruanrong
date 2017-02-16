@@ -1,0 +1,61 @@
+/*图片管理详情*/
+.select{
+    margin: 20px 0 0 40px;
+}
+.select p{line-height: 26px;margin-right: 12px}
+.select ul li{
+    width: 48px;line-height: 28px;
+    background: #f2f2f2;
+    border:1px solid #c8c8c8;
+    display: inline-block;
+    border-radius:2px;
+    margin-right: 10px;
+    text-align:center;
+    cursor:pointer
+}
+.select  ul .transfer{width: 68px;}
+.listPic{margin: 20px 0  0 40px;}
+.listPic>li{
+    width: 160px;  height: 220px;
+    padding: 10px 20px 0;
+    border-right: 1px solid #c8c8c8;
+    cursor:pointer
+}
+.listPic img{
+    height: 120px;
+}
+.edit{
+    background:url("../images/commodity/edit.png") no-repeat right 6px;
+    background-size:16px 16px;
+    width: 30px;height: 30px;
+}
+.listPic .pic input{
+    left: 2px;top: 2px;
+    margin: 0;
+    padding: 6px;
+    cursor:pointer
+}
+.listPic h3{
+    line-height: 30px;
+}
+.listPic p{line-height: 14px;}
+.hoverStyle{
+    left: 10px;top: 0;
+    width: 140px;
+    height: 220px;
+    background: #f7f7f7;
+    padding-top: 160px;
+    display: none
+
+}
+.hoverStyle button{
+    width: 58px;line-height: 22px;
+    border: 1px solid #c8c8c8;
+    margin: 0 5px 3px;
+    background: none;
+}
+.nowStyle{z-index: 9;width: 120px;}
+.title{border:none}
+.title hr{margin-bottom: 0;}
+/*相册管理*/
+.picasaTool .listPic>li{border: none}

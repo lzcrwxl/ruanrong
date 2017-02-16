@@ -1,0 +1,119 @@
+/*新增文章*/
+.title {
+  border: none;
+}
+.title hr {
+  margin-left: 155px;
+  width: 774px;
+  margin-bottom: 0;
+}
+.title p {
+  width: 78px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+.basic {
+  margin: 4px 0 0 40px;
+}
+.basic label {
+  margin: 20px 0 10px;
+}
+.basic input[type="text"],
+.basic select {
+  width: 318px;
+  line-height: 24px;
+  height: 24px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 1px 1px #f7f7f7 inset;
+  text-indent: 10px;
+}
+.exhibition {
+  font-size: 0;
+}
+.exhibition button {
+  width: 58px;
+  line-height: 28px;
+  border: 1px solid #c8c8c8;
+  margin-right: -1px;
+}
+.exhibition .showIcon {
+  background: #f2f2f2;
+}
+input[type="file"] {
+  cursor: pointer;
+}
+.sort input {
+  width: 138px;
+}
+.upFile img {
+  height: 90px;
+}
+.upFile button {
+  width: 58px;
+  line-height: 22px;
+  background: #f2f2f2;
+  border: 1px solid #c8c8c8;
+  margin: 10px 0 30px 30px;
+}
+input[type="submit"] {
+  width: 138px;
+  line-height: 24px;
+  border: 1px solid #c8c8c8;
+}
+.articleAdd {
+  margin: 46px 153px 100px;
+}
+.articleAdd select {
+  width: 160px;
+}
+.articleAdd input[type="radio"] {
+  top: 2px;
+}
+.articleAdd textarea {
+  padding: 28px 30px 16px 28px;
+  border-radius: 3px;
+}
+.articleAdd .describe {
+  border-radius: 3px;
+}
+.articleAdd .describe dl {
+  margin: 15px;
+  margin-right: 0;
+}
+.articleAdd .describe dl dt {
+  margin-bottom: 15px;
+  width: 96px;
+  height: 96px;
+}
+.articleAdd .describe dl dd:hover {
+  color: #f03c42;
+}
+.articleAdd .describe .rtControl {
+  margin-top: 47px;
+  margin-right: 28px;
+}
+.articleAdd .describe .rtControl button {
+  width: 90px;
+  height: 30px;
+  border-radius: 3px;
+  background: linear-gradient(#FFFFFF, #E5E4E4);
+  border: 1px solid #E7E3E4;
+}
+.articleAdd .describe .rtControl input[type="file"] {
+  top: 40px;
+  right: 0;
+  width: 90px;
+  height: 30px;
+}
+.submitBtn {
+  margin-bottom: 102px;
+}
+.submitBtn button {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+}

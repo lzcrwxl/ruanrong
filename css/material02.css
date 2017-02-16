@@ -1,0 +1,47 @@
+/*基础资料设置*/
+.form {
+  width: 90%;
+  margin: auto;
+  margin-top: 34px;
+}
+.form label {
+  width: 100px;
+  text-align: right;
+}
+.form textarea {
+  overflow-y: hidden;
+  border: 1px solid #c8c8c8;
+  line-height: 14px;
+  padding: 10px;
+  width: 488px;
+  height: 154px;
+  margin-bottom: 0;
+  border-radius: 3px;
+}
+.form textarea + p {
+  top: 60px;
+  right: 40px;
+}
+.form li:last-child p {
+  line-height: 14px;
+  margin-top: 4px;
+}
+.form input[type="submit"] {
+  width: 120px;
+  line-height: 30px;
+  color: #fff;
+  background: #ff3b3e;
+  border-radius: 5px;
+}
+li img {
+  right: 213px;
+  height: 34px;
+}
+li p.person {
+  right: 76px;
+  top: 0;
+}
+.submit {
+  margin: 70px auto 50px;
+  text-align: center;
+}

@@ -1,0 +1,111 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, button, input, textarea, /* form elements 表单元素 */
+th, td, div { /* table elements 表格元素 */
+  box-sizing: border-box;
+}
+
+.iphoneBox {
+  margin: 40px 0 300px 57px;
+}
+#showInnerPic{
+  position: absolute;
+  width: 212px;
+  height: 377px;
+  top: 104px;
+  left: 76px;
+}
+.setting {
+  border-left: 1px solid #e9e9e9;
+  width: 600px;
+  height: 100%;
+  //height: 835px;
+  .setingTitle {
+    border-bottom: 1px solid #e9e9e9;
+    li {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      cursor: pointer;
+      &:not(:last-child) {
+        border-right: 1px solid #e9e9e9;
+      }
+    }
+    .undRed::before {
+      left: 41%;
+      width: 55px;
+    }
+  }
+  .prizeSetting{
+    .percent{
+      height:26px;
+      line-height:26px;
+      width: 80px;
+    }
+  }
+  .baseSetting {
+    margin: 26px 96px 0 120px;
+    .themePg {
+      top: 8px;
+    }
+    .fileBox {
+      border-radius: 5px;
+      text-indent: 10px;
+      span {
+        color: #A9A9A9;
+      }
+      .btnradius {
+        border: none;
+        border-left: 1px solid #e5e5e5;
+        height: 28px;
+        width: 78px;
+      }
+      .updateFile {
+        right: 0;
+        top: 0;
+        width: 78px;
+        height: 28px;
+      }
+    }
+  }
+  .titleText {
+    width: 22%;
+  }
+  input[type='text'],input[type='number'] {
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .asterisk::before {
+    top: 2px;
+  }
+  .dataPicker {
+    width: 100px;
+  }
+  .rules {
+    height: 120px;
+    border-radius: 3px;
+  }
+  .subTitle{
+    margin-top: 26px;
+    color: #f74646;
+    background: #eeeeee;
+  }
+}
+
+.rdoClass::after {
+  top: 2px;
+
+}
+.submitBtn{
+  button{
+    width: 100px;
+  }
+  .save{
+    background:#f74646;
+    color: #fff;
+  }
+  .cancel{
+    border: 1px solid #d2d2d2;
+  }
+}

@@ -1,0 +1,70 @@
+/*分类管理*/
+.parameterList{
+    margin: 1px 0 0 40px;
+    line-height: 28px;
+    font-size: 0;
+}
+.parameterList p{
+    background: #cdcbcb;
+}
+.parameterList>div{
+    height: 28px;
+    background: #cdcbcb;
+}
+.sort{width: 118px;}
+.classifyName{width: 676px;margin: 0 1px;text-indent: 10px;}
+.operation{width: 130px;text-align: center}
+.sort input{
+    margin: 8px 32px 10px 10px;
+    cursor:pointer
+}
+.sort label{line-height: 28px;vertical-align: top}
+.parameterCon{
+    margin-left: 40px;
+    line-height: 84px;
+    border-bottom:1px solid #e6e6e6;
+    width: 934px;
+}
+.parameterCon button{
+    width: 38px;line-height: 24px;
+    background: #f7f7f7;
+    border:1px solid #e6e6e6;
+    margin-top: 30px;
+}
+.operation .hintLine{
+    width: 1px ;height: 12px;
+    background: #808080;
+    margin: 36px 6px 0;
+}
+.menuCon{
+    width: 280px;line-height: 24px;
+    background: #f7f7f7;
+    border:1px solid #e6e6e6;
+    text-indent: 8px;
+}
+.addSubmenu{
+    background: url("../images/commodity/addSubmenu.png") no-repeat 0 32px;
+    background-size: 22px 22px;
+    text-indent: 30px;
+    margin-left: 10px;
+}
+.mainMenu,.submenu li,.childMenu li{ border-bottom:1px solid #e6e6e6;}
+.submenu .classifyName{
+    margin-left: 20px;
+    width: 656px;
+}
+.childMenu  .classifyName{
+    margin-left: 40px;
+    width: 636px;
+}
+.parameterCon{border: none}
+.title hr{width: 850px;margin-bottom: 2px;}
+.submenu li{line-height: 62px;}
+.submenu button{margin-top: 18px;}
+.submenu .addSubmenu{   background: url(../images/commodity/addSubmenu.png) no-repeat 0 20px;}
+.submenu  .operation .hintLine{margin-top: 24px;}
+.childMenu li{line-height: 44px;}
+.childMenu button{margin-top: 8px;}
+.childMenu .addSubmenu{   background: url(../images/commodity/addSubmenu.png) no-repeat 0 10px;}
+.childMenu .operation .hintLine{margin-top: 14px;}
+

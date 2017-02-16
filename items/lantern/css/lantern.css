@@ -1,0 +1,2842 @@
+.l-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.phone_panel {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.phoneBox {
+  width: 100%;
+  height: 100%;
+  margin-right: 40px;
+}
+.phoneBox .nr {
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr #audio_btn {
+  right: 20px;
+  top: 20px;
+  z-index: 200;
+  width: 30px;
+  height: 30px;
+}
+.phoneBox .nr .off {
+  background-image: url("../images/normalmusic.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.phoneBox .nr .main-page {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-transition: transform 0.4s linear;
+  transition: transform 0.4s linear;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  transform-origin: center bottom 0px;
+  -webkit-transform-origin: center bottom 0px;
+}
+.phoneBox .nr .main-page .l-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.phoneBox .nr .main-page .l-img .editWrapper {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea {
+  position: absolute;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li {
+  position: absolute;
+  color: #676767;
+  line-height: 1;
+  background: 0;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+  transition: padding .5s;
+  min-height: 1px;
+  min-width: 1px;
+  -webkit-user-select: none;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li .elementBox {
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 0px;
+  color: #676767;
+  -webkit-animation-play-state: initial;
+  animation-play-state: initial;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li .elementBox .elementBoxContents {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  line-height: 1;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li .elementBox .elementBoxContents .comp_paragraph {
+  padding: .3em 15px;
+  margin: 0;
+  word-wrap: break-word;
+  font-weight: 500;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li .elementBox .elementBoxContents .comp_paragraph .content {
+  display: inline-block;
+  width: 168px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li .elementBox .elementBoxContents .comp_paragraph .topic {
+  display: inline-block;
+  width: 122px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea li .elementBox .elementBoxContents .comp_paragraph a:visited {
+  outline: 0;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside01 {
+  left: 0px;
+  top: -23px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside01 .elementBox {
+  -webkit-animation: puffIn 3s ease 0s 1 both;
+  animation: puffIn 3s ease 0s 1 both;
+  -webkit-animation-play-state: initial;
+  animation-play-state: initial;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside01 .elementBox .element {
+  width: 100%;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside02 {
+  left: 0;
+  top: -24px;
+  width: 100%;
+  z-index: 2;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside02 .elementBox {
+  -webkit-animation: flash 3s ease 0s infinite both;
+  animation: flash 3s ease 0s infinite both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside02 .elementBox .element {
+  width: 100%;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside03 {
+  width: 95.5px;
+  height: 85px;
+  left: auto;
+  top: auto;
+  z-index: 3;
+  right: 0;
+  bottom: 14rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside03 .elementBox {
+  width: 95.5px;
+  height: 85px;
+  left: auto;
+  top: auto;
+  -webkit-animation: fadeInRight 0.2s ease 6s 1 both;
+  animation: fadeInRight 0.2s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside03 .elementBox .element {
+  width: 95.5px;
+  height: 85px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside04 {
+  width: 95.5px;
+  height: 85px;
+  left: -3px;
+  top: auto;
+  z-index: 4;
+  bottom: 14rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside04 .elementBox {
+  width: 95.5px;
+  height: 85px;
+  left: -3px;
+  top: auto;
+  -webkit-animation: fadeInLeft 0.2s ease 6s 1 both;
+  animation: fadeInLeft 0.2s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside04 .elementBox .element {
+  width: 95.5px;
+  height: 85px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside05 {
+  width: 100%;
+  height: 14rem;
+  left: -3px;
+  bottom: 0;
+  z-index: 5;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside05 .elementBox {
+  -webkit-animation: fadeInUp 1s ease 5s 1 both;
+  animation: fadeInUp 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside05 .elementBox element {
+  width: 100%;
+  height: 182px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside06 {
+  width: 100%;
+  height: 288.5px;
+  left: 8px;
+  top: 3.5px;
+  z-index: 6;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside06 .elementBox {
+  width: 100%;
+  top: 3.5px;
+  left: 8px;
+  -webkit-animation: fadeInDown 1s ease 1s 1 both;
+  animation: fadeInDown 1s ease 1s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside06 .elementBox .element {
+  width: 100%;
+  height: 288.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside07 {
+  width: 100%;
+  height: 288.5px;
+  left: 9px;
+  bottom: 1rem;
+  z-index: 7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside07 .elementBox {
+  width: 100%;
+  height: 288.5px;
+  -webkit-animation: fadeInUp 1s ease 1s 1 both;
+  animation: fadeInUp 1s ease 1s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside07 .elementBox .element {
+  width: 100%;
+  height: 288.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside08 {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: -26px;
+  z-index: 8;
+  height: 107% !important;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside08 .elementBox {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: -26px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside08 .elementBox .element {
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside08 .elementBox {
+  -webkit-animation: zoomIn 2s ease 0.5s 1 both;
+  animation: zoomIn 2s ease 0.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside09 {
+  width: 185px;
+  height: 70.5px;
+  left: 50%;
+  top: auto;
+  z-index: 9;
+  margin-left: -92px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside09 .elementBox {
+  width: 185px;
+  height: 70.5px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside09 .elementBox .element {
+  width: 185px;
+  height: 70.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside09 .elementBox {
+  -webkit-animation: flipInY 1s ease 5.5s 1 both;
+  animation: flipInY 1s ease 5.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside10 {
+  width: 81px;
+  height: 82px;
+  left: 50%;
+  top: 244px;
+  z-index: 10;
+  margin-left: -40px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside10 .elementBox {
+  width: 81px;
+  height: 82px;
+  left: 50%;
+  top: 244px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside10 .elementBox .element {
+  width: 81px;
+  height: 82px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside10 .elementBox {
+  -webkit-animation: zoomIn 1s ease 3s 1 both;
+  animation: zoomIn 1s ease 3s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside11 {
+  width: 81px;
+  height: 82px;
+  left: 50%;
+  top: 150px;
+  z-index: 11;
+  margin-left: -40px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside11 .elementBox {
+  width: 81px;
+  height: 82px;
+  left: 50%;
+  top: 150px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside11 .elementBox .element {
+  width: 81px;
+  height: 82px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside11 .elementBox {
+  -webkit-animation: zoomIn 1s ease 2.5s 1 both;
+  animation: zoomIn 1s ease 2.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside12 {
+  width: 81px;
+  height: 82px;
+  left: 50%;
+  top: 55.5px;
+  z-index: 12;
+  margin-left: -40px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside12 .elementBox {
+  width: 81px;
+  height: 82px;
+  left: 50%;
+  top: 55.5px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside12 .elementBox .element {
+  width: 81px;
+  height: 82px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside12 .elementBox {
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside13 {
+  width: 100.5px;
+  height: 215px;
+  left: auto;
+  top: 13px;
+  z-index: 13;
+  right: 18px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside13 .elementBox {
+  width: 100.5px;
+  height: 215px;
+  left: auto;
+  top: 13px;
+  -webkit-animation: fadeInRight 1s ease 3.5s 1 both;
+  animation: fadeInRight 1s ease 3.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside13 .elementBox .element {
+  width: 100.5px;
+  height: 215px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside14 {
+  width: 100px;
+  height: 214.5px;
+  left: 16.5px;
+  top: 12.5px;
+  z-index: 14;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside14 .elementBox {
+  width: 100px;
+  height: 214.5px;
+  left: 16.5px;
+  top: 12.5px;
+  -webkit-animation: fadeInLeft 1s ease 3.5s 1 both;
+  animation: fadeInLeft 1s ease 3.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside14 .elementBox .element {
+  width: 100px;
+  height: 214.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside15 {
+  width: 154px;
+  height: 51.5px;
+  left: 50%;
+  top: 5.5px;
+  z-index: 15;
+  margin-left: -77px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside15 .elementBox {
+  width: 154px;
+  height: 51.5px;
+  left: 50%;
+  top: 5.5px;
+  -webkit-animation: flipInY 1s ease 3.5s 1 both;
+  animation: flipInY 1s ease 3.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside15 .elementBox .element {
+  width: 154px;
+  height: 51.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside16 {
+  width: 212.5px;
+  height: 45px;
+  left: 50%;
+  top: auto;
+  z-index: 16;
+  margin-left: -106.5px;
+  bottom: 4rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside16 .elementBox {
+  width: 212.5px;
+  height: 45px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: flipInX 1s ease 6s 1 both;
+  animation: flipInX 1s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside16 .elementBox .element {
+  width: 212.5px;
+  height: 45px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside17 {
+  width: 23px;
+  height: 29px;
+  left: auto;
+  top: auto;
+  z-index: 17;
+  right: 24px;
+  bottom: 12.2rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside17 .elementBox {
+  width: 23px;
+  height: 29px;
+  left: auto;
+  top: auto;
+  -webkit-animation: fadeInDown 1s ease 5s 1 both;
+  animation: fadeInDown 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside17 .elementBox .element {
+  width: 23px;
+  height: 29px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside18 {
+  width: 24px;
+  height: 29px;
+  left: 24.5px;
+  top: auto;
+  z-index: 18;
+  bottom: 12.2rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside18 .elementBox {
+  width: 24px;
+  height: 29px;
+  left: 24.5px;
+  top: auto;
+  -webkit-animation: fadeInDown 1s ease 5s 1 both;
+  animation: fadeInDown 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside18 .elementBox .element {
+  width: 24px;
+  height: 29px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside19 {
+  width: 132px;
+  height: 34px;
+  left: 50%;
+  top: 5px;
+  z-index: 19;
+  margin-left: -66px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside19 .elementBox {
+  width: 132px;
+  height: 34px;
+  left: 50%;
+  top: 5px;
+  -webkit-animation: zoomIn 1s ease 4s 1 both;
+  animation: zoomIn 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside19 .elementBox .element {
+  width: 132px;
+  height: 34px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside19 .elementBoxContents .elementText {
+  font-size: 22px;
+  width: 132px;
+  height: 34px;
+  line-height: 34px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside19 .elementBoxContents .elementText span {
+  color: #921f22;
+  background-color: initial;
+  font-weight: 500;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside21 {
+  width: 183px;
+  height: 41px;
+  left: 50%;
+  top: auto;
+  z-index: 21;
+  margin-left: -92px;
+  bottom: 4rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside21 .elementBox {
+  width: 183px;
+  height: 41px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: zoomIn 1s ease 6.5s 1 both;
+  animation: zoomIn 1s ease 6.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside21 .elementBox .element {
+  width: 183px;
+  height: 41px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside21 .elementBoxContents .elementText {
+  font-size: 24px;
+  width: 183px;
+  height: 41px;
+  line-height: 33px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside21 .elementBoxContents .elementText span {
+  color: #edeb8c;
+  background-color: initial;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside22 {
+  opacity: 0;
+  width: 212.5px;
+  height: 45px;
+  left: 51.5px;
+  top: 409.5px;
+  z-index: 22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside22 .elementBox {
+  width: 212.5px;
+  height: 45px;
+  left: 51.5px;
+  top: 409.5px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea #inside22 .elementBox .element {
+  width: 212.5px;
+  height: 45px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0201 {
+  left: 0px;
+  top: -23px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0201 .elementBox {
+  -webkit-animation: puffIn 3s ease 0s 1 both;
+  animation: puffIn 3s ease 0s 1 both;
+  -webkit-animation-play-state: initial;
+  animation-play-state: initial;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0201 .elementBox .element {
+  width: 100%;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0202 {
+  left: 0;
+  top: -24px;
+  width: 100%;
+  z-index: 2;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0202 .elementBox {
+  -webkit-animation: flash 3s ease 0s infinite both;
+  animation: flash 3s ease 0s infinite both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0202 .elementBox .element {
+  width: 100%;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0202 .elementBox {
+  -webkit-animation: fadeIn 1s ease 4.5s 1 both;
+  animation: fadeIn 1s ease 4.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0203 {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: 4.5px;
+  z-index: 3;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0203 .elementBox {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: 4.5px;
+  -webkit-animation: fadeInDown 1s ease 1s 1 both;
+  animation: fadeInDown 1s ease 1s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0203 .elementBox .element {
+  width: 100%;
+  height: 288.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0204 {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: auto;
+  z-index: 4;
+  bottom: 1rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0204 .elementBox {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: auto;
+  -webkit-animation: fadeInUp 1s ease 1s 1 both;
+  animation: fadeInUp 1s ease 1s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0204 .elementBox .element {
+  width: 100%;
+  height: 288.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0205 {
+  width: 263px;
+  height: 356.5px;
+  left: 50%;
+  top: 82px;
+  z-index: 5;
+  margin-left: -132px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0205 .elementBox {
+  width: 263px;
+  height: 356.5px;
+  left: 50%;
+  top: 82px;
+  -webkit-animation: fadeInUp 1s ease 3s 1 both;
+  animation: fadeInUp 1s ease 3s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0205 .elementBox .element {
+  width: 263px;
+  height: 356.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0206 {
+  width: 64px;
+  height: 171.5px;
+  left: auto;
+  top: 26px;
+  z-index: 6;
+  right: 1.4rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0206 .elementBox {
+  width: 64px;
+  height: 171.5px;
+  left: auto;
+  top: 26px;
+  -webkit-animation: fadeInRight 1s ease 1.5s 1 both;
+  animation: fadeInRight 1s ease 1.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0206 .elementBox .element {
+  width: 64px;
+  height: 171.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0207 {
+  width: 64px;
+  height: 171.5px;
+  left: 16px;
+  top: 26px;
+  z-index: 7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0207 .elementBox {
+  width: 64px;
+  height: 171.5px;
+  left: 16px;
+  top: 26px;
+  -webkit-animation: fadeInLeft 1s ease 1.5s 1 both;
+  animation: fadeInLeft 1s ease 1.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0207 .elementBox .element {
+  width: 64px;
+  height: 171.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0208 {
+  width: 95.5px;
+  height: 85px;
+  left: auto;
+  top: auto;
+  z-index: 8;
+  right: 0;
+  bottom: 1rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0208 .elementBox {
+  width: 95.5px;
+  height: 85px;
+  left: auto;
+  top: auto;
+  -webkit-animation: fadeInRight 0.2s ease 6s 1 both;
+  animation: fadeInRight 0.2s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0208 .elementBox .element {
+  width: 95.5px;
+  height: 85px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0209 {
+  width: 95.5px;
+  height: 85px;
+  left: 0;
+  top: auto;
+  z-index: 9;
+  bottom: 1rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0209 .elementBox {
+  width: 95.5px;
+  height: 85px;
+  left: 0;
+  top: auto;
+  -webkit-animation: fadeInLeft 0.2s ease 6s 1 both;
+  animation: fadeInLeft 0.2s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0209 .elementBox .element {
+  width: 95.5px;
+  height: 85px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0210 {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: -25px;
+  z-index: 10;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0210 .elementBox {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: -25px;
+  -webkit-animation: zoomIn 2s ease 0.5s 1 both;
+  animation: zoomIn 2s ease 0.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0210 .elementBox .element {
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0211 {
+  width: 119.5px;
+  height: 27.5px;
+  left: 50%;
+  top: 87%;
+  z-index: 11;
+  margin-left: -60px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0211 .elementBox {
+  width: 119.5px;
+  height: 27.5px;
+  left: 50%;
+  top: 87%;
+  -webkit-animation: flipInY 1s ease 7.5s 1 both;
+  animation: flipInY 1s ease 7.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0211 .elementBox .element {
+  width: 119.5px;
+  height: 27.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0212 {
+  width: 244px;
+  height: 70.5px;
+  left: 50%;
+  top: 4px;
+  z-index: 12;
+  margin-left: -122px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0212 .elementBox {
+  width: 244px;
+  height: 70.5px;
+  left: 50%;
+  top: 4px;
+  -webkit-animation: flipInY 1s ease 2s 1 both;
+  animation: flipInY 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0212 .elementBox .element {
+  width: 244px;
+  height: 70.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0213 {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  z-index: 13;
+  margin-left: -128px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0213 .elementBox {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  -webkit-animation: zoomIn 1s ease 2.5s 1 both;
+  animation: zoomIn 1s ease 2.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0213 .elementBox .element {
+  width: 79px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0213 span {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0214 {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  z-index: 13;
+  margin-left: -128px;
+  margin-left: -68px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0214 .elementBox {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  -webkit-animation: zoomIn 1s ease 2.5s 1 both;
+  animation: zoomIn 1s ease 2.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0214 .elementBox .element {
+  width: 79px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0214 span {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0215 {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  z-index: 13;
+  margin-left: -128px;
+  margin-left: -10px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0215 .elementBox {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  -webkit-animation: zoomIn 1s ease 2.5s 1 both;
+  animation: zoomIn 1s ease 2.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0215 .elementBox .element {
+  width: 79px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0215 span {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0216 {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  z-index: 13;
+  margin-left: -128px;
+  margin-left: 48px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0216 .elementBox {
+  width: 79px;
+  height: 46px;
+  left: 50%;
+  top: 19px;
+  -webkit-animation: zoomIn 1s ease 2.5s 1 both;
+  animation: zoomIn 1s ease 2.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0216 .elementBox .element {
+  width: 79px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0216 span {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0217 {
+  width: 192px;
+  height: 31px;
+  left: 50%;
+  top: 80px;
+  z-index: 17;
+  margin-left: -94px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0217 .elementBox {
+  width: 192px;
+  height: 31px;
+  left: 50%;
+  top: 80px;
+  -webkit-animation: zoomIn 1s ease 3.5s 1 both;
+  animation: zoomIn 1s ease 3.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0217 .elementBox .element {
+  width: 192px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0217 span {
+  color: #f4a385;
+  background-color: initial;
+  font-size: 16px;
+  line-height: 28px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0218 {
+  width: 209px;
+  height: 57px;
+  left: 50%;
+  top: 134px;
+  z-index: 18;
+  margin-left: -100px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0218 .elementBox {
+  width: 209px;
+  height: 57px;
+  left: 50%;
+  top: 134px;
+  -webkit-animation: fadeInUp 1s ease 4s 1 both;
+  animation: fadeInUp 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0218 .elementBox .element {
+  width: 209px;
+  height: 57px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0218 span {
+  color: #921f22;
+  font-size: 12px;
+  font-weight: 600;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0219 {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 182.75px;
+  z-index: 19;
+  margin-left: -100px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0219 .elementBox {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 182.75px;
+  -webkit-animation: fadeInUp 1s ease 4.5s 1 both;
+  animation: fadeInUp 1s ease 4.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0219 .elementBox .element {
+  width: 209px;
+  height: 41px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0219 span {
+  color: #921f22;
+  font-size: 12px;
+  font-weight: 600;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0220 {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 223.5px;
+  z-index: 20;
+  margin-left: -100px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0220 .elementBox {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 223.5px;
+  -webkit-animation: fadeInUp 1s ease 5s 1 both;
+  animation: fadeInUp 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0220 .elementBox .element {
+  width: 209px;
+  height: 41px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0220 span {
+  color: #921f22;
+  font-size: 12px;
+  font-weight: 600;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0221 {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 264.25px;
+  z-index: 21;
+  margin-left: -100px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0221 .elementBox {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 264.25px;
+  -webkit-animation: fadeInUp 1s ease 5.5s 1 both;
+  animation: fadeInUp 1s ease 5.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0221 .elementBox .element {
+  width: 209px;
+  height: 41px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0221 span {
+  color: #921f22;
+  font-size: 12px;
+  font-weight: 600;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0222 {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 305px;
+  z-index: 22;
+  margin-left: -100px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0222 .elementBox {
+  width: 209px;
+  height: 41px;
+  left: 50%;
+  top: 305px;
+  -webkit-animation: fadeInUp 1s ease 6s 1 both;
+  animation: fadeInUp 1s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0222 .elementBox .element {
+  width: 209px;
+  height: 41px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0222 span {
+  color: #921f22;
+  font-size: 12px;
+  font-weight: 600;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0223 {
+  width: 221px;
+  height: 29px;
+  left: 50%;
+  top: 341px;
+  z-index: 23;
+  margin-left: -100px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0223 .elementBox {
+  width: 221px;
+  height: 29px;
+  left: 50%;
+  top: 341px;
+  -webkit-animation: fadeInUp 1s ease 6.5s 1 both;
+  animation: fadeInUp 1s ease 6.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0223 .elementBox .element {
+  width: 221px;
+  height: 29px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0223 span {
+  color: #921f22;
+  font-size: 12px;
+  font-weight: 600;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0224 {
+  width: 149px;
+  height: 38px;
+  left: 50%;
+  top: 85.5%;
+  z-index: 24;
+  margin-left: -75px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0224 .elementBox {
+  width: 149px;
+  height: 38px;
+  left: 50%;
+  top: 85.5%;
+  -webkit-animation: zoomIn 1s ease 8s 1 both;
+  animation: zoomIn 1s ease 8s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0224 .elementBox .element {
+  width: 149px;
+  height: 38px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0224 span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0225 {
+  width: 119.5px;
+  height: 27.5px;
+  left: 100.5px;
+  top: 420px;
+  z-index: 25;
+  opacity: 0;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0225 .elementBox {
+  width: 119.5px;
+  height: 27.5px;
+  left: 100.5px;
+  top: 420px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0225 .elementBox .element {
+  width: 119.5px;
+  height: 27.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0301 {
+  left: 0px;
+  top: -23px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0301 .elementBox {
+  -webkit-animation: puffIn 3s ease 0s 1 both;
+  animation: puffIn 3s ease 0s 1 both;
+  -webkit-animation-play-state: initial;
+  animation-play-state: initial;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0301 .elementBox .element {
+  width: 100%;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0302 {
+  left: 0;
+  top: -24px;
+  width: 100%;
+  z-index: 2;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0302 .elementBox {
+  -webkit-animation: flash 3s ease 0s infinite both;
+  animation: flash 3s ease 0s infinite both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0302 .elementBox .element {
+  width: 100%;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0302 .elementBox {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0303 {
+  width: 100%;
+  height: 185px;
+  left: -3px;
+  top: auto;
+  z-index: 3;
+  bottom: 1rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0303 .elementBox {
+  width: 100%;
+  height: 185px;
+  left: -3px;
+  top: auto;
+  -webkit-animation: fadeInUp 1s ease 5s 1 both;
+  animation: fadeInUp 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0303 .elementBox .element {
+  width: 100%;
+  height: 185px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0304 {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: 4.5px;
+  z-index: 3;
+  z-index: 4;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0304 .elementBox {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: 4.5px;
+  -webkit-animation: fadeInDown 1s ease 1s 1 both;
+  animation: fadeInDown 1s ease 1s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0304 .elementBox .element {
+  width: 100%;
+  height: 288.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0305 {
+  width: 64px;
+  height: 171.5px;
+  left: 16px;
+  top: 26px;
+  z-index: 7;
+  z-index: 5;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0305 .elementBox {
+  width: 64px;
+  height: 171.5px;
+  left: 16px;
+  top: 26px;
+  -webkit-animation: fadeInLeft 1s ease 1.5s 1 both;
+  animation: fadeInLeft 1s ease 1.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0305 .elementBox .element {
+  width: 64px;
+  height: 171.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0306 {
+  width: 64px;
+  height: 171.5px;
+  left: auto;
+  top: 26px;
+  right: 1.4rem;
+  z-index: 6;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0306 .elementBox {
+  width: 64px;
+  height: 171.5px;
+  left: auto;
+  top: 26px;
+  -webkit-animation: fadeInRight 1s ease 1.5s 1 both;
+  animation: fadeInRight 1s ease 1.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0306 .elementBox .element {
+  width: 64px;
+  height: 171.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0307 {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: auto;
+  z-index: 4;
+  bottom: 1rem;
+  z-index: 7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0307 .elementBox {
+  width: 100%;
+  height: 288.5px;
+  left: 12px;
+  top: auto;
+  -webkit-animation: fadeInUp 1s ease 1s 1 both;
+  animation: fadeInUp 1s ease 1s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0307 .elementBox .element {
+  width: 100%;
+  height: 288.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0308 {
+  width: 119.5px;
+  height: 27.5px;
+  left: 50%;
+  top: 87%;
+  z-index: 8;
+  margin-left: -60px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0308 .elementBox {
+  width: 119.5px;
+  height: 27.5px;
+  left: 50%;
+  top: 87%;
+  -webkit-animation: flipInY 1s ease 8s 1 both;
+  animation: flipInY 1s ease 8s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0308 .elementBox .element {
+  width: 119.5px;
+  height: 27.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0309 {
+  width: 95.5px;
+  height: 85px;
+  left: 6px;
+  top: auto;
+  z-index: 9;
+  bottom: 1rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0309 .elementBox {
+  width: 95.5px;
+  height: 85px;
+  left: 6px;
+  top: auto;
+  -webkit-animation: fadeInLeft 0.2s ease 8s 1 both;
+  animation: fadeInLeft 0.2s ease 8s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0309 .elementBox .element {
+  width: 95.5px;
+  height: 85px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0310 {
+  width: 95.5px;
+  height: 85px;
+  left: auto;
+  top: auto;
+  z-index: 9;
+  bottom: 1rem;
+  right: 0;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0310 .elementBox {
+  width: 95.5px;
+  height: 85px;
+  left: auto;
+  top: auto;
+  -webkit-animation: fadeInRight 0.2s ease 8s 1 both;
+  animation: fadeInRight 0.2s ease 8s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0310 .elementBox .element {
+  width: 95.5px;
+  height: 85px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0311 {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: -25px;
+  z-index: 10;
+  height: 107%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0311 .elementBox {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: -25px;
+  -webkit-animation: zoomIn 2s ease 0.5s 1 both;
+  animation: zoomIn 2s ease 0.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0311 .elementBox .element {
+  width: 100%;
+  height: 100%;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0312 {
+  width: 185.5px;
+  height: 70.5px;
+  left: 50%;
+  top: 17px;
+  z-index: 12;
+  margin-left: -93px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0312 .elementBox {
+  width: 185.5px;
+  height: 70.5px;
+  left: 50%;
+  top: 17px;
+  -webkit-animation: flipInY 1s ease 2s 1 both;
+  animation: flipInY 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0312 .elementBox .element {
+  width: 185.5px;
+  height: 70.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0313 {
+  width: 286.5px;
+  height: 246px;
+  left: 50%;
+  top: 88px;
+  z-index: 13;
+  margin-left: -143.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0313 .elementBox {
+  width: 286.5px;
+  height: 246px;
+  left: 50%;
+  top: 88px;
+  -webkit-animation: zoomIn 1s ease 2.5s 1 both;
+  animation: zoomIn 1s ease 2.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0313 .elementBox .element {
+  width: 286.5px;
+  height: 246px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0314 {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  z-index: 14;
+  margin-left: -130px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0314 .elementBox {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: fadeInRight 1s ease 6.5s 1 both;
+  animation: fadeInRight 1s ease 6.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0314 .elementBox .element {
+  width: 44px;
+  height: 44px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0315 {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  z-index: 15;
+  margin-left: -76px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0315 .elementBox {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: fadeInRight 1s ease 6s 1 both;
+  animation: fadeInRight 1s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0315 .elementBox .element {
+  width: 44px;
+  height: 44px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0316 {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  z-index: 16;
+  margin-left: -22px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0316 .elementBox {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: zoomIn 1s ease 5.5s 1 both;
+  animation: zoomIn 1s ease 5.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0316 .elementBox .element {
+  width: 44px;
+  height: 44px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0317 {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  z-index: 17;
+  margin-left: 32px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0317 .elementBox {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: fadeInLeft 1s ease 6s 1 both;
+  animation: fadeInLeft 1s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0317 .elementBox .element {
+  width: 44px;
+  height: 44px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0318 {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  z-index: 18;
+  margin-left: 86px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0318 .elementBox {
+  width: 44px;
+  height: 44px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: fadeInLeft 1s ease 6.5s 1 both;
+  animation: fadeInLeft 1s ease 6.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0318 .elementBox .element {
+  width: 44px;
+  height: 44px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0319 {
+  width: 192px;
+  height: 31px;
+  left: 50%;
+  top: 85px;
+  z-index: 19;
+  margin-left: -96px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0319 .elementBox {
+  width: 192px;
+  height: 31px;
+  left: 50%;
+  top: 85px;
+  -webkit-animation: zoomIn 1s ease 3s 1 both;
+  animation: zoomIn 1s ease 3s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0319 .elementBox .element {
+  width: 192px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0319 span {
+  color: #f4a385;
+  font-size: 13px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0320 {
+  width: 106px;
+  height: 39px;
+  left: 50%;
+  top: 119px;
+  z-index: 20;
+  margin-left: -53px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0320 .elementBox {
+  width: 106px;
+  height: 39px;
+  left: 50%;
+  top: 119px;
+  -webkit-animation: fadeInUp 1s ease 3.5s 1 both;
+  animation: fadeInUp 1s ease 3.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0320 .elementBox .element {
+  width: 106px;
+  height: 39px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0320 span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #921f22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0321 {
+  width: 165px;
+  height: 22px;
+  left: 50%;
+  top: 248px;
+  z-index: 21;
+  margin-left: -80px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0321 .elementBox {
+  width: 165px;
+  height: 22px;
+  left: 50%;
+  top: 248px;
+  -webkit-animation: fadeIn 1s ease 4.5s 1 both;
+  animation: fadeIn 1s ease 4.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0321 .elementBox .element {
+  width: 165px;
+  height: 22px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0321 span {
+  font-weight: 700;
+  font-size: 12px;
+  color: #921f22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0322 {
+  width: 208px;
+  height: 98px;
+  left: 50%;
+  top: 155px;
+  z-index: 22;
+  margin-left: -72px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0322 .elementBox {
+  width: 208px;
+  height: 98px;
+  left: 50%;
+  top: 155px;
+  -webkit-animation: fadeInUp 1s ease 4s 1 both;
+  animation: fadeInUp 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0322 .elementBox .element {
+  width: 208px;
+  height: 98px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0322 span {
+  font-weight: 700;
+  font-size: 12px;
+  color: #921f22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0323 {
+  width: 207px;
+  height: 30px;
+  left: 50%;
+  top: 291px;
+  z-index: 23;
+  margin-left: -104px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0323 .elementBox {
+  width: 207px;
+  height: 30px;
+  left: 50%;
+  top: 291px;
+  -webkit-animation: bounceIn 1s ease 4.5s 1 both;
+  animation: bounceIn 1s ease 4.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0323 .elementBox .element {
+  width: 207px;
+  height: 30px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0323 span {
+  font-weight: 500;
+  font-size: 12px;
+  color: #f4a385;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0324 {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  z-index: 24;
+  margin-left: -88px;
+  bottom: 9.5rem;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0324 .elementBox {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: bounceIn 1s ease 7s 1 both;
+  animation: bounceIn 1s ease 7s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0324 .elementBox .element {
+  width: 67px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0324 span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #921f22;
+  line-height: .7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0325 {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  z-index: 24;
+  margin-left: -88px;
+  bottom: 9.5rem;
+  margin-left: -141px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0325 .elementBox {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: bounceIn 1s ease 7s 1 both;
+  animation: bounceIn 1s ease 7s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0325 .elementBox .element {
+  width: 67px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0325 span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #921f22;
+  line-height: .7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0326 {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  z-index: 24;
+  margin-left: -88px;
+  bottom: 9.5rem;
+  margin-left: -33px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0326 .elementBox {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: bounceIn 1s ease 7s 1 both;
+  animation: bounceIn 1s ease 7s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0326 .elementBox .element {
+  width: 67px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0326 span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #921f22;
+  line-height: .7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0327 {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  z-index: 24;
+  margin-left: -88px;
+  bottom: 9.5rem;
+  margin-left: 20px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0327 .elementBox {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: bounceIn 1s ease 7s 1 both;
+  animation: bounceIn 1s ease 7s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0327 .elementBox .element {
+  width: 67px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0327 span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #921f22;
+  line-height: .7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0328 {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  z-index: 24;
+  margin-left: -88px;
+  bottom: 9.5rem;
+  margin-left: 74px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0328 .elementBox {
+  width: 67px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: bounceIn 1s ease 7s 1 both;
+  animation: bounceIn 1s ease 7s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0328 .elementBox .element {
+  width: 67px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0328 span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #921f22;
+  line-height: .7;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0329 {
+  width: 266px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  z-index: 29;
+  bottom: 7.2rem;
+  margin-left: -133px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0329 .elementBox {
+  width: 266px;
+  height: 46px;
+  left: 50%;
+  top: auto;
+  -webkit-animation: fadeInUp 1s ease 7.5s 1 both;
+  animation: fadeInUp 1s ease 7.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0329 .elementBox .element {
+  width: 266px;
+  height: 46px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0329 .elementText {
+  margin-top: 3px !important;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0329 .elementText span {
+  font-size: 12px;
+  color: #921f22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0330 {
+  width: 149px;
+  height: 38px;
+  left: 50%;
+  top: 85.5%;
+  z-index: 30;
+  margin-left: -75px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0330 .elementBox {
+  width: 149px;
+  height: 38px;
+  left: 50%;
+  top: 85.5%;
+  -webkit-animation: zoomIn 1s ease 9s 1 both;
+  animation: zoomIn 1s ease 9s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0330 .elementBox .element {
+  width: 149px;
+  height: 38px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0330 .elementText {
+  line-height: 30px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0330 .elementText span {
+  font-size: 14px;
+  color: #fff;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0331 {
+  width: 119.5px;
+  height: 27.5px;
+  left: 96.5px;
+  top: 418px;
+  z-index: 31;
+  opacity: 0;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0331 .elementBox {
+  width: 119.5px;
+  height: 27.5px;
+  left: 96.5px;
+  top: 418px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0331 .elementBox .element {
+  width: 119.5px;
+  height: 27.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0619 {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 134px;
+  z-index: 19;
+  margin-left: -81px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0619 .elementBox {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 134px;
+  -webkit-animation: fadeInLeft 1s ease 4s 1 both;
+  animation: fadeInLeft 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0619 .elementBox .element {
+  width: 162px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0620 {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 171.25px;
+  z-index: 20;
+  margin-left: -81px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0620 .elementBox {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 171.25px;
+  -webkit-animation: fadeInRight 1s ease 4s 1 both;
+  animation: fadeInRight 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0620 .elementBox .element {
+  width: 162px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0621 {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 208.5px;
+  z-index: 21;
+  margin-left: -81px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0621 .elementBox {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 208.5px;
+  -webkit-animation: fadeInLeft 1s ease 4s 1 both;
+  animation: fadeInLeft 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0621 .elementBox .element {
+  width: 162px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0622 {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 171.25px;
+  z-index: 20;
+  margin-left: -81px;
+  top: 245.75px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0622 .elementBox {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 171.25px;
+  -webkit-animation: fadeInRight 1s ease 4s 1 both;
+  animation: fadeInRight 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0622 .elementBox .element {
+  width: 162px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0623 {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 208.5px;
+  z-index: 21;
+  margin-left: -81px;
+  top: 283px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0623 .elementBox {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 208.5px;
+  -webkit-animation: fadeInLeft 1s ease 4s 1 both;
+  animation: fadeInLeft 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0623 .elementBox .element {
+  width: 162px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0624 {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 171.25px;
+  z-index: 20;
+  margin-left: -81px;
+  top: 245.75px;
+  top: 320.25px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0624 .elementBox {
+  width: 162px;
+  height: 31px;
+  left: 50%;
+  top: 171.25px;
+  -webkit-animation: fadeInRight 1s ease 4s 1 both;
+  animation: fadeInRight 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0624 .elementBox .element {
+  width: 162px;
+  height: 31px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0625 {
+  width: 135px;
+  height: 36px;
+  left: 50%;
+  top: 355px;
+  z-index: 25;
+  margin-left: -68px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0625 .elementBox {
+  width: 135px;
+  height: 36px;
+  left: 50%;
+  top: 355px;
+  -webkit-animation: zoomIn 1s ease 5s 1 both;
+  animation: zoomIn 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0625 .elementBox .element {
+  width: 135px;
+  height: 36px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0719 {
+  width: 131px;
+  height: 130px;
+  left: 50%;
+  top: 126px;
+  z-index: 19;
+  margin-left: -65.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0719 .elementBox {
+  width: 131px;
+  height: 130px;
+  left: 50%;
+  top: 126px;
+  -webkit-animation: flipInY 1s ease 4s 1 both;
+  animation: flipInY 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0719 .elementBox .element {
+  width: 131px;
+  height: 130px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0720 {
+  width: 154px;
+  height: 26px;
+  left: 50%;
+  top: 250px;
+  z-index: 20;
+  margin-left: -77px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0720 .elementBox {
+  width: 154px;
+  height: 26px;
+  left: 50%;
+  top: 250px;
+  -webkit-animation: fadeInDown 1s ease 4s 1 both;
+  animation: fadeInDown 1s ease 4s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0720 .elementBox .element {
+  width: 154px;
+  height: 26px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0720 span {
+  font-size: 12px;
+  color: #921f22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0721 {
+  width: 189px;
+  height: 25px;
+  left: 50%;
+  top: 263px;
+  z-index: 21;
+  margin-left: -94.5px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0721 .elementBox {
+  width: 189px;
+  height: 25px;
+  left: 50%;
+  top: 263px;
+  -webkit-animation: zoomIn 1s ease 5s 1 both;
+  animation: zoomIn 1s ease 5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0721 .elementBox .element {
+  width: 189px;
+  height: 25px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0721 span {
+  font-size: 13px;
+  color: #921f22;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0722 {
+  width: 197px;
+  height: 28px;
+  left: 50%;
+  top: 280px;
+  z-index: 22;
+  margin-left: -80px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0722 .elementBox {
+  width: 197px;
+  height: 28px;
+  left: 50%;
+  top: 280px;
+  -webkit-animation: fadeInUp 1s ease 5.5s 1 both;
+  animation: fadeInUp 1s ease 5.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0722 .elementBox .element {
+  width: 197px;
+  height: 28px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0722 span {
+  font-size: 12px;
+  color: #000;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0723 {
+  width: 197px;
+  height: 28px;
+  left: 50%;
+  top: 300px;
+  z-index: 23;
+  margin-left: -80px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0723 .elementBox {
+  width: 197px;
+  height: 28px;
+  left: 50%;
+  top: 300px;
+  -webkit-animation: fadeInUp 1s ease 6s 1 both;
+  animation: fadeInUp 1s ease 6s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0723 .elementBox .element {
+  width: 197px;
+  height: 28px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0724 {
+  width: 197px;
+  height: 40px;
+  left: 50%;
+  top: 318px;
+  z-index: 24;
+  margin-left: -80px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0724 .elementBox {
+  width: 197px;
+  height: 40px;
+  left: 50%;
+  top: 318px;
+  -webkit-animation: fadeInUp 1s ease 6.5s 1 both;
+  animation: fadeInUp 1s ease 6.5s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0724 .elementBox .element {
+  width: 197px;
+  height: 40px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0801 {
+  width: 280px;
+  height: 24px;
+  left: 50%;
+  top: 122px;
+  z-index: 1;
+  margin-left: -140px;
+  transform: none;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0801 .elementBox {
+  width: 280px;
+  height: 24px;
+  left: 50%;
+  top: 122px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0801 .elementBox .element {
+  width: 280px;
+  height: 24px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0801 .line {
+  width: 280px;
+  height: 1px;
+  background-color: rgba(60, 60, 60, 0.4);
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  -webkit-filter: drop-shadow(0px 1px 0px rgba(60, 60, 60, 0.4));
+  top: 12px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0802 {
+  width: 142px;
+  height: 141px;
+  left: 50%;
+  top: 177px;
+  z-index: 2;
+  margin-left: -71px;
+  transform: none;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0802 .elementBox {
+  width: 142px;
+  height: 141px;
+  left: 50%;
+  top: 177px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0802 .elementBox .element {
+  width: 142px;
+  height: 141px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0803 {
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  top: 77px;
+  z-index: 3;
+  transform: none;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0803 .elementBox {
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  top: 77px;
+  -webkit-animation: zoomIn 1s ease 2s 1 both;
+  animation: zoomIn 1s ease 2s 1 both;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0803 .elementBox .element {
+  width: 100%;
+  height: 65px;
+}
+.phoneBox .nr .main-page .l-img .editWrapper .editArea .inside0803 span {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.phoneBox .nr .main-page .arrowBottom {
+  bottom: 10px;
+  z-index: 150;
+  margin-left: -7px;
+  width: 24px;
+  height: 14px;
+  left: 50%;
+}
+.phoneBox .nr .main-page .arrowBottom .pre-wrap {
+  width: 24px;
+  height: 14px;
+  position: relative;
+  -webkit-animation: start 1.5s infinite ease-in-out;
+  animation: start 1.5s infinite ease-in-out;
+}
+.phoneBox .nr .main-page .arrowBottom .pre-wrap .pre-box {
+  height: 15px;
+  width: 11px;
+  position: absolute;
+  top: -5px;
+  overflow: hidden;
+}
+.phoneBox .nr .main-page .arrowBottom .pre-wrap .pre-box .pre1,
+.phoneBox .nr .main-page .arrowBottom .pre-wrap .pre-box .pre2 {
+  width: 14px;
+  height: 5px;
+  position: absolute;
+  box-shadow: 1px -1px 1px #646464;
+  top: 5px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.phoneBox .nr .main-page .arrowBottom .pre-wrap .pre-box .pre1 {
+  -webkit-transform: rotate(130deg);
+  transform: rotate(130deg);
+  left: 1px;
+}
+.phoneBox .nr .main-page .arrowBottom .pre-wrap .pre-box .pre2 {
+  left: -4.5px;
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+.phoneBox .nr .main-page .arrowBottom .pre-wrap .pre-box2 {
+  left: 10px;
+}
+.phoneBox .nr .progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.phoneBox .nr .progress span {
+  width: 0px;
+  display: block;
+  height: 100%;
+  background-color: #08A1EF;
+  transition: width 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+.phoneBox .nr .progress .page-tip {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: -13px;
+  font-size: 12px;
+  font-style: normal;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+#wrapper-background {
+  background: url("../images/lastPageBg.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  background-origin: content-box;
+  width: 100%;
+  height: 100%;
+}
+.animationWobble {
+  -webkit-animation: wobble 3s ease 0s infinite both !important;
+  animation: wobble 3s ease 0s infinite both !important;
+}
+.comp_input {
+  padding: 8px !important;
+  font-size: 16px;
+}
+.comp_button {
+  width: 135px;
+  height: 36px;
+  white-space: nowrap;
+  font-size: 16px;
+  background-color: #cc2124;
+}
+textarea {
+  resize: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  line-height: 120%;
+  width: 162px;
+  height: 31px;
+}
+.z-active {
+  z-index: 2;
+  display: block;
+}
+.z-current {
+  z-index: 0;
+  display: inline-block;
+  opacity: 1;
+  /*-webkit-transition: transform 0.4s linear!important;
+  transition: transform 0.4s linear!important;
+  -webkit-transform: translateY(0px)!important;
+  transform: translateY(0px)!important;
+  transform-origin: center bottom 0px!important;
+  -webkit-transform-origin: center bottom 0px!important;*/
+}
+.rotate {
+  -webkit-animation: rotating 1.2s linear infinite;
+  -moz-animation: rotating 1.2s linear infinite;
+  -o-animation: rotating 1.2s linear infinite;
+  animation: rotating 1.2s linear infinite;
+}
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotating {
+  from {
+    -moz-transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes puffIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: none;
+  }
+}
+.puffIn {
+  -webkit-animation-name: puffIn;
+  animation-name: puffIn;
+}
+@-webkit-keyframes flash {
+  0%,
+  100%,
+  50% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes flash {
+  0%,
+  100%,
+  50% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+@-webkit-keyframes wobble {
+  0%,
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+}
+@keyframes wobble {
+  0%,
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+}
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+.flipInX,
+.flipInY {
+  -webkit-backface-visibility: visible !important;
+}
+@-webkit-keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+.flipInY {
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+@-webkit-keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+.flipInX {
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+@-webkit-keyframes start {
+  0%,
+  30% {
+    opacity: 0;
+    -webkit-transform: translate(0, 10px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -8px);
+  }
+}
+@-moz-keyframes start {
+  0%,
+  30% {
+    opacity: 0;
+    -moz-transform: translate(0, 10px);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    -moz-transform: translate(0, -8px);
+  }
+}
+@keyframes start {
+  0%,
+  30% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, -8px);
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+@keyframes bounceIn {
+  0%,
+  100%,
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes bounceIn {
+  0%,
+  100%,
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+/*textarea {
+  -webkit-user-select: auto !important;
+  -khtml-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
+  -o-user-select: auto !important;
+  user-select: auto !important;
+}*/

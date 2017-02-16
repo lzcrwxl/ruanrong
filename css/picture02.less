@@ -1,0 +1,199 @@
+/*图片管理详情*/
+.select {
+  padding: 27px 0 27px 14px;
+  background: #F2F2F2;
+}
+
+.select p {
+  line-height: 26px;
+  margin-right: 12px
+}
+
+.select ul li {
+  line-height: 26px;
+  /*&:not(:first-child) {
+    width: 48px;
+    line-height: 28px;
+    background: #f2f2f2;
+    border: 1px solid #c8c8c8;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer
+  }*/
+}
+
+.select ul .transfer {
+  width: 68px;
+}
+
+.listPic {
+  margin: 40px 8px 100px;
+  li {
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    > div {
+      display: inline-block;
+      width: 180px;
+      text-align: center;
+      border: 1px solid #DCDCDC;
+      border-radius: 5px;
+      img {
+        width: 100%;
+      }
+      p {
+        height: 38px;
+        line-height: 38px;
+        bottom: 0;
+        background: #fff;
+        width: 100%;
+        border-top: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        z-index: 900;
+
+      }
+      .infoBox {
+        span {
+          &:hover {
+            color: #f03c42;
+          }
+        }
+      }
+      input[type="checkbox"] {
+        top: 6px;
+        left: 10px;
+      }
+      .mask {
+        background: rgba(255, 255, 255, 0.84);
+        width: 100%;
+        bottom: 0;
+        z-index: 99;
+        .time {
+          margin-top: 20px;
+        }
+        .size {
+          margin-top: 15px;
+        }
+      }
+      .msize {
+        height: 115px;
+      }
+      .albumSize {
+        height: 70px;
+        line-height: 30px;
+        text-align: right;
+        span {
+          &:hover {
+            color: #f03c42;
+          }
+        }
+      }
+    }
+  }
+}
+
+.edit {
+  background: url("../images/commodity/edit.png") no-repeat right 6px;
+  background-size: 16px 16px;
+  width: 30px;
+  height: 30px;
+}
+
+.listPic .pic input {
+  left: 2px;
+  top: 2px;
+  margin: 0;
+  padding: 6px;
+  cursor: pointer
+}
+
+.listPic h3 {
+  line-height: 30px;
+}
+
+.listPic p {
+  line-height: 14px;
+}
+
+.hoverStyle {
+  left: 10px;
+  top: 0;
+  width: 140px;
+  height: 220px;
+  background: #f7f7f7;
+  padding-top: 160px;
+  display: none
+
+}
+
+.hoverStyle button {
+  width: 58px;
+  line-height: 22px;
+  border: 1px solid #c8c8c8;
+  margin: 0 5px 3px;
+  background: none;
+}
+
+.nowStyle {
+  z-index: 9;
+  width: 120px;
+}
+
+.title {
+  border: none
+}
+
+.title hr {
+  margin-bottom: 0;
+}
+
+/*相册管理*/
+.picasaTool .listPic > li {
+  border: none
+}
+
+.find p {
+  line-height: 26px;
+}
+
+.find .txt {
+  border-radius: 3px;
+  width: 166px;
+  line-height: 26px;
+  border: 1px solid #DCDCDC;
+}
+
+.find select {
+  width: 100px;
+  line-height: 26px;
+  height: 26px;
+  border: 1px solid #DCDCDC;
+  border-radius: 3px;
+  text-indent: 10px;
+}
+.module{
+  z-index: 999;
+  .transfer{
+    width: 400px;
+    height: 240px;
+    .detailInfo{
+      margin-top: 50px;
+      select{
+        width: 200px;
+      }
+    }
+  }
+  .editPhoto{
+    .transfer;
+    .detailInfo{
+      margin: 30px 0 44px;
+    }
+    input{
+      width: 200px;
+    }
+  }
+}

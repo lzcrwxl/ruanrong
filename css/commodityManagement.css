@@ -1,0 +1,87 @@
+/*商品管理*/
+
+/*所有商品*/
+.commodity{    margin: 0 40px;}
+.screen label{
+    line-height: 66px;
+    margin:0 10px 0 20px;
+}
+.screen input[type="text"]{
+    width: 158px;
+    line-height: 24px;
+    border: 1px solid #c8c8c8;
+}
+.screen input[type="search"]{
+    background: url("../images/commodity/search.png") no-repeat 10px;
+    background-size: 12px 12px;
+    width: 30px;height: 30px;
+    margin-top: 16px;
+}
+.list{font-size: 0;}
+.list p{
+    display: inline-block;;
+    background: #cdcbcb;
+    line-height: 28px;
+    margin-right: 1px;
+    text-align: center;
+    font-size: 12px;
+}
+.list-name{width: 288px;}
+.list-classify{width: 158px;}
+.list-price{width: 78px;}
+.list-inventory{width: 58px;}
+.list-status{width: 98px;}
+.list-operation{width: 128px;}
+.checkAll{
+    background: #cdcbcb;
+    line-height: 28px;
+    width: 118px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 1px;
+    height: 28px;
+}
+.checkAll label{margin: 0;vertical-align: top}
+.checkAll input{
+    margin: 10px;
+}
+/*商品信息*/
+.merchandiseNews{font-size: 0;border-bottom:1px solid #c8c8c8;height: 90px;}
+.merchandiseNews p{
+    display: inline-block;
+    font-size: 12px;
+    margin: 36px 0 46px;
+    line-height: 14px;
+}
+.list-number{
+    width: 118px;
+}
+.list-number input{
+    margin:38px 10px 0 0;
+    padding: 10px;
+}
+.merchandiseNews img{height: 60px;margin-top: 10px;}
+.merchandiseNews>ul{ margin: 36px 0 46px;}
+.merchandiseNews>ul li{width: 32px;}
+.merchandiseNews>ul li:nth-child(2){
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    text-align: center;
+    margin-right: 4px;
+}
+.title p{
+    width: 78px;
+    line-height: 38px;
+    margin-top: 10px;
+    text-align: center;
+}
+.classify{
+    width: 76px;line-height: 24px;
+    height: 24px;
+    border:1px solid #c8c8c8;
+}
+.search{margin: 20px 0 0 20px;}
+
+
+
+

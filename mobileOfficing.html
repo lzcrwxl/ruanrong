@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <title>mobileOfficing</title>
+</head>
+<body class="fn-clear">
+<!--移动办公-->
+<div id="header">
+  <div class="head-top">
+    <ul class="head-top-list">
+      <li class="dib pl15"><a href="#"><p class="f12 wh">Hi 欢迎来到软融信息中心</p></a></li>
+      <li class="dib pl30 r exit"><a href="#"><p class="f12 wh ">退出</p></a></li>
+      <li class="dib pl30 r brf arrowDown"><a href="#"><p class="f12 wh w100">在线咨询</p></a></li>
+      <li class="dib pl30 r brf arrowDown"><a href="#"><p class="f12 wh w100">企业概括</p></a></li>
+      <!--<li class="dib r pl30"><a href="#"><p class="f12 wh w50">免费注册</p></a></li>
+      <li class="dib r "><a href="#"><p class="f12 wh w50">立即登录</p></a></li>-->
+      <li class="dib pl30 r user"><a href="#"><p class="f12 wh"><img class="dib mr8" src="images/register_bf.png">用户 188888888888</p></a></li>
+    </ul>
+  </div>
+  <header class="fix">
+    <a href="index.html"><h1 class="bgwh l fix"><img src="images/logo.png" alt="logo"></h1></a>
+    <div class="fn-clear header">
+      <ul class="header-l">
+        <li class="dib"><a href="#"><p class="f18 g0">首页</p></a></li>
+        <li class="dib"><a href="#"><p class="f18 g0">自助建站</p></a></li>
+        <li class="dib"><a href="mobileOfficing.html"><p class="f18 g0">移动办公</p></a></li>
+        <li class="dib"><a href="engine.html"><p class="f18 g0">营销引擎</p></a></li>
+        <li class="dib"><a href="#"><p class="f18 g0">微传单</p></a></li>
+      </ul>
+    </div>
+  </header>
+</div>
+<!--nav-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl" style="height: 3550px;">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">移动办公</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="#" class="wh f14 bgl ">办公推荐</a></li>
+        <li><a href="#" class="wh f14 bgl ">采购</a></li>
+        <li><a href="#" class="wh f14 bgl">库存</a></li>
+        <li><a href="#" class="wh f14 bgl">财务</a></li>
+        <li><a href="#" class="wh f14 bgl">行政办公</a></li>
+        <li><a href="#" class="wh f14 bgl">人力资源</a></li>
+        <li><a href="#" class="wh f14 bgl">决策中心</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <!--header-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="mobileOfficing.html">移动办公</a>&nbsp;
+        </span>
+    </div>
+    <!--content-->
+    <div class="mainCtn mt15">
+      <img src="images/office/officeInfo.jpg" alt="移动办公宣传页" usemap="#officeInfo">
+      <map name="officeInfo" id="officeInfo">
+        <area shape="rect" coords="490,2542,596,2570" href="#" alt="ios下载">
+        <area shape="rect" coords="624,2542,730,2570" href="#" alt="Android下载">
+      </map>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer f14 ">
+    <ul>
+      <li>关于软融</li>
+      <li>帮助中心</li>
+      <li>支付方式</li>
+      <li>服务条款</li>
+      <li>推广客户</li>
+      <li>省市建站</li>
+      <li>自助建站</li>
+      <li>网站建设</li>
+    </ul>
+    <p class="g6">沪公网安备 44010502000252号  ｜  Copyright © 2010-2016  软融科技上海有限公司 沪ICP备10235580号</p>
+  </div>
+</footer>
+</body>
+<script src="js/menu.js"></script>
+<script src="js/myplugs.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(0).find("a").addClass("color-bg");
+    $('.header-l>li').eq(2).addClass('currentMenu');
+    $('.recommend li').each(function () {
+      if ($(this).hasClass('mousein')) {
+        $(this).data('id', 'selected').myAddImg();
+      }
+    })
+    $('.recommend').on('mouseenter', 'li', function () {
+      $(this).addClass('mousein').myAddImg();
+    }).on('mouseleave', 'li', function () {
+      if ($(this).data("id") == undefined) {
+        $(this).removeClass('mousein').myAddImg();
+      }
+    }).on('click', 'li', function () {
+      if ($(this).data("id") == undefined) {
+        $(this).data("id", "selected");
+      } else {
+        $(this).removeData('id').removeClass('mousein').myAddImg();
+      }
+    });
+  });
+  $('.sub-menu a').click(function () {
+    $(this).parents("ul").find("li").eq(0).find("a").removeClass("color-bg");
+    $(this).addClass("color-bg").parent().siblings().find("a").removeClass("color-bg");
+  });
+  $("#nav>li").click(function () {
+    var index = $(this).index();
+    $("#office>li").eq(index).css("display", "block").siblings().css("display", "none");
+  });
+</script>
+</html>

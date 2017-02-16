@@ -1,0 +1,176 @@
+.certTitle ul li {
+  text-align: center;
+  width: 60px;
+}
+.certTitle ul li:hover {
+  color: #f03c42;
+}
+.previewLeftBox {
+  width: 380px;
+}
+.releaseLeftBox,
+.previewLeftBox {
+  padding: 30px 0 0 20px;
+}
+.releaseLeftBox p,
+.previewLeftBox p {
+  margin-top: 23px;
+}
+.releaseLeftBox .releaseLeftBottom,
+.previewLeftBox .releaseLeftBottom {
+  margin-top: 59px;
+}
+.releaseLeftBox .ctrBox,
+.previewLeftBox .ctrBox {
+  width: 46px;
+  height: 46px;
+  background-color: #f0f0f0;
+  position: absolute;
+  right: -57px;
+}
+.releaseLeftBox .arrowUp,
+.previewLeftBox .arrowUp {
+  background: #f0f0f0 url("../images/activities/lantern/arrowUp.png") no-repeat center center;
+  top: 200px;
+}
+.releaseLeftBox .arrowDown,
+.previewLeftBox .arrowDown {
+  background: #f0f0f0 url("../images/activities/lantern/arrowDown.png") no-repeat center center;
+  top: 254px;
+}
+.releaseLeftBox .editBtn,
+.previewLeftBox .editBtn {
+  top: 333px;
+  line-height: 46px;
+}
+.releaseRightBox,
+.previewRightBox {
+  height: 800px;
+}
+.releaseRightBox .releaseTitle,
+.previewRightBox .releaseTitle {
+  margin: 28px 0 148px 20px;
+}
+.releaseRightBox .releaseContainer,
+.previewRightBox .releaseContainer {
+  margin: 0 auto;
+}
+.releaseRightBox .releaseContainer dd .download,
+.previewRightBox .releaseContainer dd .download {
+  width: 180px;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.releaseRightBox .releaseContainer dd .copyBox,
+.previewRightBox .releaseContainer dd .copyBox {
+  width: 450px;
+  height: 30px;
+  margin-top: 15px;
+  text-indent: 13px;
+  color: #b4b4b4;
+  line-height: 30px;
+  border-radius: 3px;
+}
+.releaseRightBox .releaseContainer dd .copyBox .copyBtn,
+.previewRightBox .releaseContainer dd .copyBox .copyBtn {
+  height: 28px;
+  width: 80px;
+  border: 0;
+  border-left: 1px solid #e5e5e5;
+}
+.releaseRightBox .releaseContainer .shareIcon,
+.previewRightBox .releaseContainer .shareIcon {
+  margin-top: 26px;
+}
+.releaseRightBox .releaseContainer .shareIcon a:not(:last-child),
+.previewRightBox .releaseContainer .shareIcon a:not(:last-child) {
+  margin-right: 20px;
+}
+.shareRightBox {
+  height: 840px;
+}
+.shareRightBox .shareSetDetail {
+  margin: 30px 14px 20px 25px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 35px;
+}
+.shareRightBox .shareSetDetail .detailLeft {
+  margin-right: 25px;
+}
+.shareRightBox .shareSetDetail .detailRight .wordLimit {
+  bottom: 8px;
+  right: 20px;
+}
+.shareRightBox #baseSetBox .baseTitle {
+  background: #f2f2f2;
+  line-height: 40px;
+}
+.shareRightBox #baseSetBox .baseTitle li {
+  width: 12%;
+  text-align: center;
+}
+.shareRightBox #baseSetBox .baseContent {
+  margin: 40px 25px 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+.shareRightBox #baseSetBox .baseContent h3 {
+  margin-left: 10px;
+  width: 90px;
+}
+.shareRightBox #baseSetBox .baseContent .notice div {
+  height: 50px;
+  background: url("../images/activities/lantern/notice.png") no-repeat center center;
+}
+.shareRightBox #baseSetBox .baseContent .updateFile {
+  width: 80px;
+  height: 28px;
+}
+.shareRightBox #baseSetBox .baseContent .showUrl {
+  color: #b4b4b4;
+}
+.panel {
+  width: 40px;
+  height: 486px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.panel .preview {
+  position: relative;
+  height: 70px;
+  margin-top: 173px;
+}
+.panel .next {
+  height: 73px;
+  margin-bottom: 173px;
+}
+.panel .scroll_btn {
+  width: 40px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  line-height: 70px;
+  color: #7b8893;
+}
+.panel .scroll_btn:hover {
+  background-color: #f0f3f4;
+  color: #7b8893;
+}
+.panel [class^=rr-] {
+  font-family: iconfonts !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.panel .rr-clickMore2::before {
+  content: "\e933";
+}
+.panel .rr-clickMore::before {
+  content: "\e932";
+}

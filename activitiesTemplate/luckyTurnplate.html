@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/selectivizr.js"></script>
+  <script src="../js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../css/base.css" type="text/css">
+  <link rel="stylesheet" href="../css/common02.css">
+  <!--<link href="../css/style.css" rel="stylesheet" type="text/css"/>-->
+  <link href="../css/activitiesTemplate.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="../css/luckyTurnplate.css" type="text/css"/>
+</head>
+<body>
+<div class="fn-clear mainCtn">
+  <div class="info-box fn-clear g6 mt20 bde9">
+    <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+      内容详情
+    </h3>
+    <div class="phone l rel fn-clear ovh">
+      <img src="../images/activities/turnplate/turnplate.png" alt="幸运大转盘" class="abs iPhoneContent">
+      <img src="../images/activities/turnplate/prize.png" alt="幸运大转盘" class="abs iPhoneContent dn">
+      <img src="../images/activities/iPhoneBox.png" alt="" class="iPhoneBox abs">
+    </div>
+    <div class="setting r">
+      <ul class="setingTitle fn-clear f0">
+        <li class="dib pct50 f14 tc rel undRed" id="baseOption">基础设置</li>
+        <li class="dib pct50 f14 tc rel" id="prizeOption">奖项设置</li>
+      </ul>
+      <div class="mainBox ovh" id="award-set">
+        <div class="settingDetail">
+          <ul class="baseSetting  g6">
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 asterisk rel">活动标题：</h3>
+              <input type="text" value="新春大酬宾，好礼送不停" class="bde5 pct78 f12">
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 themePg rel">主题图片：</h3>
+              <div class="bde5 pct78 f12 dib fileBox h30 lh30 rel">
+                <span>图片尺寸,640&times;300像素</span>
+                <button class="r btnradius">上传图片</button>
+                <input type="file" class="updateFile">
+              </div>
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 rel asterisk">主办单位：</h3>
+              <input type="text" placeholder="请输入公司单位的名称" class="bde5 pct78 f12">
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 rel">客服电话：</h3>
+              <input type="text" placeholder="请输入公司客服电话" class="bde5 pct78 f12">
+            </li>
+            <li class="fn-clear mb15 rel">
+              <h3 class="dib titleText f12 asterisk g6 h30 lh30">活动时间：</h3>
+              <div class="dib pct78 rel f12 g6 dataWrapper">
+                <input id="" type="date" class="f12 g6" value="2016-10-22"/>
+                &nbsp;&nbsp;&nbsp;至
+                <input id="" type="date" class="f12 g6 r" value="2016-10-29" />
+              </div>
+            </li>
+            <li class="fn-clear mb15 rel">
+              <h3 class="dib titleText f12 asterisk g6 h30 lh30">兑奖时间：</h3>
+              <div class="dib pct78 rel f12 g6 dataWrapper">
+                <input id="" type="date" class="f12 g6" value="2016-10-22"/>
+                &nbsp;&nbsp;&nbsp;至
+                <input id="" type="date" class="f12 g6 r" value="2016-10-29" />
+              </div>
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 rel">参与人数：</h3>
+              <label for="hide" class="f12 g6 mr20 ml20">隐藏</label>
+              <input type="radio" id="hide" name="switch" class="rdoClass mr30">
+              <label for="show" class="f12 g6 mr20">显示</label>
+              <input type="radio" id="show" name="switch" class="rdoClass">
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 rel"></h3>
+            <span class="f12 g6 ml103 awardTxt dib">在实际参加人数的基础上增加
+              <input type="text">人 （不参与统计）</span>
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 rel asterisk vt mt10">活动规则</h3>
+              <textarea placeholder="请输入活动规则" class="bde5 pct78 rules g6 f12 p10"></textarea>
+            </li>
+          </ul>
+          <div class="h30 lh30 tc f12 subTitle">
+            派奖方式（活动发布后将无法修改）
+          </div>
+          <ul class="baseSetting g6">
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 asterisk rel">每人抽奖机会：</h3>
+              <div class="dib">
+                <input type="radio" id="totalAward" class="rdoClass mr8" name="awdChance">
+                <label for="totalAward" class="f12 g6">总共抽奖机会</label>
+              <span class="f12 ml24 awardTxt">
+                每人最多可中
+                <input type="text">
+                次
+              </span>
+              </div>
+            </li>
+            <li class="fn-clear mb15">
+              <h3 class="dib titleText f12 rel"></h3>
+              <div class="dib">
+                <input type="radio" id="eachAward" class="rdoClass mr8" name="awdChance">
+                <label for="eachAward" class="f12 g6">每日抽奖机会</label>
+              <span class="f12 ml24 awardTxt">
+                每人最多可中
+                <input type="text">
+                次
+              </span>
+              </div>
+            </li>
+            <li class="fn-clear mt40">
+              <h3 class="dib titleText f12 asterisk rel">每人中奖次数：</h3>
+              <span class="f12 awardTxt">
+                每人最多可中
+                <input type="text">
+                次
+              </span>
+            </li>
+          </ul>
+          <div class="tc f12 submitBtn mt33 mb80">
+            <button class="mr40 f12 g6 save">保存</button>
+            <button class="f12 g6 cancel">取消</button>
+          </div>
+        </div>
+        <div class="settingDetail dn">
+          <ul class="settingPrizeTitle">
+            <li data-id="prize01" class="dib themeRed f14 poi">
+              奖项1
+            </li>
+            <li data-id="prize02" class="dib g6 f14 poi">
+              奖项2
+            </li>
+            <li data-id="prize03" class="dib g6 f14 poi">
+              奖项3
+            </li>
+            <li data-id="prize04" class="dib g6 f14 poi">
+              奖项4
+            </li>
+            <li data-id="prize" class="g6 f14 r">
+              <i class="minus mr10"></i>
+              <i class="plus"></i>
+            </li>
+          </ul>
+          <div class="prizeBox">
+            <ul class="prizeSetting g6">
+              <li class="fn-clear mb15">
+                <h3 class="dib titleText f12 asterisk rel">奖项名称：</h3>
+                <input type="text" value="一等奖" class="bde5 pct78 f12">
+              </li>
+              <li class="fn-clear mb15">
+                <h3 class="dib titleText f12 rel ">奖品名称：</h3>
+                <input type="text" placeholder="iphone7s" class="bde5 pct78 f12">
+              </li>
+              <li class="fn-clear mb15">
+                <h3 class="dib titleText f12 rel asterisk">奖品数量：</h3>
+                <input type="number" min="0" placeholder="1" class="bde5 pct78 f12">
+              </li>
+              <li class="fn-clear mb15">
+                <h3 class="dib titleText f12 rel">兑奖方式：</h3>
+                <input type="radio" id="online" name="switch" class="rdoClass">
+                <label for="online" class="f12 g6 mr20 ml10">线上兑奖</label>
+                <input type="radio" id="offline" name="switch" class="rdoClass">
+                <label for="offline" class="f12 g6 ml10">线下兑奖</label>
+              </li>
+              <li class="fn-clear mb15">
+                <h3 class="dib titleText f12 rel ">中奖概率：</h3>
+                <input type="number" min="0" max="100" value="10" class="bde5 f12 g6 percent">&nbsp;<span
+                class="f12 g6">&nbsp;%</span>
+              </li>
+            </ul>
+          </div>
+          <div class="tc f12 submitBtn mt88 mb80">
+            <button class="mr40 f12 g6 save">保存</button>
+            <button class="f12 g6 cancel">取消</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../js/jquery.js"></script>
+<script>
+  //奖项设置
+  $(function () {
+    $(".setingTitle>li").on('click', function () {
+      $(this).addClass('undRed').siblings('.undRed').removeClass('undRed');
+      var award = $(this).index();
+      $("#award-set .settingDetail").eq(award).show().siblings('.settingDetail').hide();
+      $(".phone .iPhoneContent").eq(award).show().siblings('.iPhoneContent').hide();
+    });
+    $('.settingPrizeTitle').on('click', 'li:not(:last-child)', function () {
+      $(this).addClass('themeRed').siblings('.themeRed').removeClass('themeRed');
+    })
+    $('.settingPrizeTitle').on('click', 'i', function () {
+      $(this).addClass('themebdRed').siblings('.themebdRed').removeClass('themebdRed');
+      let i = $(this).parent('li').index();
+      if ($(this).hasClass('minus')) {
+        $(this).addClass('minRed').siblings().removeClass('addRed');
+        i == 0 && $(this).unbind();
+        $(this).parent('li').prev().remove('li');
+        let  eq=$(`.prizeBox .prizeSetting:eq(${i-1})`);
+        eq.remove()
+      }
+      else if ($(this).hasClass('plus')) {
+        $(this).addClass('addRed').siblings().removeClass('minRed');
+        let html = `
+         <li class="dib g6 f14 poi">奖项${i + 1}</li>
+         `;
+        $(this).parent('li').before(html);
+        $(`.prizeBox`).append($($(`.prizeSetting`)[0]).clone());
+      }
+    })
+  })
+</script>
+</html>

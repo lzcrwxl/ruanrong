@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+          type="text/css"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/selectivizr.js"></script>
+    <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/info.css" type="text/css">
+    <link rel="stylesheet" href="css/systemInfo.css">
+    <link rel="stylesheet" href="css/my.css" type="text/css">
+    <title>systemInfo</title>
+  </head>
+<body class="fn-clear">
+<!--文章管理界面-->
+<!--nav-->
+<div id="header"></div>
+
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">个人信息</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="info.html" class="wh f14 bgl ">个人资料</a></li>
+        <li><a href="password.html" class="wh f14 bgl ">修改密码</a></li>
+        <li><a href="systemInfo.html" class="wh f14 bgl">系统消息</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <!--header-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20 g1e">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">个人信息</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">系统消息</span>
+        </span>
+    </div>
+    <div class="mainCtn">
+      <div class="info-box fn-clear g6 mr20 mt20 bde9" data-id="delete">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15 mb10">
+          <span class="g1e">消息列表</span>
+          <span class="r h26 lh11 btnDelete tc f12 poi bde6 abs" data-id="delete" onclick="$(this).myDelete(this)">删除</span>
+        </h3>
+        <ul class="systemList">
+          <li class="listDetail infoCtn dib">
+            <input type="checkbox" class="chkClass">
+            <label class="dib text f14 td20 ml10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cumque ducimus hic suscipit vitae. Molestiae nam neque similique! Accusantium alias animi cumque ducimus pariatur quae quia, quos vel voluptates! Itaque.</label>
+          </li>
+          <li class="dib postTime  f12">
+            2016-11-11 11:11:11
+          </li>
+          <li class="operate r dib f12 poi" data-id="view" onclick="$(this).myPopup(this)">
+            查看
+          </li>
+        </ul>
+        <ul class="systemList mb30">
+          <li class="listDetail infoCtn dib">
+            <input type="checkbox" class="chkClass">
+            <label class="dib text f14 td20 ml10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cumque ducimus hic suscipit vitae. Molestiae nam neque similique! Accusantium alias animi cumque ducimus pariatur quae quia, quos vel voluptates! Itaque.</label>
+          </li>
+          <li class="dib postTime  f12">
+            2016-11-11 11:11:11
+          </li>
+          <li class="operate r dib f12 poi">
+            查看
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<div class="module dn">
+  <!--解绑当前用户-->
+  <div class="popup f14 fix systempop rel dn" data-id="view">
+    <div class="popup-title tl f14 g2e">
+      系统消息
+    </div>
+    <div class="popup-main">
+      <p class="mb30 time f12 g6">时间：2016-11-11 17:13</p>
+      <p class="g6 mb15">1. 不忘初心，方得始终”其大意是说做事不要忘记自己最初的信念，坚持到底一定能够取得成就。</p>
+      <p class="g6 mb15">2. 不忘初心，方得始终”其大意是说做事不要忘记自己最初的信念，坚持到底一定能够取得成就。</p>
+      <p class="g6 mb15">3. 不忘初心，方得始终”其大意是说做事不要忘记自己最初的信念，坚持到底一定能够取得成就。  </p>
+    </div>
+    <div class="mb20 tc abs btmBtn">
+      <button class=" f16 btnInfo bradius bgred wh poi" data-id="close" onclick="$(this).myClose()">关闭</button>
+    </div>
+  </div>
+</div>
+<footer></footer>
+<!--遮罩层-->
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(2).find("a").addClass("color-bg");
+    $('.header-l>li').eq(0).addClass('currentMenu');
+  });
+  //    全选反选
+  $("#selectAll").click(function () {
+    if (this.checked) {
+      $("#list :checkbox").prop("checked", true);
+    } else {
+      $("#list :checkbox").prop("checked", false);
+    }
+  });
+  //    删除
+  $("#delete").click(function () {
+    $("input[name='test']:checked").each(function () { // 遍历选中的checkbox
+      n = $(this).parents("li").index();  // 获取checkbox所在行的顺序
+      $("#list").find("li:eq(" + n + ")").remove();
+    });
+  })
+  $('#close').click(function () {
+    $('.module').css('display', 'none');
+  })
+</script>
+<!--分页效果-->
+</body>
+</html>

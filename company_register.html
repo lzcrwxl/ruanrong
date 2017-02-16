@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/company_register.css" type="text/css">
+    <title>company_register</title>
+</head>
+<body class="fn-clear">
+<!--信息登记页面-->
+<!--nav-->
+<div class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">企业账号<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="#" class="wh f14 b1e ">企业认证</a></li>
+            <li><a href="company_succeed.html" class="wh f14 b1e">企业信息</a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 re6">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 g9">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><a href="#"><p class="f14 rfc">欢迎来到软融科技</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业概括</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业咨询</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">退出</p></a></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <div class="path">
+        <h2 class="f14 dib">您的当前位置&nbsp:&nbsp</h2>
+        <span class="f14 g6">
+                <a class="g6" href="#">企业账号</a>
+                >
+                <span>企业认证</span>
+            </span>
+    </div>
+    <!--信息登记-->
+    <div class="authentication">
+        <ul>
+            <li class="f14 red dib rel register">信息登记 </li>
+            <li class="f14 g6 dib rel">信息审核   </li>
+            <li class="f14 g6 dib rel">审核结果 </li>
+        </ul>
+        <h3 class="f14 g3">主体信息登记</h3>
+        <form>
+            <div>
+                <label class="f12 g6 db" for="enterprise">企业名称：</label>
+                <input class="f12 g6 dib" id="enterprise" type="text">
+                <p class="f12 g9 dib">请输入企业名字</p>
+            </div>
+            <div>
+                <label class="f12 g6 db" for="account">对公账户：</label>
+                <input class="f12 g6 dib" id="account" type="text">
+            </div>
+            <div>
+                <label class="f12 g6 db" for="bank">开户支行：</label>
+                <input class="f12 g6 dib" id="bank" type="text">
+            </div>
+            <div>
+                <label class="f12 g6 db" for="registration">营业执照注册号：</label>
+                <input class="f12 g6 dib" id="registration" type="text">
+            </div>
+            <div class="rel">
+                <label class="f12 g6 db" for="license">营业执照：</label>
+                <button class="show f12 g6 abs" value=""></button>
+                <input onchange="show(1,this)" class="f12 g6 dib file" id="license" type="file" value="" >
+            </div>
+            <div>
+                <label class="f12 g6 db" for="license">经营范围：</label>
+               <textarea></textarea>
+            </div>
+            <h3 class="f14 g3">联系人信息登记</h3>
+            <div>
+                <label class="f12 g6 db" for="name">姓名：</label>
+                <input class="f12 g6 dib" id="name" type="text">
+            </div>
+            <div class="rel">
+                <label class="f12 g6 db" for="card">身份证：</label>
+                <button class="show f12 g6 abs" value=""></button>
+                <input onchange="show(2,this)"  class="f12 g6 dib card" id="card" type="file" value="" >
+                <!--<button class="f12 g6 abs gain "  type="button" value="浏览..."></button>-->
+            </div>
+            <div>
+                <label class="f12 g6 db" for="phone">手机号：</label>
+                <input class="f12 g6 dib" id="phone" type="text">
+                <button class="f12 g6 dib">获取验证码</button>
+                <p class="f12 g9 dib"><em class="rff">60秒</em>后可重获验证码</p>
+            </div>
+            <div>
+                <label class="f12 g6 db" for="code">短信验证码</label>
+                <input class="f12 g6 dib" id="code" type="text">
+                <p class="f12 g9 dib">请正确输入验证码</p>
+            </div>
+            <a href="company_audit.html"><input class="f12 g6" type="button" value="下一步"></a>
+        </form>
+    </div>
+    <!--content-->
+</div>
+<!--下拉菜单-->
+<script src="js/jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".sub-menu").css('display','none');
+        $(".sub-menu").eq(0).css('display','block');
+        $(".sub-menu>li").eq(0).find("a").addClass("color-bg");
+        $('.menu-click').click(function() {
+            $(this).siblings().find("span").removeClass("menu-down");
+            $(this).parent().find('.sub-menu').slideToggle().end().siblings().find('.sub-menu').hide();
+            $(this).parent().find(".sub-menu").find("li").eq(0).find("a").addClass("color-bg").end().siblings().find("a").removeClass("color-bg");
+            $(this).parent().find("span").toggleClass("menu-down");
+        });
+        $('.sub-menu a').click(function(){
+            $(this).parents("ul").find("li").eq(0).find("a").removeClass("color-bg");
+            $(this).addClass("color-bg").parent().siblings().find("a").removeClass("color-bg");
+        });
+    });
+</script>
+<!--下拉菜单 end-->
+<!--显示文件名-->
+<script type="text/javascript">
+//    function c(i,th){
+//        var inf = document.getElementsByClassName('file');
+//          if(i==1){
+//              inf[0].innerHTML = "<font color='#666'> "+th.value.split('\\').pop()+"</font>";
+//          }else{
+//              inf[1].innerHTML = "<font color='#666'> "+th.value.split('\\').pop()+"</font>";
+//          }
+//
+//    }
+function show(i,obj){
+    var name=document.getElementsByClassName('show');
+    var str=obj.value;
+    console.log(name);
+    if(i==1){
+        name[0].innerHTML=str;
+    }else{
+        name[1].innerHTML=str;
+    }
+}
+</script>
+<!--显示文件名 end-->
+</body>
+</html>

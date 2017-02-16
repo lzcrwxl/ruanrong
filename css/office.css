@@ -1,0 +1,44 @@
+/*移动办公*/
+.recommend{margin: 8px 14px 0}
+.recommend li{
+    text-align: center;
+    width: 76px;
+    margin: 18px 22px;
+}
+.recommend li .pic{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border:1px solid #9a9a9a;
+}
+.recommend li .pic img{
+    width: 58px;
+    height: 46px;
+    margin-top: 15px;
+}
+.recommend li p{
+    line-height: 18px;
+    margin-top: 2px;
+}
+/*签到*/
+.signIn{
+    margin-left: 34px;
+    width: 824px;
+}
+.signIn h2{
+    border-bottom: 2px solid #c8c8c8;
+    position: relative;
+    line-height: 32px;
+    margin: 10px 0 16px;
+}
+.signIn h2:after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #fc0404;
+    position: absolute;
+    bottom: -2px;left: 0;
+}
+
+
+

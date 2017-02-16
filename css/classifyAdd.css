@@ -1,0 +1,37 @@
+/*分类管理新增*/
+.addCon{ margin:-8px 0 0 40px;}
+.classifyName input,.choose select,.sort input{
+    width: 318px;
+    line-height: 24px;
+    height: 24px;
+    border:1px solid #e6e6e6;
+    box-shadow:inset 0 1px 1px #f7f7f7;
+    -moz-box-shadow:inset 0 1px 1px #f7f7f7;
+    -webkit-box-shadow:inset 0 1px 1px #f7f7f7;
+    -o-box-shadow:inset 0 1px 1px #f7f7f7;
+    -ms-box-shadow:inset 0 1px 1px #f7f7f7;
+    text-indent: 8px;
+}
+label{margin: 30px 0 10px;}
+.choose p{
+    line-height: 24px;
+    margin-left: 20px;
+}
+.sort input{width: 140px;}
+.sort p{line-height: 24px;margin-left: 202px;}
+.submit{
+    line-height: 24px;width: 140px;
+    border:1px solid #e6e6e6;
+    margin-top: 30px;
+}
+.title{border:none}
+.title hr{margin-left:155px; width: 774px;margin-bottom: 0;}
+.title p{
+    width: 78px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    cursor:pointer;
+}
+

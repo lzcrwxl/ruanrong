@@ -1,0 +1,32 @@
+.setting ul {
+  padding-left: 27px;
+  height: 66px;
+}
+.setting ul:not(:last-child) {
+  border-bottom: 1px solid #F2F2F2;
+}
+.setting ul li {
+  height: 100%;
+}
+.setting ul .setTitle {
+  border-right: 1px solid #F2F2F2;
+  padding-right: 40px;
+}
+.setting ul .setTitle div {
+  line-height: 66px;
+}
+.setting ul .setTitle div input {
+  top: 23px;
+}
+.setting ul .list {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 30px 16px;
+}
+.setting ul .list label {
+  margin-left: 3px;
+}
+.setting ul span {
+  display: inline-block;
+}

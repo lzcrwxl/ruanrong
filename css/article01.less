@@ -1,0 +1,107 @@
+.headline p, .article p {
+  display: inline-block;
+  text-align: center
+}
+
+.article {
+}
+
+.article .list {
+  line-height: 30px;
+  margin-top: 20px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.headline {
+    padding: 14px 0;
+    background: #f2f2f2;
+}
+
+.list input {
+  width: 30px;
+  margin: 0;
+  cursor: pointer
+}
+
+.sort {
+  width: 124px;
+  input{
+    margin-top: 0;
+  }
+}
+
+.caption {
+  width: 334px;
+}
+
+.classify {
+  width: 162px;
+}
+
+.reveal {
+  width: 80px;
+}
+
+.time {
+  width: 164px;
+}
+
+.operation {
+}
+
+.title {
+  border: none
+}
+
+.title hr {
+  margin-bottom: 10px;
+}
+
+
+
+
+table {
+  width: 100%;
+  thead {
+    tr {
+      background: #f2f2f2;
+      color: #434343;
+      height: 40px;
+      th {
+        text-align: center;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:not(:last-child) {
+        border-bottom: 1px solid #DCDCDC;
+      }
+      td {
+        &:not(:last-child) {
+          border-right: 1px solid #DCDCDC;
+        }
+        height: 50px;
+        &:first-child {
+          text-align: left;
+          padding-left:17px;
+        }
+        span{
+          &:hover{
+            color:#f03c42;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link href="css/login02.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <title>register</title>
+</head>
+<body>
+<div class="header" style="height: 87px">
+    <div class="logo">
+        <a><img src="images/logo.png"></a>
+        <h1 class="f20 gray_6">软融，助力企业成长</h1>
+    </div>
+    <div class="header_login">
+        <a href="register.html" class="f18 gray_white"><p>免费注册</p></a>
+        <a href="login.html"><p class="f18 gray_6">登录</p></a>
+    </div>
+</div>
+<!--banner-->
+<div class="banner tc">
+    <img src="images/index/registerBar.jpg">
+</div>
+<div class="mauto">
+    <div class="total fn-clear">
+        <div class="l">
+            <p class="f24 g42 dib">我们已累计为</p>
+            <ul class="dib">
+                <li class="f30 wh bGreen">1</li>
+                <li class="f30 wh bGreen">1</li>
+                <li class="f30 wh bGreen">1</li>
+                <li class="f30 wh bGreen">6</li>
+                <li class="f30 wh bBl">6</li>
+                <li class="f30 wh bBl">0</li>
+                <li class="f30 wh bBl">5</li>
+                <li class="f30 wh bBl">3</li>
+            </ul>
+            <p class="f24 g42 dib">个网站提供服务</p>
+        </div>
+        <div class="share r">
+            <a><img src="images/weixin.png"></a>
+            <a><img src="images/phone.png"></a>
+            <a><img src="images/guanzhu.png"></a>
+            <a><img src="images/weibo.png"></a>
+            <a><img src="images/note.png"></a>
+        </div>
+    </div>
+    <div class="regis_box">
+        <div class="phone_num">
+            <h2 class="f20 g0 "> 手机号码/邮箱 :</h2>
+            <input type="text" class="enter" placeholder="请输入您的手机号码/邮箱">
+        </div>
+        <div class="phone_num">
+            <h2 class="f20 g0">验证码 :</h2>
+            <input type="text" class="enter enterlf" style="width:292px;">
+            <input type="button" class="phone_btn f18 g96" value="发送验证码">
+        </div>
+        <div class="phone_num">
+            <h2 class="f20 g0">密&nbsp&nbsp&nbsp码 :</h2>
+            <input type="password" class="enter" placeholder="请输入您的密码">
+        </div>
+        <div class="way">
+            <h2 class="f18 g3c">网站用途</h2>
+            <input id="website" type="radio" class="rdoClass rel mr5" name="usage">
+            <label for="website" class="f14">企业/组织官网</label>
+            <input  id="generalize"  type="radio" class="rdoClass rel mr5" name="usage">
+            <label for="generalize" class="f14">推广产品</label>
+            <input id="shops" type="radio" class="rdoClass rel mr5" name="usage">
+            <label for="shops"  class="f14">在线商城</label>
+            <input  id="issue"  type="radio" class="rdoClass rel mr5" name="usage">
+            <label for="issue" class="f14">发布信息</label>
+            <input id="personal"  type="radio" class="rdoClass rel mr5" name="usage">
+            <label for="personal" class="f14">个人网站</label>
+            <input id="other" type="radio" class="rdoClass rel mr5" name="usage">
+            <label for="other"  class="f14" >其他</label>
+        </div>
+        <div class="agree rel">
+            <input id="agree" type="checkbox" class="chkClass">
+            <label for="agree" class="f16 g97">我同意服务条款/法律声明</label>
+        </div>
+        <div class="free_regis tc">
+            <button  class="f24 gray_white">免 费 注 册</button>
+        </div>
+        <h2 class="f18 g0 login">我已经注册，立即 <a class="rfa" href="login.html">登录</a></h2>
+    </div>
+</div>
+
+<footer></footer>
+<script src="js/menu.js"></script>
+<script>
+//    <!--注册表单鼠标事件-->
+    $(document).ready(function(){
+        $('.regis_box input').mouseover(function () {
+            $(this).addClass('enterBor')
+        })
+        $('.regis_box input').mouseout(function () {
+            $(this).removeClass('enterBor')
+        })
+//        同意协议
+        $('.agree').click(function(){
+            $(this).find('a').toggleClass('clickBtn')
+        })
+    })
+</script>
+</body>
+</html>

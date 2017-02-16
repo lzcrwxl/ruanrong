@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <link rel="stylesheet" href="css/certificate.css" type="text/css">
+  <title>companyCertificate</title>
+</head>
+<body class="fn-clear">
+<!--企业认证页面-->
+<!--nav-->
+<div id="header"></div>
+<!--<div class="head-top">
+  <ul class="head-top-list">
+    <li class="dib pl15"><a href="#"><p class="f12 wh">Hi 欢迎来到软融信息中心</p></a></li>
+    <li class="dib r"><a href="#"><p class="f12 wh ">退出</p></a></li>
+    <li class="dib r"><a href="#"><p class="f12 wh w100">企业概括</p></a></li>
+    <li class="dib r"><a href="#"><p class="f12 wh w100">企业咨询</p></a></li>
+    <li class="dib r"><a href="#"><p class="f12 wh w50">免费注册</p></a></li>
+    <li class="dib r"><a href="#"><p class="f12 wh w50">立即登录</p></a></li>
+  </ul>
+</div>
+<header class="fix">
+  <a href="index.html"><h1 class="bgwh l fix"><img src="images/logo.png" alt="logo"></h1></a>
+  <div class="fn-clear header">
+    <ul class="header-l">
+      <li class="dib"><a href="#"><p class="f18 g0">首页</p></a></li>
+      <li class="dib"><a href="#"><p class="f18 g0">自助建站</p></a></li>
+      <li class="dib current"><a href="#"><p class="f18 ">移动办公</p></a></li>
+      <li class="dib"><a href="engine.html"><p class="f18 g0">营销引擎</p></a></li>
+      <li class="dib"><a href="#"><p class="f18 g0">微传单</p></a></li>
+    </ul>
+  </div>
+</header>-->
+
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">企业用户管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="#" class="wh f14 bgl ">企业认证</a></li>
+        <li><a href="#" class="wh f14 bgl ">角色</a></li>
+        <li><a href="#" class="wh f14 bgl">部门管理</a></li>
+        <li><a href="#" class="wh f14 bgl">操作日志</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <!--header-->
+    <!--header end-->
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">商业平台</a>
+                &nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="#">移动办公</a>
+                &nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+                <span class="rfa">企业认证</span>
+        </span>
+    </div>
+    <!--尚未认证-->
+    <div class="mainCtn">
+      <div class="certInProgress bde9 mt40 dn">
+        <div class="certIcon iconApprove mt30"></div>
+        <p class="tc f18 mb50">您还尚未认证，请 <a href="#" class="rfa tdl">立即认证</a></p>
+      </div>
+      <!--认证进度-->
+      <div class="bde9 certProgress mt20">
+        <!--认证成功-->
+        <div class="dn">
+          <div class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9">
+            认证进度
+          </div>
+          <div class="certWidget bgf5 fix">
+            <div class="progressBar rel">
+              <div class="widgetBar abs f0">
+                <span class="dib"></span>
+                <span class="dib"></span>
+                <span class="dib"></span>
+              </div>
+              <span class="progressCircle tc f16">1</span>
+              <span class="progressCircle tc f16">2</span>
+              <span class="progressCircle tc f16">3</span>
+            </div>
+            <p class="f0">
+              <span class="dib f16 tc">信息登记</span>
+              <span class="dib f16 tc">信息审核</span>
+              <span class="dib f16 tc">审核结果</span>
+            </p>
+          </div>
+          <div class="certTips">
+            <div class="certIcon mt30 iconSucc"></div>
+            <p class="tc f22 mb50">恭喜您审核通过，认证成功!</p>
+          </div>
+        </div>
+        <!--认证失败-->
+        <div class="certFailed dn">
+          <div class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9">
+            认证进度
+          </div>
+          <div class="certWidget bgf5 fix">
+            <div class="progressBar rel">
+              <div class="widgetBar abs f0">
+                <span class="dib"></span>
+                <span class="dib"></span>
+              </div>
+              <span class="progressCircle tc f16">1</span>
+              <span class="progressCircle tc f16">2</span>
+              <span class="progressCircle tc f16">3</span>
+            </div>
+            <p class="f0">
+              <span class="dib f16 tc">信息登记</span>
+              <span class="dib f16 tc">信息审核</span>
+              <span class="dib f16 tc redInfoColor">审核结果</span>
+            </p>
+          </div>
+          <div class="certTips">
+            <div class="certIcon mt30 iconSucc"></div>
+            <p class="tc f22 mb50">认证失败，请您重新填写！</p>
+          </div>
+        </div>
+        <!--信息登记-->
+        <div class="certRegister dn">
+          <div class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9">
+            认证进度
+          </div>
+          <div class="certWidget bgf5 fix">
+            <div class="progressBar rel">
+              <div class="widgetBar abs f0">
+                <span class="dib"></span>
+              </div>
+              <span class="progressCircle tc f16">1</span>
+              <span class="progressCircle tc f16">2</span>
+              <span class="progressCircle tc f16">3</span>
+            </div>
+            <p class="f0">
+              <span class="dib f16 tc">信息登记</span>
+              <span class="dib f16 tc">信息审核</span>
+              <span class="dib f16 tc">审核结果</span>
+            </p>
+          </div>
+        </div>
+        <!--正在审核-->
+        <div class="certAudit">
+          <div class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9">
+            认证进度
+          </div>
+          <div class="certWidget bgf5 fix">
+            <div class="progressBar rel">
+              <div class="widgetBar abs f0">
+                <span class="dib"></span>
+                <span class="dib"></span>
+              </div>
+              <span class="progressCircle tc f16">1</span>
+              <span class="progressCircle tc f16">2</span>
+              <span class="progressCircle tc f16">3</span>
+            </div>
+            <p class="f0">
+              <span class="dib f16 tc">信息登记</span>
+              <span class="dib f16 tc">信息审核</span>
+              <span class="dib f16 tc">审核结果</span>
+            </p>
+          </div>
+          <div class="certTips">
+            <div class="certText">
+              <div class="certIcon mt30 iconLoading dib"></div>
+              <div class="dib tl ml20">
+                <p class="mb10 f24">资料已成功提交&nbsp;,&nbsp;正在审核中...</p>
+                <h2 class="f14">我们将会尽快处理您的认证资料，审核结果会及时通知您</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--企业信息-->
+      <div class="certInfo bde9 mt20 dn">
+        <div class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9">
+          认证信息
+        </div>
+        <div class="certDetail">
+          <h3 class="pl15 mt30 mb20">企业信息</h3>
+          <ul class="ml150 mr150 companyInfo">
+            <li class="mb30">
+              <h4 class="dib f14 mr30">企业名称：</h4>
+              <span class="dib f14 g94">上海悦达有限公司</span>
+            </li>
+            <li class="mb30">
+              <h4 class="dib f14 mr30">对公账户：</h4>
+              <span class="dib f14 g94">0200200000202020</span>
+            </li>
+            <li class="mb30">
+              <h4 class="dib f14 mr30">开户支行：</h4>
+              <span class="dib f14 g94">招商银行</span>
+            </li>
+            <li class="mb30">
+              <h4 class="dib f14 mr30">营业执照注册号：</h4>
+              <span class="dib f14 g94">沪0002106234239</span>
+            </li>
+            <li class="mb30">
+              <h4 class="dib f14 mr30">请上传营业执照：</h4>
+              <img src="images/certificate/license.png" alt="">
+            </li>
+          </ul>
+          <h3 class="pl15 mt30 mb20">联系人信息</h3>
+          <ul class="ml150 mr150 mb50 fix">
+            <li class="mb30">
+              <h4 class="dib f14 mr30">个人姓名：</h4>
+              <span class="dib f14 g94">李扶胜</span>
+            </li>
+            <li class="mb30">
+              <h4 class="dib f14 mr30">手机号码：</h4>
+              <span class="dib f14 g94">0200200000202020</span>
+            </li>
+            <li class="mb30">
+              <h4 class="dib f14 mr30">身份证件：</h4>
+              <img src="images/certificate/id_front.png" alt="" class="mr15">
+              <img src="images/certificate/id_back.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--企业信息填写-->
+      <div class="certInfo bde9 certInfoRegister clt">
+        <div class="certDetail clt">
+          <h3 class="pl15 mt30 mb20">企业信息</h3>
+          <ul class="ml150 mr150 companyInfo">
+            <li class="mb20">
+              <h4 class="dib f14 pct12">企业名称：</h4>
+              <input class="dib f14 g94 pct88" placeholder="请输入您的企业名称">
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct12">对公账户：</h4>
+              <input class="dib f14 g94 pct88" placeholder="">
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct12">开户支行：</h4>
+              <input class="dib f14 g94 pct88" placeholder="请输入您的开户支行">
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct20">营业执照注册号：</h4>
+              <input class="dib f14 g94 pct80" placeholder="请输入您的营业执照注册号">
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct20">请上传营业执照：</h4>
+              <input class="dib f14 g94 pct70 inputLf" placeholder="">
+              <button class="f14 pct10 tc lh30 h30 btnLinear" onclick="upCert.click()">浏览…<input type="file" id="upCert"></button>
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct12 vt">经营范围：</h4>
+              <textarea class="dib f14 g94 pct88 h150 p15"></textarea>
+            </li>
+          </ul>
+          <h3 class="pl15 mt30 mb20">联系人信息</h3>
+          <ul class="ml150 mr150 mb30 fix">
+            <li class="mb20">
+              <h4 class="dib f14 pct12">个人姓名：</h4>
+              <input class="dib f14 g94 pct48" placeholder="请输入您的姓名">
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct12">身份证件：</h4>
+              <input class="dib f14 g94 pct38 inputLf" placeholder="请上传您的身份证件">
+              <button class="f14 pct10 tc lh30 h30 btnLinear" onclick="upId.click()">浏览…<input type="file" id="upId"></button>
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct12">手机号码：</h4>
+              <input class="dib f14 g94 pct34 inputLf" placeholder="请上传您的手机号码">
+              <button class="f14 pct14 tc lh30 h30 rel btnLinear">获取验证码</button>
+            </li>
+            <li class="mb20">
+              <h4 class="dib f14 pct12">短信验证：</h4>
+              <input class="dib f14 g94 pct48" placeholder="请输入6位验证码">
+            </li>
+          </ul>
+          <div class="tc mb50">
+            <button type="button" class="btn btn-danger redInfobg wh w120">提交资料</button>
+          </div>
+        </div>
+      </div>
+      <!--认证失败-->
+      <div class="tc mt30 dn">
+        <button type="button" class="btn btn-danger redInfobg w120">重新认证</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--尾部-->
+<footer></footer>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(0).find("a").addClass("color-bg");
+    $('.header-l>li').eq(2).addClass('currentMenu');
+  });
+  //    全选反选
+  $("#selectAll").click(function () {
+    if (this.checked) {
+      $("#list :checkbox").prop("checked", true);
+    } else {
+      $("#list :checkbox").prop("checked", false);
+    }
+  });
+  //    删除
+  $("#delete").click(function () {
+    $("input[name='test']:checked").each(function () { // 遍历选中的checkbox
+      n = $(this).parents("li").index();  // 获取checkbox所在行的顺序
+      $("#list").find("li:eq(" + n + ")").remove();
+    });
+  })
+  $('#close').click(function () {
+    $('.module').css('display', 'none');
+  })
+  $('[data-id="confirm"]').click(function () {
+    var editName = $(this).parents('.popup-main').find('input').val();
+    $(this).myClose();
+    var i = $(this).parents('[data-id="editDep"]').data('index');
+    $('ul.baseList').eq(i).children('li.depName').html(editName);
+  });
+</script>
+<!--分页效果-->
+</body>
+</html>

@@ -1,0 +1,33 @@
+label {
+  margin-bottom: 0;
+}
+.col-dep-2 i {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  line-height: 15px;
+}
+.col-dep-2 span {
+  padding-left: 10px;
+}
+.subCol-dep-1 {
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid #959AAE;
+  border-bottom: 1px solid #959AAE;
+}
+.depManagement .parameterList {
+  padding-left: 61px;
+}
+.depManagement .baseList {
+  padding-right: 45px;
+}
+.depManagement .l1 {
+  padding-left: 45px;
+}
+.depManagement .l2 {
+  padding-left: 126px;
+}
+.depManagement .l3 {
+  padding-left: 203px;
+}

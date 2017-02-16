@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/commodityManagement02.css">
+  <title>showCommodity</title>
+</head>
+<body>
+<!--分类设置-->
+<div id="header"></div>
+<!--商品管理页面-->
+<!--nav-->
+<!--nav end-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">素材管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <div>
+        <ul class="articleMenu f14">
+          <li><a href="#" class="wh f14 bgl ">基础配置</a></li>
+          <li>
+            <a href="#" class="wh f14 bgl menu-click">销售商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="commodityManagement.html" class="themeRed">商品管理</a></li>
+              <li><a href="classify.html" class="">分类管理</a></li>
+              <li><a href="parameter.html">参数管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">展示商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="showAdd.html" class="themeRed">商品管理</a></li>
+              <li><a href="showClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">图片<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="picture.html" class="">图片管理</a></li>
+              <li><a href="picasaTool.html" class="">相册管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">文章<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="article.html" class="">文章管理</a></li>
+              <li><a href="articleClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="r main">
+    <!--header-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">素材管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="#">展示商品</a>&nbsp;
+          <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">商品管理</span>
+        </span>
+    </div>
+    <!--header end-->
+    <!--当前位置-->
+    <!--当前位置 end-->
+    <!--商品管理详情-->
+    <div class="selCommodity fn-clear f0">
+      <span class="poi pct50 tc dib f14 g6 themeRed">所有商品</span>
+      <span class="poi pct50 tc dib f14 g6 ">我的仓库</span>
+    </div>
+    <div class="fn-clear mainCtn">
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15 g1e">
+          商品管理
+          <a class="r addUser pr15 poi g6" href="showAdd.html">
+            新增商品
+          </a>
+        </h3>
+        <!--所有商品-->
+        <div class="screen">
+          <ul class="dib">
+            <li class="dib">
+              <label class="f12 g6 dib" for="name">商品名称:</label>
+              <input class="f12 g6 dib" type="text" id="name">
+            </li>
+            <li class="dib">
+              <label class="f12 g6 dib" for="id">商品ID：</label>
+              <input class="f12 g6 dib" type="text" id="id">
+            </li>
+          </ul>
+          <ul class="dib">
+            <li class="dib">
+              <label class="f12 g6" for="classify">分类：</label>
+              <select class="f12 g6 classify" id="classify">
+                <option value="">请选择</option>
+              </select>
+            </li>
+            <li class="dib">
+              <label class="f12 g6" for="putaway">上/下架：</label>
+              <select class="f12 g6 classify" id="putaway">
+                <option value="">请选择</option>
+              </select>
+            </li>
+          </ul>
+          <button class="search f12 g6">搜索</button>
+        </div>
+        <table>
+          <thead>
+          <tr>
+            <th class="list-no">商品编号</th>
+            <th class="list-name">商品名称</th>
+            <th class="list-classify">分类</th>
+            <th class="list-price">价格</th>
+            <th class="list-inventory">库存</th>
+            <th class="list-status">商品状态</th>
+            <th class="list-operation">操作</th>
+          </tr>
+          </thead>
+          <tbody class="g6 tc">
+          <tr>
+            <td>
+              <input type="checkbox" name='user'>
+              <label for="">12345678901</label>
+            </td>
+            <td>
+              <dl class="tl f0 fn-clear">
+                <dt class="dib tc">
+                  <img src="images/commodity/pic.jpg" alt="pic">
+                </dt>
+                <dd class="dib f12 tl vm">
+                  伊登（Yeelight）饼干 Yeelight Blue II LED多彩智能灯泡
+                </dd>
+              </dl>
+            </td>
+            <td class="tl p10">
+              特产优联&gt;进口食品&gt;饼干蛋糕
+            </td>
+            <td>
+              12000.00
+            </td>
+            <td>
+              8888
+            </td>
+            <td>
+              上架
+            </td>
+            <td>
+              <span class="poi">编辑 </span>&nbsp;|&nbsp;
+              <span class="poi">下架 </span>&nbsp;|&nbsp;
+              <span class="poi">删除</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name='user'>
+              <label for="">12345678901</label>
+            </td>
+            <td>
+              <dl class="tl f0 fn-clear">
+                <dt class="dib tc">
+                  <img src="images/commodity/pic.jpg" alt="pic">
+                </dt>
+                <dd class="dib f12 tl vm">
+                  伊登（Yeelight）饼干 Yeelight Blue II LED多彩智能灯泡
+                </dd>
+              </dl>
+            </td>
+            <td class="tl p10">
+              特产优联&gt;进口食品&gt;饼干蛋糕
+            </td>
+            <td>
+              12000.00
+            </td>
+            <td>
+              8888
+            </td>
+            <td>
+              上架
+            </td>
+            <td>
+              <span class="poi">编辑 </span>&nbsp;|&nbsp;
+              <span class="poi">下架 </span>&nbsp;|&nbsp;
+              <span class="poi">删除</span>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="fn-clear foot">
+        <div class="l f12 g6 delete">
+          <input id="selectAll" class="selectAll" type="checkbox" data-id="checkAll" name='user'>
+          <label for="selectAll" data-id="checkAll">全部</label>
+          <button data-id='delete' name="user" class="btnradius" onclick="$(this).myPopup(this)">删除</button>
+        </div>
+        <ul class="paging r">
+          <li id="first">首页</li>
+          <li id="top" onclick="topclick()">上一页</li>
+          <li class="xifenye" id="xifenye">
+            <a id="xiye">1</a>/<a id="mo">66</a>
+            <div class="xab" id="xab" style="display:none">
+              <ul id="uljia">
+              </ul>
+            </div>
+          </li>
+          <li id="down" onclick="downclick()">下一页</a></li>
+          <li id="last">末页</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--商品管理页面 end-->
+<footer></footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.header-l>li').eq(0).addClass('currentMenu');
+  })
+</script>
+<!--分页效果-->
+<script src="js/public.js"></script>
+</html>

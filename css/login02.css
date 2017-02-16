@@ -1,0 +1,426 @@
+/*login页*/
+.header_box {
+  width: 100%;
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.header {
+  width: 1218px;
+  margin: auto;
+  height: 98px;
+  overflow: hidden;
+}
+
+.logo {
+  padding: 10px 0 0 28px;
+  float: left;
+}
+
+.logo a {
+  float: left;
+  margin: 16px 20px 0 0;
+}
+
+.logo h1 {
+  float: left;
+  line-height: 28px;
+  padding-left: 10px;
+  border-left: solid 1px #fc0404;
+  margin-top: 26px;
+}
+
+.header_r {
+  float: right;
+  margin: 44px 100px 0 0
+}
+
+.header_r a {
+  float: left;
+  overflow: hidden;
+}
+
+.header_r span {
+  width: 1px;
+  height: 13px;
+  background: #666666;
+  float: left;
+  margin: 0 4px;
+  display: block
+}
+
+/*注册登录*/
+input, li {
+  cursor: pointer
+}
+
+label {
+  vertical-align: top
+}
+
+.loginBar {
+  background: url("../images/index/loginBar.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 470px;
+}
+
+.loginCon {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 270px;
+  height: 330px;
+  padding: 44px 40px 0;
+  right: 12%;
+  bottom: 10%;
+}
+
+.userBox {
+  background: url("../images/index/homeBg.png") no-repeat 10px 10px;
+  background-size: 24px 24px;
+  width: 270px;
+  line-height: 42px;
+  border: 1px solid #c8c8c8;
+  text-indent: 50px;
+  margin: 12px 0 16px;
+}
+
+.codeBox {
+  background: url("../images/index/login_lock.png") no-repeat 10px 10px;
+  background-size: 24px 24px;
+  width: 270px;
+  line-height: 42px;
+  border: 1px solid #c8c8c8;
+  text-indent: 50px;
+}
+
+.userBox_click {
+  background: url("../images/index/home.png") no-repeat 10px 10px;
+  border: 1px solid #fc0404;
+}
+
+.codeBox_click {
+  background: url("../images/index/login_lock_cur.png") no-repeat 10px 10px;
+  border: 1px solid #fc0404;
+}
+
+.staff {
+  margin: 22px 0 16px;
+}
+
+.loginCon .checkbox {
+  margin-top: 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.loginBtn {
+  text-align: center;
+}
+
+.loginBtn input {
+  width: 270px;
+  line-height: 46px;
+  height: 46px;
+  background: #fc0404;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  margin: 28px 0 22px;
+}
+
+.login_botm h2 {
+  color: #808080;
+  line-height: 60px;
+  height: 60px;
+  text-align: center;
+  margin:0 60px;
+  box-shadow: 1px 4px 4px #dbdada;
+  -webkit-box-shadow: 1px 4px 4px #dbdada;
+  -o-box-shadow: 1px 4px 4px #dbdada;
+  -moz-box-shadow: 1px 4px 4px #dbdada;
+}
+
+.login_botm ul {
+  text-align: center;
+  margin: 60px 0 34px;
+}
+
+.login_botm ul li {
+  margin-left: 24px;
+}
+
+.login_botm ul li img {
+  height: 196px;
+}
+
+.login_botm h3 {
+  color: #6a6a6b;
+  padding: 42px 0 18px;
+}
+
+.login_botm ul li > div {
+  border: 1px solid #b5b5b5;
+  border-top: 0;
+  height: 130px;
+}
+
+/*footer*/
+.footer {
+  height: 164px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.footer ul li {
+  margin: 66px 0 37px;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #666;
+  display: inline-block;
+}
+.footer ul li:not(:last-child){
+  border-right: 2px solid #cccccc;
+}
+
+/*注册页*/
+.header_login {
+  float: right;
+  overflow: hidden;
+  margin: 36px 52px 0 0;
+  text-align: center;
+}
+
+.header_login a:first-child {
+  float: left;
+  width: 130px;
+  height: 32px;
+  background: #fc0404;
+  line-height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header_login a:last-child {
+  float: right;
+  width: 84px;
+  height: 32px;
+  line-height: 32px;
+  color: #33302a;
+  background: url("../images/index/registerIcon.png") no-repeat right;
+  background-size: 16px 16px;
+}
+
+.header_login a:hover {
+  color: #fff;
+}
+
+.banner img {
+  height: 385px;
+  margin-top: 10px;
+}
+
+.total {
+  padding-left: 46px;
+  width: 1200px;
+  line-height: 100px;
+  height: 100px;
+  margin: auto;
+  box-shadow: 1px 1px 15px #dbdada;
+  box-shadow: -1px 1px 15px #dbdada;
+  -webkit-box-shadow: 1px 1px 15px #dbdada;
+  -webkit-box-shadow: -1px 1px 15px #dbdada;
+  -o-box-shadow: 1px 1px 15px #dbdada;
+  -o-box-shadow: -1px 1px 15px #dbdada;
+  -o-box-shadow: 1px 4px 4px #dbdada;
+  -moz-box-shadow: -1px 1px 15px #dbdada;
+  -moz-box-shadow: 1px 4px 4px #dbdada;
+}
+
+.total ul li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
+  margin: 0 8px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.share {
+  height: 44px;
+  background: #f7f3f2;
+  margin: 32px 8px 0 0;
+}
+
+.share a {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin: 6px 8px 0;
+  cursor: pointer;
+}
+
+.regis_box {
+  width: 1112px;
+  margin: 18px auto 0;
+  padding-bottom: 26px;
+}
+
+.phone_num {
+  width: 620px;
+  margin: 28px auto 0;
+  overflow: hidden;
+}
+
+.phone_num h2 {
+  float: left;
+  color: #646464;
+  width: 160px;
+  text-align: right;
+  line-height: 34px;
+  margin-right: 20px;
+}
+
+.enter {
+  width: 410px;
+  height: 34px;
+  float: left;
+  padding: 0 10px;
+  line-height: 34px;
+  border: solid 1px #e6e6e6;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.enterlf{
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
+}
+.enterBor {
+  border: 1px solid #fc0404;
+}
+
+.phone_btn {
+  width: 118px;
+  height: 36px;
+  border: solid 1px #e6e6e6;
+  border-left: 0;
+  float: left;
+  /*margin: 2px 0 0 22px;*/
+  cursor: pointer;
+  background: #f2f2f2;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.way {
+  width: 1000px;
+  margin: 28px auto 0;
+  overflow: hidden;
+  color: #4f5054;
+  line-height: 18px;
+}
+
+.way h2 {
+  float: left;
+  width: 200px;
+  text-align: right;
+  margin-left: 140px;
+  margin-right: 30px;
+  color: #646464;
+}
+
+.way label {
+  margin: 2px 20px 0 0;
+}
+
+.agree {
+  margin: 28px auto 0;
+  overflow: hidden;
+  width: 620px;
+  line-height: 20px;
+  text-indent: 4px;
+}
+
+
+.agree input {
+  margin-left: 176px;
+  margin-right: 10px;
+  height: 20px;
+}
+/*
+.agree .agreeBtn {
+  display: inline-block;
+  margin-left: 176px;
+  width: 22px;
+  height: 22px;
+  background: url("../images/agreebf.png") no-repeat;
+}
+
+.agree .clickBtn {
+  background: url("../images/index/agreeBtn.png") no-repeat;
+  background-size: 22px 22px;
+  border: none;
+}
+*/
+
+.login {
+  margin: 15px 0 48px 544px;
+}
+.login a{
+  padding-bottom: 0px;
+  border-bottom: 1px solid #f03c42;
+}
+.banner img{
+  width: 100%;
+}
+.rdoClass{
+  visibility: hidden;
+}
+.rdoClass::after{
+  content: url('../images/rdo.png');
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 1px;
+}
+.rdoClass:checked::after{
+  content: url('../images/rdo_chk.png');
+}
+.chkClass{
+  visibility: hidden;
+}
+.chkClass::after{
+  content: url('../images/agreebf.png');
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 1px;
+}
+.chkClass:checked::after{
+  content: url('../images/index/agreeBtn.png');
+}
+.free_regis{
+  margin-top: 40px;
+}
+.free_regis button{
+  width: 432px;
+  height: 58px;
+  background: #f03c42;
+  line-height: 58px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-left: 170px;
+}
+

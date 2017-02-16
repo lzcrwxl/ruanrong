@@ -1,0 +1,21 @@
+/*基础资料设置*/
+.form{margin-top: 10px;}
+.form input[type="text"]{text-indent: 10px;}
+.form span{margin-top: 6px;}
+.form textarea{
+    overflow-y: hidden;
+    border: 1px dashed #c8c8c8;
+    line-height: 14px;
+    padding: 8px;
+    width: 484px;height: 154px;
+    margin-bottom: 0;
+}
+.form li:last-child p{line-height: 14px;margin-top: 4px;}
+.form input[type="submit"]{
+    width: 138px;line-height: 38px;
+    border: 1px solid #e6e6e6;
+    margin:20px 0 0 22px;
+    background: #f2f2f2;
+}
+
+

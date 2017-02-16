@@ -1,0 +1,188 @@
+.btnblue{
+    color:#55bde4;
+}
+.btnGreen{
+    color:#5ae0c5;
+}
+
+/*content*/
+.classify{margin: 0 auto; width: 1000px}
+.classify li{
+    width: 200px;
+    margin:36px 24px;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    height: 242px;
+}
+.classify li img{
+    width: 202px;height: 119px;
+}
+.classify li input[type="button"]{
+    width: 108px;line-height: 24px;
+    border: 1px solid #c8c8c8;
+    border-radius: 12px;
+    margin-top: -14px;
+}
+.classify li p{margin: 26px 0 22px;}
+.classify li button{
+    background: #4fb5d2;
+    width: 104px;line-height: 30px;
+    text-align: center;
+}
+.classify li:first-child small{margin: 16px 0 8px;}
+.classify li:first-child span{
+    display: block;
+    background: url("../images/upgrade.png") no-repeat;
+    width: 110px;line-height:27px;
+    height: 27px;
+    background-size: 110px 27px;
+    margin:0 0 4px 12px;
+    text-align: center;
+}
+.classify li:first-child>div{
+    margin: 0 8px;
+}
+.classify li:first-child>div button{
+    width: 80px;
+}
+.classify li:first-child>div button:nth-child(2){
+    background: #fff;
+    border:1px solid #c8c8c8;
+
+}
+/*数据*/
+.user-data{
+    width: 952px;
+    margin:8px 24px 30px 0;
+}
+.user-data .title{
+    line-height: 40px;
+    padding: 0 16px;
+    background-size: 22px 22px;;
+    /*text-indent: 36px;*/
+    border: 1px solid #dcdcdc;
+    margin: 0;
+}
+.user-data hr{
+    width: 968px;
+    background: none;
+}
+.recCtn{
+    border: 1px solid #dcdcdc;
+    border-top: none;
+}
+.news ul li{
+    width: 446px;
+    border:1px solid #c8c8c8;
+    margin: 0 14px;
+    padding: 0 4px 8px 10px;
+}
+
+.news  li p{
+    line-height: 24px;
+    position: relative;
+    /*text-indent: 31px;*/
+}
+/*.news  li p:before{
+    content: "";
+    width: 6px;height: 6px;
+    background: #999999;
+    position: absolute;;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}*/
+.classify li .webBtn{background: #e60404}
+.keyData ul li{
+    display: inline-block;margin: 40px 8px 0;
+    text-indent: 10px;
+    text-align: center;
+}
+.keyData ul li p{
+    width: 118px;line-height: 58px;
+    height: 58px;
+    border:1px solid #dcdcdc;
+    background: url("../images/index/indexUp.png") no-repeat 100px 18px;
+   background-size: 14px 24px;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -moz-border-radius:2px;
+    text-align: left;
+    color:#009944
+}
+.keyData ul li:nth-child(2) p{color:#27aae5}
+.keyData ul li:nth-child(3) p{color:#ff0000}
+.keyData ul li span{
+    margin: 10px 0 44px;
+}
+.keyData h3{margin-left: 8px;}
+.dataAnalysis{
+    border: 1px solid #dcdcdc;
+    border-top: 0;
+    height: 254px;
+}
+.user-data .recommend{
+    margin: 50px 0 0;
+}
+.user-data .lineRec{
+    top: -8px;
+}
+.news{
+}
+.news li{
+    width: 50%;
+    height: 184px;
+}
+.newPic{text-align: center}
+.newPic>div{
+/*    width: 122px;height: 122px;
+    background: #8abbf2;
+    margin: 16px 26px 10px 12px;*/
+}
+.newPic>div img{margin-top: 28px;}
+.newsList{
+    margin-left: 31px;
+    margin-top: 50px;
+    width: 288px;
+}
+.newsList p a{
+    color: #5a5a5a;
+}
+.newsList p a:hover{
+    color: #5a5a5a;
+}
+.newsList button{
+    margin-top: 18px;
+    padding: 8px 22px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.newsList a{margin-top: 10px;}
+.main .aside{margin-top: 32px;}
+.canvas div span{font-size: 22px!important;}
+.canvas {margin: 50px 0 0 16px;}
+.canvas >div{margin:0 16px;}
+.circle:before{
+    content: "用户统计";
+    font-size: 14px;
+    color: #808080;
+    position: absolute;
+    left: 36px;top: 36px;
+
+}
+.circle:after{
+    content: "%";
+    font-size: 22px;
+    font-weight: 600;
+    color: #e60404;
+    position: absolute;
+    right: 14px;top: 64px;
+}
+#circles-2:before{ content: "访问统计";  }
+#circles-3:before{ content: "产品统计";  }
+.keyData ul{margin-right: 16px;}
+.circles-text{text-align: left!important;text-indent: 26px;margin-top: 8px!important;}

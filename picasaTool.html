@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/picture02.css">
+  <title>picasaTool</title>
+</head>
+<body>
+<!--分类设置-->
+<div id="header"></div>
+<!--相册管理页面-->
+<!--nav end-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">素材管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <div>
+        <ul class="articleMenu f14">
+          <li><a href="material.html" class="wh f14 bgl ">基础配置</a></li>
+          <li>
+            <a href="#" class="wh f14 bgl menu-click">销售商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="commodityManagement.html" class="">商品管理</a></li>
+              <li><a href="classify.html" class="">分类管理</a></li>
+              <li><a href="parameter.html" class="">参数管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">展示商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="showAdd.html" class="">商品管理</a></li>
+              <li><a href="showClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">图片<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="picture.html" class="">图片管理</a></li>
+              <li><a href="picasaTool.html" class="themeRed">相册管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">文章<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="article.html" class="">文章管理</a></li>
+              <li><a href="articleClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="r main">
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">素材管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="#">图片素材</a>&nbsp;
+          <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">相册管理</span>
+        </span>
+    </div>
+    <!--当前位置 end-->
+    <!--图片管理详情-->
+    <div class="fn-clear mainCtn">
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15 g1e">
+          相册列表
+          <a class="r addUser pr15 poi g6" href="pictureAdd.html">
+            新增相册
+          </a>
+        </h3>
+        <ul class="listPic fn-clear" id="list">
+          <li class="f14 g6 dib">
+            <div class="rel">
+              <img src="images/commodity/pic01.jpg" alt="pic01">
+              <div class="albumSize mask abs dn">
+                <span class="mr10" data-id="editPhoto" onclick="$(this).myPopup(this)">编辑</span>
+                <span class="mr10">删除</span>
+              </div>
+              <p class="abs">
+                <span class="l ml10">默认相册</span>
+                <span class="r mr10">共226张</span>
+              </p>
+            </div>
+          </li>
+          <li class="f14 g6 dib">
+            <div class="rel">
+              <img src="images/commodity/pic01.jpg" alt="pic01">
+              <div class="albumSize mask abs dn">
+                <span class="mr10" data-id="editPhoto" onclick="$(this).myPopup(this)">编辑</span>
+                <span class="mr10">删除</span>
+              </div>
+              <p class="abs">
+                <span class="l ml10">默认相册</span>
+                <span class="r mr10">共226张</span>
+              </p>
+            </div>
+          </li>
+          <li class="f14 g6 dib">
+            <div class="rel">
+              <img src="images/commodity/pic01.jpg" alt="pic01">
+              <div class="albumSize mask abs dn">
+                <span class="mr10" data-id="editPhoto" onclick="$(this).myPopup(this)">编辑</span>
+                <span class="mr10">删除</span>
+              </div>
+              <p class="abs">
+                <span class="l ml10">默认相册</span>
+                <span class="r mr10">共226张</span>
+              </p>
+            </div>
+          </li>
+          <li class="f14 g6 dib">
+            <div class="rel">
+              <img src="images/commodity/pic01.jpg" alt="pic01">
+              <div class="albumSize mask abs dn">
+                <span class="mr10" data-id="editPhoto" onclick="$(this).myPopup(this)">编辑</span>
+                <span class="mr10">删除</span>
+              </div>
+              <p class="abs">
+                <span class="l ml10">默认相册</span>
+                <span class="r mr10">共226张</span>
+              </p>
+            </div>
+          </li>
+          <li class="f14 g6 dib">
+            <div class="rel">
+              <img src="images/commodity/pic01.jpg" alt="pic01">
+              <div class="albumSize mask abs dn">
+                <span class="mr10" data-id="editPhoto" onclick="$(this).myPopup(this)">编辑</span>
+                <span class="mr10">删除</span>
+              </div>
+              <p class="abs">
+                <span class="l ml10">默认相册</span>
+                <span class="r mr10">共226张</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--页尾-->
+<footer></footer>
+<!--图片管理页面 end-->
+<div class="module dn"></div>
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/myPopup.js"></script>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<!--鼠标事件-->
+<script src="js/mouse.js"></script>
+<script>
+  $(document).ready(function () {
+    //    菜单
+    $('.header-l>li').eq(0).addClass('currentMenu');
+    $(".pictureMenu").css('display', 'block');
+    $(".pictureMenu>li").eq(1).find("a").addClass("color-bg");
+    //    删除
+    $("#delete").click(function () {
+      $("input[name='test']:checked").each(function () { // 遍历选中的checkbox
+        n = $(this).parents("li").index();  // 获取checkbox所在行的顺序
+        $("#list").find("li:eq(" + n + ")").remove();
+      });
+    });
+  })
+</script>
+</html>

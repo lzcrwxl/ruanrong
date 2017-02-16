@@ -1,0 +1,14 @@
+/*提交成功*/
+.succeed{
+    text-align: center;
+    margin-top: 98px;
+}
+.succeed img{
+    height: 106px;
+}
+.succeed>div{
+    line-height: 26px;
+    margin: 24px;
+}
+
+

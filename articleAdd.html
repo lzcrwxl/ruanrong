@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/articleAdd02.css">
+  <title>articleAdd</title>
+</head>
+<body>
+<!--分类设置-->
+<div id="header"></div>
+<!--相册管理页面-->
+<!--nav end-->
+<section class="fn-clear rel mt20">
+  <!--nav end-->
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">素材管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <div>
+        <ul class="articleMenu f14">
+          <li><a href="#" class="wh f14 bgl ">基础配置</a></li>
+          <li>
+            <a href="#" class="wh f14 bgl menu-click">销售商品<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg dn">
+              <li><a href="#">商品管理</a></li>
+              <li><a href="classify.html" class="themeRed">分类管理</a></li>
+              <li><a href="parameter.html">参数管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">展示商品<i class="menu-right"></i></a></li>
+          <li><a href="#" class="wh f14 bgl menu-click">图片<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="picture.html" class="">图片管理</a></li>
+              <li><a href="picasaTool.html" class="">相册管理</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="wh f14 bgl menu-click">文章<i class="menu-right"></i></a>
+            <ul class="f14 sub-menu color-bg">
+              <li><a href="article.html" class="themeRed">文章管理</a></li>
+              <li><a href="articleClassify.html" class="">分类管理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="r main">
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">素材管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="#">文章</a>&nbsp;
+          <i class="dib menu_grey"></i>&nbsp;
+           <a class="g6" href="article.html">文章管理</a>&nbsp;
+                    <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">新增文章</span>
+        </span>
+    </div>
+    <!--当前位置 end-->
+    <!--新增文章详情-->
+    <div class="info-box fn-clear g6 mt20 bde9">
+      <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15 g1e">
+        新增文章
+      </h3>
+      <ul class="fn-clear articleAdd g6">
+        <li class="mb24">
+          <h3 class="dib pct14 f14 g6 asterisk rel">文章标题：</h3>
+          <input type="text" class="pct86 bde5 f12 " placeholder="文章标题名称长度至少3个字符,最长50个汉字" maxlength="50">
+        </li>
+        <li class="mb24">
+          <h3 class="dib pct14 f14 g6 asterisk rel">所属分类：</h3>
+          <select name="" id="" class="bde5 f12">
+            <option value="">默认分类</option>
+          </select>
+        </li>
+        <li class="mb24">
+          <h3 class="dib pct14 f14 g6 rel">文章表示：</h3>
+          <input type="radio" id="show" name="article" class="rdoClass" checked>
+          <label for="show" class="f14 ml12 mr50">显示</label>
+          <input type="radio" id="noshow" name="article" class="rdoClass">
+          <label for="noshow" class="f14 ml12">不显示</label>
+        </li>
+        <li class="mb24">
+          <h3 class="dib pct14 f14 g6 asterisk rel">文章序号：</h3>
+          <input type="text" class="bde5 f12 w160" placeholder="20170123">
+        </li>
+        <li class="mb24">
+          <h3 class="dib pct14 f14 g6 asterisk rel vt mt20">文章内容：</h3>
+          <textarea name="" id="" cols="30" rows="10" class="f12 dib pct86 bde5 gc8">
+            上传商品焦点图，最多上传4张图片。第一张图默认为焦点、橱窗页首图。支持jpg、gif、png格式上传或从图片空间中选择，建议使用尺寸800x800像素以上、大小不超过2M的正方形图片，上传后的图片将会自动保存在图片空间的默认分类中。
+          </textarea>
+        </li>
+        <li>
+          <h3 class="dib pct14 f14 g6 rel vt mt20">商品描述：</h3>
+          <div class="dib bde5 describe pct86">
+            <dl class="dib">
+              <dt class="mb15">
+                <img src="images/material/selImg01.jpg" alt="img01">
+              </dt>
+              <dd class="tc f12 g6 poi">
+                删除
+              </dd>
+            </dl>
+            <dl class="dib">
+              <dt class="mb15">
+                <img src="images/material/selImg02.jpg" alt="img01">
+              </dt>
+              <dd class="tc f12 g6 poi">
+                删除
+              </dd>
+            </dl>
+            <dl class="dib">
+              <dt class="mb15">
+                <img src="images/material/selImg03.jpg" alt="img01">
+              </dt>
+              <dd class="tc f12 g6 poi">
+                删除
+              </dd>
+            </dl>
+            <div class="dib ml20 rtControl">
+              <p class="gc8 f14">
+                建议使用尺寸800x800像素以上、<br>
+                大小不超过2M的正方形图片
+              </p>
+              <div class="rel">
+              <button type="button" class="btnradius f12 g6 r mt40">图片上传</button>
+              <input type="file" class="abs updateFile">
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="submitBtn tc">
+        <button class="themebgRed f14 wh">提交文章</button>
+      </div>
+    </div>
+  </div>
+</section>
+<footer></footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+//        菜单
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(0).find("a").addClass("color-bg");
+//        显示or不显示
+    $('.exhibition button').click(function () {
+      $(this).siblings().removeClass("showIcon");
+      $(this).addClass("showIcon")
+    });
+  });
+</script>
+</html>

@@ -1,0 +1,17 @@
+table .actNumber {
+  width: 120px;
+  text-align: center!important;
+  padding-left: 0!important;
+}
+table .actName {
+  width: 330px;
+}
+table .actTime {
+  width: 160px;
+}
+table .actStatus {
+  width: 120px;
+}
+table .actJoin {
+  width: 100px;
+}

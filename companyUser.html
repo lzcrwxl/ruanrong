@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <script src="js/jquery.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/company_management.css" type="text/css">
+  <link rel="stylesheet" href="css/companyUser.css" type="text/css">
+  <title>companyUser</title>
+</head>
+<body class="fn-clear">
+<!--企业管理页面-->
+<div id="header"></div>
+<!--nav-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">企业用户管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="companyUser.html" class="wh f14 bgl ">企业用户</a></li>
+        <li><a href="role.html" class="wh f14 bgl ">角色</a></li>
+        <li><a href="departmentManagement.html" class="wh f14 bgl">部门管理</a></li>
+        <li><a href="blog.html" class="wh f14 bgl">操作日志</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">企业用户管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">企业用户</span>
+        </span>
+    </div>
+    <!--企业用户详情-->
+    <div class="mainCtn">
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          用户列表
+           <span class="r addUser pr15 poi" data-id="newUser" onclick="$(this).myPopup(this)">
+             新增企业用户
+           </span>
+        </h3>
+        <div class="fn-clear f0 g43 rel parameterList ">
+          <div class="dib  f12 pct16 tl rel">
+            <span class="pl40">手机号</span>
+          </div>
+          <p class=" dib f12 pct16  tc">姓名</p>
+          <p class="dib f12 pct16  tc">角色</p>
+          <p class="dib f12 pct16  tc">部门</p>
+          <p class="dib f12 pct16  tc">库存/人数</p>
+          <p class="dib f12 pct16 tc">操作</p>
+        </div>
+        <div class="wrapper">
+          <ul class="baseList fn-clear g6" data-id="userList">
+            <li class="dib f12  pct16">
+              <input type="checkbox" class="vb" name="user">
+              <label style="margin-bottom: 0">13912345678</label>
+            </li>
+            <li class="dib f12  pct16 tc empname">小明</li>
+            <li class="dib f12  pct16 tc">总裁办</li>
+            <li class="dib f12  pct16 tc">CEO</li>
+            <li class="dib f12  pct16 tc">1</li>
+            <li class="dib f12  pct16 tc">超级企业用户不可编辑</li>
+          </ul>
+          <ul class="baseList fn-clear g6" data-id="userList">
+            <li class="dib f12  pct16">
+              <input type="checkbox" class="vb" name="user" id="name1">
+              <label style="margin-bottom: 0">13912345678</label>
+            </li>
+            <li class="dib f12  pct16 tc">小红</li>
+            <li class="dib f12  pct16 tc"></li>
+            <li class="dib f12  pct16 tc">程序员</li>
+            <li class="dib f12  pct16 tc">20</li>
+            <li class="dib f12  pct16 tc">
+              <a data-id="delete" href="javascript:void (0)" class="g6" onclick="$(this).myPopup(this)">删除&nbsp;</a>|
+              <a data-id="edit" href="javascript:void (0)" class="g6">&nbsp;编辑&nbsp;</a>|
+              <a data-id="forbid" href="javascript:void (0)" class="g6" onclick="$(this).myPopup(this)">
+                &nbsp;禁用&nbsp;</a>|
+              <a data-id="reset" href="javascript:void (0)" class="g6" onclick="$(this).myPopup(this)">&nbsp;重置</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--分页-->
+      <div class="fn-clear foot">
+        <div class="l f12 g6 delete">
+          <input id="selectAll" class="selectAll" type="checkbox" data-id="checkAll" name='user'>
+          <label for="selectAll" data-id="checkAll">全部</label>
+          <button data-id='delete' name="user" class="btnradius" onclick="$(this).myPopup(this)">删除</button>
+        </div>
+        <ul class="paging r">
+          <li id="first">首页</li>
+          <li id="top" onclick="topclick()">上一页</li>
+          <li class="xifenye" id="xifenye">
+            <a id="xiye">1</a>/<a id="mo">66</a>
+            <div class="xab" id="xab" style="display:none">
+              <ul id="uljia">
+              </ul>
+            </div>
+          </li>
+          <li id="down" onclick="downclick()">下一页</a></li>
+          <li id="last">末页</li>
+        </ul>
+      </div>
+      <div class="ml17 mt20 g96">
+        <span class="themeRed">注</span>&nbsp;
+        <i class="vm">*</i>&nbsp;重置的企业用户初始密码“123456”
+      </div>
+    </div>
+  </div>
+  <!--遮罩层-->
+</section>
+<div class="module dn">
+  <!--编辑模块-->
+  <!--删除当前用户-->
+  <!--<div data-id="delete" class="popup w300 f14 fix h120 deleteUser dn">
+    <h4 class="popup-title f14 tc rel g6">
+      温馨提示
+      <span class="r myclose f20 poi" data-id="myclose" onclick="$(this).myClose()"></span>
+    </h4>
+    <hr>
+    <div class="popup-main g6 f12">
+      <ul class="f14 tc">
+        <li class="detailInfo"></li>
+        <li class="f12 fix mt33">
+          <button class="themebgRed-lg wh popup-btn mr40" onclick="$(this).myDelete(this)" data-id='userList'>确定</button>
+          <button class="bdgrey-lg bgwh popup-btn g6" data-id="myclose" onclick="$(this).myClose()">取消</button>
+        </li>
+      </ul>
+    </div>
+  </div>-->
+  <!--禁用当前用户-->
+  <!--<div data-id="forbid" class="popup w300 f14 fix h120 forbidUser dn">-->
+    <!--<h4 class="popup-title f14 tc rel g6">-->
+      <!--温馨提示-->
+      <!--<span class="r myclose f20 poi" data-id="myclose" onclick="$(this).myClose()"></span>-->
+    <!--</h4>-->
+    <!--<hr>-->
+    <!--<div class="popup-main g6 f12">-->
+      <!--<ul class="f14 tc">-->
+        <!--<li>是否禁用当前项？</li>-->
+        <!--<li class="f12 fix mt33">-->
+          <!--<button class="themebgRed-lg wh popup-btn mr40">确定</button>-->
+          <!--<button class="bdgrey-lg bgwh popup-btn g6" data-id="myclose" onclick="$(this).myClose()">取消</button>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--重置当前项-->
+  <!--<div data-id="reset" class="popup w300 f14 fix h120 resetUser dn">-->
+    <!--<h4 class="popup-title f14 tc rel g6">-->
+      <!--温馨提示-->
+      <!--<span class="r myclose f20 poi" data-id="myclose" onclick="$(this).myClose()"></span>-->
+    <!--</h4>-->
+    <!--<hr>-->
+    <!--<div class="popup-main g6 f12">-->
+      <!--<ul class="f14 tc">-->
+        <!--<li>是否重置当前项？</li>-->
+        <!--<li class="f12 fix mt33">-->
+          <!--<button class="themebgRed-lg wh popup-btn mr40">确定</button>-->
+          <!--<button class="bdgrey-lg bgwh popup-btn g6" data-id="myclose" onclick="$(this).myClose()">取消</button>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--新增企业用户-->
+  <!--<div data-id="newUser" class=" popup f14 fix dn newUser dn">
+    <h4 class="popup-title f18 tc rel g6">
+      新增企业用户
+      <span class="r myclose f20 poi" data-id="myclose" onclick="$(this).myClose()"></span>
+    </h4>
+    <div class="popup-main g5a f12">
+      <ul class="f12">
+        <li class="mt20"><span class="asterisk rel">姓名：</span></li>
+        <li><input type="text" class="pct100 bdgrey-lg"></li>
+        <li class="mt10"><span class="asterisk rel">手机号：</span></li>
+        <li class=""><input type="text" class="pct100 bdgrey-lg phone" placeholder="该手机号已经被使用,先请解绑">
+        </li>
+        <li class="mt10"><span class="asterisk rel">密码：</span></li>
+        <li><input type="password" class="pct100 bdgrey-lg"></li>
+        <li class="mt10"><span class="asterisk rel">确认密码：</span></li>
+        <li><input type="password" class="pct100 bdgrey-lg"></li>
+        <li class="mt10"><span class=" rel">角色：</span></li>
+        <li>
+          <select name="" id="" class="bdgrey-lg pct100">
+            <option value="" style="color: #bfbfbf;">请选择</option>
+          </select>
+        </li>
+        <li class="mt10"><span class=" rel">部门：</span></li>
+        <li>
+          <select name="" id="" class="bdgrey-lg pct100">
+            <option value="" style="color: #bfbfbf;">请选择</option>
+          </select>
+        </li>
+        <li class="f12 fix mt20 tc">
+          <button class="themebgRed-lg wh popup-btn mr30">确定</button>
+          <button class="bdgrey-lg bgwh popup-btn g6" data-id="myclose" onclick="$(this).myClose()">取消</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  &lt;!&ndash;编辑企业用户&ndash;&gt;
+  <div data-id="edit" class=" popup f14 fix dn editUser dn">
+    <h4 class="popup-title f18 tc rel g6">
+      编辑企业用户
+      <span class="r myclose f20 poi" data-id="myclose" onclick="$(this).myClose()"></span>
+    </h4>
+    <div class="popup-main g5a f12">
+      <ul class="f12">
+        <li class="mt20"><span class="asterisk rel">姓名：</span></li>
+        <li><input type="text" class="pct100 bdgrey-lg"></li>
+        <li class="mt10"><span class="asterisk rel">手机号：</span></li>
+        <li class=""><input type="text" class="pct100 bdgrey-lg phone" placeholder="该手机号已经被使用,先请解绑">
+        </li>
+        <li class="mt10"><span class="asterisk rel">密码：</span></li>
+        <li><input type="password" class="pct100 bdgrey-lg"></li>
+        <li class="mt10"><span class="asterisk rel">确认密码：</span></li>
+        <li><input type="password" class="pct100 bdgrey-lg"></li>
+        <li class="mt10"><span class=" rel">角色：</span></li>
+        <li>
+          <select name="" id="" class="bdgrey-lg pct100">
+            <option value="" style="color: #bfbfbf;">请选择</option>
+          </select>
+        </li>
+        <li class="mt10"><span class=" rel">部门：</span></li>
+        <li>
+          <select name="" id="" class="bdgrey-lg pct100">
+            <option value="" style="color: #bfbfbf;">请选择</option>
+          </select>
+        </li>
+        <li class="f12 fix mt20 tc">
+          <button class="themebgRed-lg wh popup-btn mr30">确定</button>
+          <button class="bdgrey-lg bgwh popup-btn g6" data-id="myclose" onclick="$(this).myClose()">取消</button>
+        </li>
+      </ul>
+    </div>
+  </div>-->
+</div>
+<!--尾部-->
+<footer></footer>
+
+</body>
+<script src="js/myPopup.js"></script>
+<script src="js/myplugs.js"></script>
+<script src="js/menu.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(0).find("a").addClass("color-bg");
+    $('.header-l>li').eq(0).addClass('currentMenu');
+    $('#selectAll').checkAll(this);
+  });
+</script>
+<!--分页效果-->
+<script src="js/public.js"></script>
+</html>

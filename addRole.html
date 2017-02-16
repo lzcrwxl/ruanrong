@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>-->
+  <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--<script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>-->
+  <script src="js/jquery.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common02.css">
+  <link rel="stylesheet" href="css/company_management02.css" type="text/css">
+  <link rel="stylesheet" href="css/addRole.css">
+  <title>addRole</title>
+</head>
+<body class="fn-clear">
+<!--加载头部-->
+<div id="header"></div>
+<!--主体内容-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">企业用户管理</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="companyUser.html" class="wh f14 bgl ">企业用户</a></li>
+        <li><a href="role.html" class="wh f14 bgl ">角色</a></li>
+        <li><a href="departmentManagement.html" class="wh f14 bgl">部门管理</a></li>
+        <li><a href="blog.html" class="wh f14 bgl">操作日志</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <!--当前位置-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">企业用户管理</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+          <a class="g6" href="#">角色</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">新增</span>
+        </span>
+    </div>
+    <!--当前位置 end-->
+    <!--企业用户详情-->
+    <div class="mainCtn">
+      <div class="f14 mt20 ml10">
+        <span class="asterisk rel ">角色名：</span>
+        <input type="text" class="w320 bdgrey-lg">
+      </div>
+      <div class="info-box fn-clear g6 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          权限设置
+        </h3>
+        <div class="fn-clear f0 g43 rel parameterList">
+          <div class="dib  f12 tc rel pl10">
+            <input type="checkbox" class="chkGClass" data-id="checkAll" name="setting" id="checkAll">
+            <label for="checkAll" class="pl20" data-id="checkAll">全选</label>
+          </div>
+          <p class="f12 pct90 r tc">操作</p>
+        </div>
+        <div class="setting">
+          <ul class=" fn-clear g6 rel">
+            <li class="dib f12 setTitle">
+              <div class="rel">
+                <input type="checkbox" name="setting" class="abs">
+                <label class="ml20">设置</label>
+              </div>
+            </li>
+            <li class="dib f12 r pct82 tl pl50 list">
+              <span>
+                <input type="checkbox" class="vb" name="setting">
+                <label for="" class="mr10">站点设置</label>
+                </span>
+              <span>
+                <input type="checkbox" class="vb" name="setting">
+                <label for="" class="mr10">账号同步</label>
+                </span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">上传设置</label>
+                </span>
+                <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">SEO设置</label>
+                  </span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">支付设置</label>
+                </span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">消息通知</label>
+                </span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">快递公司</label>
+                </span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">配送地区</label>
+                </span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">运单模板</label></span>
+              <span>
+              <input type="checkbox" class="vb" name="setting">
+              <label for="" class="mr10">清理缓存</label>
+                </span>
+              <span>
+                <input type="checkbox" class="vb" name="setting">
+                <label for="" class="mr10">站点设置</label>
+                </span>
+              <span>
+                <input type="checkbox" class="vb" name="setting">
+                <label for="" class="mr10">账号同步</label>
+                </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tc mt35">
+      <button class="btnSub g6 f14">提交</button>
+    </div>
+  </div>
+</section>
+<!--页面尾部-->
+<footer></footer>
+</body>
+<script src="js/menu.js"></script>
+<script src="js/myplugs.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(1).find("a").addClass("color-bg");
+    $('.header-l>li').eq(0).addClass('currentMenu');
+  });
+  //    全选反选
+  $("#checkAll").checkAll();
+
+</script>
+</html>

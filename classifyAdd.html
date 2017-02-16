@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/classifyAdd.css" type="text/css">
+    <script src="js/menu.js"></script>
+    <title>classifyAdd</title>
+</head>
+<body>
+<!--新增分类-->
+<!--nav-->
+<div class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <a class="wh fodder rel db" href="#"><p class="f18 wh">素材管理</p></a>
+    <div>
+        <a  href="material.html" id="text" class="f14 wh menu-click">基础配置</a>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">销售商品<span class="menu-right"></span></a>
+        <ul class="sub-menu parameter" >
+            <li><a href="commodityManagement.html" class="wh f14 b1e">商品管理</a></li>
+            <li><a href="classify.html" class="wh f14 b1e">分类管理</a></li>
+            <li><a href="parameter.html" class="wh f14 b1e">参数管理</a></li>
+        </ul>
+    </div>
+    <div>
+        <a  href="#" class="f14 color-wh menu-click">展示商品<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="showCommodity.html" class="wh f14 b1e ">商品管理</a></li>
+            <li><a href="showClassify.html" class="wh f14 b1e">分类管理</a></li>
+        </ul>
+    </div>
+    <div >
+        <a href="picture.html"  class="color-wh f14  menu-click">图&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp片<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="picture.html"  class="wh f14 b1e ">图片管理</a></li>
+            <li><a href="picasaTool.html" class="wh f14 b1e">相册管理</a></li>
+        </ul>
+    </div>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">文&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp章<span class="menu-right"></span></a>
+        <ul class="sub-menu  articleMenu" >
+            <li><a href="article.html" class="wh f14 b1e ">文章管理</a></li>
+            <li><a href="#" class="wh f14 b1e">分类管理new</a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 g9">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><a href="#"><p class="f14 rfc">欢迎来到软融科技</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业概括</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">企业咨询</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">退出</p></a></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <!--当前位置-->
+    <div class="path">
+        <h2 class="f14 dib">您的当前位置&nbsp:&nbsp</h2>
+        <span class="f14 g6">
+            <a class="g6" href="#">素材管理</a>
+                >
+            <a class="g6" href="#">销售商品</a>
+                >
+                <span>分类管理</span>
+            </span>
+    </div>
+    <!--当前位置 end-->
+    <!--分类管理详情-->
+    <div class="title fn-clear">
+        <p class="f12 g6 dib"><a class="f12 g6" href="classify.html">列表</a> </p>
+        <h3 class="f14 rfa dib">新增</h3>
+        <hr>
+    </div>
+    <div class="addCon">
+        <div class="f12 g6 classifyName">
+            <label class="db" for="name"><em class="rfa">*</em>分类名称：</label>
+            <input type="text" placeholder="数码办公" id="name">
+        </div>
+        <div class="f12 g6 choose">
+            <label class="db" for="choose"><em class="rfa">*</em>上级分类：</label>
+            <select name="choose dib" id="choose">
+                <option value="">请选择</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <p class="gc dib">如果选择上级分类，那么新增的分类则为被选择上级分类的子分类</p>
+        </div>
+        <div class="f12 g6 sort">
+            <label class="db" for="sort">排序：</label>
+            <input class="dib" type="text" placeholder="0" id="sort" >
+            <p class="dib gc">数字范围为0~255，数字越小越靠前</p>
+        </div>
+        <input class="submit" type="submit">
+    </div>
+</div>
+<!--分页效果-->
+<script src="js/public.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".parameter").css('display','block');
+        $(".parameter>li").eq(1).find("a").addClass("color-bg");
+    });
+</script>
+</body>
+</html>

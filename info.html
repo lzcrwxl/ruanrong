@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css"
+        type="text/css"/>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+  <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/myplugs.js"></script>
+  <script src="js/app.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/selectivizr.js"></script>
+  <script src="js/DOMAssistantCompressed-2.7.4.js"></script>
+  <![endif]-->
+  <link type="text/css" rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/menu.css" type="text/css">
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <link rel="stylesheet" href="css/info.css" type="text/css">
+  <link rel="stylesheet" href="css/userInfo.css">
+  <link rel="stylesheet" href="css/my.css" type="text/css">
+  <title>info</title>
+</head>
+<body class="fn-clear">
+<!--个人信息界面-->
+<div id="header"></div>
+<!--nav-->
+<section class="fn-clear rel mt20">
+  <div class="l nav left navcolumn bgl">
+    <a class="wh fodderBox rel db" href="#">
+      <span class="arrowrt abs f16">个人信息</span>
+      <i class="abs triangle"></i>
+    </a>
+    <div>
+      <ul class="articleMenu">
+        <li><a href="info.html" class="wh f14 bgl ">个人资料</a></li>
+        <li><a href="password.html" class="wh f14 bgl ">修改密码</a></li>
+        <li><a href="systemInfo.html" class="wh f14 bgl">系统消息</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--nav end-->
+  <div class="r main">
+    <!--header-->
+    <div class="breadcrumbs">
+      <h2 class="f14 dib mr20">您的当前位置</h2>
+        <span class="f12 g6">
+            <a class="g6" href="#">个人信息</a>&nbsp;
+                <i class="dib menu_grey"></i>&nbsp;
+                <span class="themeRed">个人资料</span>
+        </span>
+    </div>
+    <!--当前位置 end-->
+    <!--图片管理详情-->
+    <div class="mainCtn">
+      <div class="info-box fn-clear g6 mr20 mt20 bde9 dn" data-id="user">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          基础信息
+          <!-- <span class="r edit pr15 poi">
+             编辑
+           </span>-->
+        </h3>
+        <ul class="pct70 userList">
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">姓名&nbsp;:&nbsp;</h3>
+              <input class="pct75 bde9 bradius f14 h40" placeholder="小明" type="text">
+            </div>
+            <div class="dib pct50 h30 lh30 rel">
+              <h3 class="w40 dib ">性别&nbsp;:&nbsp;</h3>
+              <span class="rdoBox f14 abs rdol onRdo">
+              <input class="rdoClass" type="radio" id="male" name="gender">
+                </span>
+              <label for="male" class="f14 ml50 mr50 poi">男</label>
+              <span class="rdoBox f14 abs rdor">
+              <input type="radio" id="female" name="gender" class="rdoClass">
+                </span>
+              <label for="female" class="f14 mr50 poi ml30">女</label>
+            </div>
+          </li>
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">昵称&nbsp;:&nbsp;</h3>
+              <input class="pct75 bde9 bradius f14 h40" placeholder="小明" type="text">
+            </div>
+            <div class="dib pct50 h30 lh30 rel">
+              <h3 class="pct14 dib">生日&nbsp;:&nbsp;</h3>
+              <input class="pct86 bde9 bradius f14 h40 lh40" type="text" id="birthday" name="birthday" value="">
+            </div>
+          </li>
+          <li>
+            <h3 class="pct7 dib vt">签名&nbsp;:&nbsp;</h3>
+            <textarea name="" cols="30" rows="5" class="bde9 f14 pct93 bradius p10 tl g96">做最好的设计xxxxx
+            </textarea>
+          </li>
+        </ul>
+        <div class="tc mb40">
+          <button class=" f16 btnInfo bradius bgred wh poi" data-id="confirm">确定</button>
+        </div>
+      </div>
+      <div class="info-box fn-clear g6 mr20 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          基础信息
+          <span class="r edit pr15 poi" data-id="user">
+            编辑
+          </span>
+        </h3>
+        <ul class="pct70 userList">
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">姓名&nbsp;:&nbsp;</h3>
+              <input class="pct75 f14 h40" placeholder="小明" type="text" readonly>
+            </div>
+            <div class="dib pct50 h30 lh30 rel">
+              <h3 class="w40 dib ">性别&nbsp;:&nbsp;</h3>
+              <span class="f14 pl10 g96">男</span>
+            </div>
+          </li>
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">昵称&nbsp;:&nbsp;</h3>
+              <input class="pct75  f14 h40" placeholder="小明" type="text" readonly>
+            </div>
+            <div class="dib pct50 h30 lh30 rel">
+              <h3 class="pct14 dib">生日&nbsp;:&nbsp;</h3>
+              <span class="f14 h40 lh40 g96">2017-1-1</span>
+            </div>
+          </li>
+          <li>
+            <h3 class="pct7 dib vt">签名&nbsp;:&nbsp;</h3>
+            <span class=" f14 g96 pl10">做最好的设计xxxxx
+            </span>
+          </li>
+        </ul>
+        <div class="tc mb40 dn">
+          <button class=" f16 btnInfo bradius bgred wh poi">确定</button>
+        </div>
+      </div>
+      <div class="info-box fn-clear g6 mr20 mt20 bde9 dn" data-id="company">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          企业信息
+        </h3>
+        <ul class="pct70 userList">
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">部门&nbsp;:&nbsp;</h3>
+              <input class="pct75 bde9 bradius f14 h40" placeholder="商务部" type="text">
+            </div>
+            <div class="dib pct50 h30 lh30 rel f0">
+              <h3 class="pct14 dib f14">手机&nbsp;:&nbsp;</h3>
+              <input class=" bde9 f14 h40 lh40 pct70 inputLf" type="tel" placeholder="1338888888">
+              <button class="btnLinear f14 pct16 tc lh30 h30" data-id="unbind" onclick="$(this).myPopup(this)">解绑</button>
+            </div>
+          </li>
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">职位&nbsp;:&nbsp;</h3>
+              <input class="pct75 bde9 bradius f14 h40" placeholder="运营总监" type="text">
+            </div>
+            <div class="dib pct50 h30 lh30 rel">
+              <h3 class="pct14 dib">邮箱&nbsp;:&nbsp;</h3>
+              <input class="pct86 bde9 bradius f14 h40 lh40" type="email" placeholder="service@163.com">
+            </div>
+          </li>
+          <li>
+            <h3 class="pct7 dib">电话&nbsp;:&nbsp;</h3>
+            <input class="pct375 bde9 bradius f14 h40 lh40" type="tel" placeholder="0571-85022088">
+          </li>
+        </ul>
+        <div class="tc mb40 mt88">
+          <button class=" f16 btnInfo bradius bgred wh poi" data-id="confirm" onclick="myPopup()">确定</button>
+        </div>
+      </div>
+      <div class="info-box fn-clear g6 mr20 mt20 bde9">
+        <h3 class="f14 certTitle h40 lh40 redVerticalBar pl15 rel bbe9 pr15">
+          企业信息
+          <span class="r edit pr15 poi" data-id="company">
+            编辑
+          </span>
+        </h3>
+        <ul class="pct70 userList">
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">部门&nbsp;:&nbsp;</h3>
+              <input class="pct75 f14 h40" placeholder="商务部" type="text" readonly>
+            </div>
+            <div class="dib pct50 h30 lh30 rel f0">
+              <h3 class="pct14 dib f14">手机&nbsp;:&nbsp;</h3>
+              <input class=" f14 h40 lh40 pct70" type="tel" placeholder="1338888888" readonly>
+              <button class="btnLinear f14 pct16 tc lh30 h30 dn" data-id="unbind">解绑</button>
+            </div>
+          </li>
+          <li class="mb20">
+            <div class="dib pct50 h30 lh30">
+              <h3 class="pct14 dib">职位&nbsp;:&nbsp;</h3>
+              <input class="pct75 f14 h40" placeholder="运营总监" type="text" readonly>
+            </div>
+            <div class="dib pct50 h30 lh30 rel">
+              <h3 class="pct14 dib">邮箱&nbsp;:&nbsp;</h3>
+              <input class="pct86 f14 h40 lh40" type="email" placeholder="service@163.com" readonly>
+            </div>
+          </li>
+          <li>
+            <h3 class="pct7 dib">电话&nbsp;:&nbsp;</h3>
+            <input class="pct375 f14 h40 lh40" type="tel" placeholder="0571-85022088" readonly>
+          </li>
+        </ul>
+        <div class="tc mb40 mt88 dn">
+          <button class=" f16 btnInfo bradius bgred wh poi">确定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--遮罩层-->
+<div class="module dn">
+  <!--解绑当前用户-->
+  <div class="popup f14 fix userpopup dn" data-id="unbind">
+    <div class="popup-title tc f14 g2e">
+      温馨提示
+    </div>
+    <div class="popup-main ">
+      <ul class="m0">
+        <li class="f0 mb15">
+          <input class=" bde9 f12 pct70 inputLf bradius" type="tel" placeholder="手机号">
+          <button class="btnLinear f12 pct30 tc h30 lh30">获取验证码</button>
+        </li>
+        <li class="f12 fix">
+          <input type="text" class="f12 pct100 bradius bde9" placeholder="请输入6位验证码">
+        </li>
+        <li class="f12 fix mt50">
+          <button class=" f16 btnInfo bradius bgred wh poi">确定</button>
+          <button class=" f16 btnInfo bradius bd96 poi r g6 cancel" data-id="close" onclick="$(this).myClose()">取消</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer class="fix "></footer>
+<script src="js/menu.js"></script>
+<script type="text/javascript" src="js/my.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".articleMenu").css('display', 'block');
+    $(".articleMenu>li").eq(0).find("a").addClass("color-bg");
+    $('.header-l>li').eq(0).addClass('currentMenu');
+    $('.edit').click(function () {
+      var id = $(this).data('id');
+      $(this).parents('.info-box').hide();
+      $('[data-id="' + id + '"]').show();
+    })
+    $('.info-box [data-id="confirm"]').click(function () {
+      $(this).parents('.info-box').hide().next().show();
+    });
+    $()
+  });
+  //    全选反选
+  $('.rdoBox').on('click', function () {
+    $(this).addClass('onRdo').siblings('.rdoBox').removeClass('onRdo');
+  })
+</script>
+<!--分页效果-->
+</body>
+</html>

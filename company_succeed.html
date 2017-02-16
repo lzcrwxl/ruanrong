@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://trade.51ruanron.com/Public/style/bootstrap3/css/bootstrap.min.css" type="text/css"/>
+    <script src="http://trade.51ruanron.com/Public/style/js/jquery.min.js"></script>
+    <script src="http://trade.51ruanron.com/Public/style/bootstrap3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/company_succeed.css" type="text/css">
+    <title>company_succeed</title>
+</head>
+<body class="fn-clear">
+<!--信息审核结果-->
+<!--nav-->
+<nav class="l nav">
+    <a href="index.html"><h1 class="bgwh"><img src="images/logo.png" alt="logo"></h1></a>
+    <div>
+        <a href="#" class="color-wh f14 menu-click">企业账号<span class="menu-right"></span></a>
+        <ul class="sub-menu" >
+            <li><a href="#" class="wh f14 b1e ">企业认证</a></li>
+            <li><a href="company_succeed.html" class="wh f14 b1e">企业信息</a></li>
+        </ul>
+    </div>
+</nav>
+<!--nav end-->
+<div class="r main">
+    <!--header-->
+    <div  class="fn-clear header">
+        <ul class="header-l l">
+            <li class="dib"><a href="#"><p class="f14 g9">首页</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">自助建站</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 re6">移动办公</p></a></li>
+            <li class="dib"><a href="engine.html"><p class="f14 g9">营销引擎</p></a></li>
+            <li class="dib"><a href="#"><p class="f14 g9">异业联盟</p></a></li>
+        </ul>
+        <ul class="header-r r">
+            <li class="dib"><p class="f14 rfc">欢迎来到软融科技</p></li>
+            <li class="dib"><p class="f14 g9">企业概括</p></li>
+            <li class="dib"><p class="f14 g9">企业咨询</p></li>
+            <li class="dib"><p class="f14 g9">退出</p></li>
+        </ul>
+        <hr class="line">
+    </div>
+    <!--header end-->
+    <div class="path">
+        <h2 class="f14 dib">您的当前位置&nbsp:&nbsp</h2>
+        <span class="f14 g6">
+                <a class="g6" href="#">企业账号</a>
+                >
+                <span>企业认证</span>
+            </span>
+    </div>
+    <!--认证信息-->
+    <div class="message">
+        <h2 class="f18 g3">企业认证信息</h2>
+        <h3 class="f14 g3">主体信息登记</h3>
+        <p class="f12 g6">企业名称：阿里巴巴上海有限公司</p>
+        <p class="f12 g6">对公账号：123456789123456789</p>
+        <p class="f12 g6">开户支行：淮海支行</p>
+        <p class="f12 g6">营业执照注册号：123456789123456789</p>
+        <p class="f12 g6">营业执照：</p>
+        <div class="license"><img src="images/audit/license.jpg" alt="license"></div>
+        <p class="f12 g6">经营范围：</p>
+        <p class="f12 g6">lorem ipsum dolor sit amet,consectetur adipiscing elit Aenean euismod bibendum laoreet proin gravida dolor sit amet lacusaccumsan et viverra justo commodo.proin sodales pulvinar temlorem ipsum dolor sit amet,consectetur adipiscing elit Aenean euismod bibendum laoreet proin gravida dolor sit amet lacusaccumsan et viverra justo commodo.proin sodales pulvinar tem</p>
+        <h3 class="f14 g3">联系人信息登记</h3>
+        <p class="f12 g6">姓名：马云</p>
+        <p class="f12 g6">手机号：13955661234</p>
+        <p class="f12 g6">身份证：</p>
+        <div class="card"><img src="images/audit/card.png" alt="card"></div>
+    </div>
+</div>
+<!--下拉菜单-->
+<script src="js/jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".sub-menu").css('display','none');
+        $(".sub-menu").eq(0).css('display','block');
+        $(".sub-menu>li").eq(1).find("a").addClass("color-bg");
+        $('.menu-click').click(function() {
+            $(this).siblings().find("span").removeClass("menu-down");
+            $(this).parent().find('.sub-menu').slideToggle().end().siblings().find('.sub-menu').hide();
+            $(this).parent().find(".sub-menu").find("li").eq(0).find("a").addClass("color-bg").end().siblings().find("a").removeClass("color-bg");
+            $(this).parent().find("span").toggleClass("menu-down");
+        });
+        $('.sub-menu a').click(function(){
+            $(this).parents("ul").find("li").eq(0).find("a").removeClass("color-bg");
+            $(this).addClass("color-bg").parent().siblings().find("a").removeClass("color-bg");
+        });
+    });
+</script>
+<!--下拉菜单 end-->
+</body>
+</html>

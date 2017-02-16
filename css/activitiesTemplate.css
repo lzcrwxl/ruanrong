@@ -1,0 +1,123 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+button,
+input,
+textarea,
+th,
+td,
+div {
+  /* table elements 表格元素 */
+  box-sizing: border-box;
+}
+.iphoneBox {
+  margin: 40px 0 300px 57px;
+}
+#showInnerPic {
+  position: absolute;
+  width: 212px;
+  height: 377px;
+  top: 104px;
+  left: 76px;
+}
+.setting {
+  border-left: 1px solid #e9e9e9;
+  width: 600px;
+  height: 850px;
+}
+.setting .setingTitle {
+  border-bottom: 1px solid #e9e9e9;
+}
+.setting .setingTitle li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.setting .setingTitle li:not(:last-child) {
+  border-right: 1px solid #e9e9e9;
+}
+.setting .setingTitle .undRed::before {
+  left: 41%;
+  width: 55px;
+}
+.setting .prizeSetting .percent {
+  height: 26px;
+  line-height: 26px;
+  width: 80px;
+}
+.setting .baseSetting {
+  margin: 26px 96px 0 120px;
+}
+.setting .baseSetting .themePg {
+  top: 8px;
+}
+.setting .baseSetting .fileBox {
+  border-radius: 5px;
+  text-indent: 10px;
+}
+.setting .baseSetting .fileBox span {
+  color: #A9A9A9;
+}
+.setting .baseSetting .fileBox .btnradius {
+  border: none;
+  border-left: 1px solid #e5e5e5;
+  height: 28px;
+  width: 78px;
+}
+.setting .baseSetting .fileBox .updateFile {
+  right: 0;
+  top: 0;
+  width: 78px;
+  height: 28px;
+}
+.setting .titleText {
+  width: 22%;
+}
+.setting input[type='text'],
+.setting input[type='number'] {
+  height: 30px;
+  line-height: 30px;
+}
+.setting .asterisk::before {
+  top: 2px;
+}
+.setting .dataPicker {
+  width: 100px;
+}
+.setting .rules {
+  height: 120px;
+  border-radius: 3px;
+}
+.setting .subTitle {
+  margin-top: 26px;
+  color: #f74646;
+  background: #eeeeee;
+}
+.rdoClass::after {
+  top: 2px;
+}
+.submitBtn button {
+  width: 100px;
+}
+.submitBtn .save {
+  background: #f74646;
+  color: #fff;
+}
+.submitBtn .cancel {
+  border: 1px solid #d2d2d2;
+}

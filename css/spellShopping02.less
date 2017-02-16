@@ -1,0 +1,390 @@
+/*拼团*/
+/*路径*/
+.path {
+  line-height: 40px;
+  border: 1px solid #c8c8c8;
+}
+
+.path h2 {
+  width: 80px;
+  border-right: 1px solid #c8c8c8;
+  text-align: center;
+}
+
+.path a {
+  padding: 0 16px 0 24px;
+}
+
+.path a hr {
+  width: 56px;
+  height: 2px;
+  background: #fc0404;
+  bottom: -6px;
+  left: 20px;
+}
+
+/*路径 end*/
+/*content*/
+.content {
+  margin: 20px 42px 0 32px;
+}
+
+.phone-model {
+  margin: 20px 0 24px 78px;
+  background: url("../images/iphone.png") no-repeat;
+  width: 352px;
+  height: 650px;
+  background-size: 352px 650px;
+  -webkit-background-size: 352px 650px;
+  -moz-background-size: 352px 650px;
+  -o-background-size: 352px 650px;
+  text-align: center;
+}
+
+.arrow {
+  cursor: pointer;
+  height: 53px;
+  width: 58px;
+  cursor: pointer;
+  top: 50%;
+}
+
+.alf {
+  left: 7px;
+  background: url("../images/alf.png") no-repeat;
+}
+
+.art {
+  left: 450px;
+  background: url("../images/art.png") no-repeat;
+}
+
+.phone-model button {
+  width: 140px;
+  line-height: 28px;
+  border-radius: 4px;
+}
+
+.join {
+  border: 1px solid #f0f0f0;
+}
+
+.phone-model button.again {
+  margin: 374px 20px 8px;
+  background: #f03c42;
+}
+
+.phone-model p {
+  background: url("../images/bracket.png") no-repeat right;
+  padding: 14px 0 12px;
+  cursor: pointer;
+}
+
+/*tab选项卡*/
+
+.tab li {
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab li:nth-child(3) {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 0, 0);
+}
+
+/*.tab:before{*/
+/*content: "";*/
+/*width: 512px;*/
+/*height: 1px;*/
+/*background: #f1f1f1;*/
+/*position: absolute;*/
+/*bottom:2px;left: 0;*/
+/*z-index: -1;*/
+/*}*/
+/*.tab:after{*/
+/*content: "";*/
+/*width: 512px;*/
+/*height: 1px;*/
+/*background: #d6d6d6;*/
+/*position: absolute;*/
+/*bottom:1px;left: 0;*/
+/*z-index: -1;*/
+/*}*/
+.setting {
+  border-left: 1px solid #c8c8c8;
+  height: 694px;
+}
+
+#sub-award {
+  text-align: center;
+  //height: 40px;
+  li {
+    padding: 14px 0;
+    margin: 0 30px;
+    width: 48px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+
+.undRed {
+  color:#ff0000;
+  &:before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 48px;
+    background: #ff0000;
+    left: 0;
+    bottom: -1px;
+  }
+}
+
+.awards-first {
+  margin-top: 34px;
+}
+
+#contentop {
+  width: 480px;
+}
+
+/*奖励设置*/
+.award {
+
+}
+
+.award:before {
+  content: "";
+  position: absolute;
+  top: 90px;
+  right: 0;
+  height: 508px;
+  width: 7px;
+  background: #e5e5e5;
+}
+
+.award:after {
+  content: "";
+  position: absolute;
+  top: 140px;
+  right: 0;
+  width: 7px;
+  height: 248px;
+  background: #cccccc;
+}
+
+.award .sub-title {
+  padding: 0 10px;
+  line-height: 44px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.award .sub-award {
+  padding-left: 8px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.award .sub-award li {
+  margin: 6px 4px;
+}
+
+.radio-no {
+  background: url("../images/radio-no.png") no-repeat;
+  background-size: 15px 15px;
+  text-indent: 20px;
+  height: 16px;
+  margin-right: 14px;
+}
+
+.radio {
+  background: url("../images/radio.png") no-repeat;
+  background-size: 15px 15px;
+  text-indent: 20px;
+  margin: 0;
+  margin-right: 14px;
+}
+
+input[type="radio"] {
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  opacity: 0;
+  text-indent: 20px;
+  left: 0;
+  top: -8px;
+}
+
+.sub-title .radio-no {
+  background: url("../images/radio-no.png") no-repeat 2px 16px;
+  background-size: 15px 15px;
+  text-indent: 16px;
+  height: 32px;
+}
+
+.sub-title .radio {
+  background: url("../images/radio.png") no-repeat 2px 16px;
+  background-size: 15px 15px;
+  text-indent: 16px;
+  height: 32px;
+}
+
+.award h3 {
+  width: 102px;
+  margin: 8px 0;
+  position: relative;
+  text-indent: 12px;
+  padding-left: 18px;
+}
+
+.award .asterisk:before {
+  content: "*";
+  width: 12px;
+  line-height: 12px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #fc0404;
+}
+
+input[type="text"] {
+  border-radius: 3px;
+  width: 158px;
+  line-height: 28px;
+  border: 1px solid #c8c8c8;
+  text-indent: 10px;
+}
+
+.awards-first li {
+  margin-bottom: 14px;
+  margin-top: -1px;
+}
+
+.awards-first li p {
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.awards-first li .input-width {
+  width: 340px
+}
+
+.asterisk-select {
+  margin: 8px 0;
+}
+
+.asterisk-hint {
+  margin: 8px 0;
+}
+
+.award .awards-first li:nth-child(8) {
+  border-bottom: 1px solid #666;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  background: url("../images/triangle.png") no-repeat right;
+  width: 432px;
+  background-size: 8px 8px;
+  -webkit-background-size: 8px 8px;
+  -moz-background-size: 8px 8px;
+  -o-background-size: 8px 8px;
+}
+
+.award .awards-first li:nth-child(8) h3 {
+  text-indent: 0;
+  padding-left: 0;
+}
+
+.award .awards-first li:nth-child(8) input {
+  border: none;
+}
+
+.award input[type="date"] {
+  width: 158px;
+  line-height: 28px;
+  border: 1px solid #c8c8c8;
+  text-indent: 10px;
+  margin-top: 8px;
+}
+
+.awards-first li p span {
+  cursor: pointer;
+  border-bottom: 1px solid #f03c42;
+}
+
+.submit {
+  width: 890px;
+  border: 1px solid #cccccc;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.submit input {
+  width: 88px;
+  line-height: 32px;
+  border: none;
+  margin: 8px 0;
+  border-radius: 3px;
+}
+
+.submit input[type="submit"] {
+  background: #ff0000;
+}
+
+aside {
+  margin-top: 70px
+}
+
+#J_date_1:after {
+  position: absolute;
+  content: "至";
+
+}
+.card{
+  padding-left: 0!important;
+  i{
+
+    background: #ff0000;
+    padding:1px 2px;
+    margin-right: 2px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
